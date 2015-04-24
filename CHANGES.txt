@@ -1,0 +1,44 @@
+June 25 2015 (Patrick Fallberg):
+    First version of my generic MySensors node
+    
+    Features:
+    - Switchable battery level measurement
+    - By-passable 3.3V step-up regulator
+    - Possibility to disable sensor power rail
+    - Optional additional 5V step-up regulator for sensors
+    - 2.5mm DC jack power supply footprint
+    - 2mm pitch JST connector for LiPo batteries
+    - Both RF24 and RF69 footprints and possibility for interrupt connectivity
+    - External SPI flash
+    - AVR ISP programming header
+    - ATSHA204A authenticatior footprint
+    - On-board I2C pullups
+    - On-board sensor ports (all with 3.3 and 5V rails):
+      - 1 PWM enabled sensor port
+      - 2 HW interrupt sensor ports (1 optionally taken by radio)
+      - 2 generic I/O sensor ports that also provide HW UART
+      - 1 SPI header
+      - 2 Analog sensor ports
+      - 2 I2C sensor ports
+    
+    Known issues:
+    - The layout of CON1 is incorrect with respect to normal battery
+      connectors so battery polarity will be reversed. Do NOT connect
+      a battery with JST connector to this board (Rev 1.0).
+    
+    - 3.3V regulator has an unterminated EN-signal. That means it could
+      start up in "off" state which mean that if battery level is too high
+      (>4.1V) SPI flash could fry. If battery level is too low (<1.8V),
+      MCU might not start in order to enable the regulator.
+      A workaround if this situation is undesirable is to solder a pull-up
+      resistor between REG_BYPASS and +BATT signals.
+    
+    - Pull-ups are missing on SPC CS signals which may lead to undetermined
+      behaviour on some SPI devices.
+    
+    - The 5V regulator does not work proerly when cascaded with the 3.3v regulator.
+      It should not be mounted on this board, or the board should be rewired to connect
+      the 5V regulator directly to +BATT.
+    
+    - DC input is inadequatly bypassed for wall warts. It is recommended to add one or two
+      additional capacitors to suppres input noise (~47 to ~470uF).
