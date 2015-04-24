@@ -1,8 +1,6 @@
-update=Tue 23 Jun 2015 03:43:27 PM CEST
+update=Sat 22 Aug 2015 12:02:29 AM CEST
 version=1
 last_client=kicad
-[general]
-version=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
@@ -26,16 +24,6 @@ ModuleOutlineThickness=0.15
 [cvpcb]
 version=1
 NetIExt=net
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=Pcbnew
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60
 [eeschema]
 version=1
 LibDir=$(MYSLOCAL)/mysensors_symbols
@@ -74,3 +62,19 @@ LibName31=mysensors_memories
 LibName32=mysensors_radios
 LibName33=mysensors_regulators
 LibName34=mysensors_security
+LibName35=mysensors_connectors
+LibName36=mysensors_logic
+LibName37=mysensors_network
+LibName38=mysensors_sensors
+[general]
+version=1
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=35
