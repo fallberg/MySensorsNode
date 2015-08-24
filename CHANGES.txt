@@ -1,3 +1,23 @@
+August 24 2015 (Patrick Fallberg):
+    Rev. 1.1 of my generic MySensors node
+    
+    * Added resistor to terminate REG_BYPASS to default 'on' (fixes #2)
+    * Added extra RF bypass capacitors (fixes #5)
+    * Updated RF69 footprint to have sligtly wider space between holes
+    * Added optional pull-ups to CS signals on SPI devices (fixes #3)
+    * Reversed polarity of CON1 to fit battery default pinout (fixes #1)
+    * Sensor pin connector swapped in favor of MYSX 1.5 connector
+    * More battery options
+    * Discarded 5V regulator and added a different 3.3V reg for 12V input (fixes #4)
+    * Created layout for Superbat box BOX-2252
+    
+    Things left to do:
+    * Update schematic with full sourcing details
+    * Create 5x5cm layout (default)
+    * Create Superbat box LE-BOX-0028 layout
+    * Create manufacturing outputs
+    * Create BOM(s)
+
 June 25 2015 (Patrick Fallberg):
     First version of my generic MySensors node
     
