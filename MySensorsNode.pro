@@ -1,4 +1,4 @@
-update=Mon 24 Aug 2015 03:44:00 PM CEST
+update=2015-09-01 23:45:50
 version=1
 last_client=kicad
 [pcbnew]
@@ -66,8 +66,6 @@ LibName35=mysensors_connectors
 LibName36=mysensors_logic
 LibName37=mysensors_network
 LibName38=mysensors_sensors
-[general]
-version=1
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
@@ -78,3 +76,5 @@ NetFmtName=Pcbnew
 SpiceForceRefPrefix=0
 SpiceUseNetNumbers=0
 LabSize=35
+[general]
+version=1

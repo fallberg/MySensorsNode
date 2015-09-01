@@ -37,7 +37,6 @@ LIBS:mysensors_connectors
 LIBS:mysensors_logic
 LIBS:mysensors_network
 LIBS:mysensors_sensors
-LIBS:MySensorsNode-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -124,33 +123,11 @@ F 14 "https://www.elfa.se/elfa3~se_en/elfa/init.do?item=71-397-02" H 5550 2200 6
 F 15 "Digi-Key" H 5550 2200 60  0001 C CNN "Supplier4"
 F 16 "DMP3056L-7DICT-ND" H 5550 2200 60  0001 C CNN "Supplier4 part"
 F 17 "http://www.digikey.se/short/7wd8q3" H 5550 2200 60  0001 C CNN "Supplier4 link"
+F 18 "AliExpress" V 5550 2200 60  0001 C CNN "Supplier5"
+F 19 "32446073237" V 5550 2200 60  0001 C CNN "Supplier5 part"
+F 20 "http://www.aliexpress.com/item/Free-Shipping-20PCS-lot-DMP3056L-7-MOSFET-P-CH-30V-4-3A-SOT23-3056-DMP3056/32446073237.html" V 5550 2200 60  0001 C CNN "Supplier5 link"
 	1    5550 2200
 	0    -1   -1   0   
-$EndComp
-$Comp
-L TPS61097A U2
-U 1 1 552D8733
-P 7650 1400
-F 0 "U2" H 7400 1700 40  0000 C CNN
-F 1 "TPS61097A" H 7650 1600 40  0000 C CNN
-F 2 "mysensors_handsoldering:SOT-23-5_Handsoldering" H 7650 1550 30  0001 C CIN
-F 3 "http://www.ti.com/lit/ds/symlink/tps61097a-33.pdf" H 7550 1400 60  0001 C CNN
-F 4 "Texas Instruments" H 7650 1400 60  0001 C CNN "Vendor"
-F 5 "TPS61097A-33DBVT" H 7650 1400 60  0001 C CNN "Vendor part"
-F 6 "Mouser" H 5650 1600 60  0001 C CNN "Supplier1"
-F 7 "595-TPS61097A-33DBVT" H 5650 1600 60  0001 C CNN "Supplier1 part"
-F 8 "http://www.mouser.com/ProductDetail/Texas-Instruments/TPS61097A-33DBVT/?qs=sGAEpiMZZMtfXl%252bsADUrUCB2uhymfgl%2fcdZ3ROtzxNM%3d" H 7650 1400 60  0001 C CNN "Supplier1 link"
-F 9 "Farnell" H 5650 1600 60  0001 C CNN "Supplier2"
-F 10 "2352441" H 5650 1600 60  0001 C CNN "Supplier2 part"
-F 11 "http://se.farnell.com/texas-instruments/tps61097-33dbvr/dc-dc-converter-boost-sot-23-5/dp/2352441" H 7650 1400 60  0001 C CNN "Supplier2 link"
-F 12 "Elfa" H 7650 1400 60  0001 C CNN "Supplier3"
-F 13 "73-295-89" H 7650 1400 60  0001 C CNN "Supplier3 part"
-F 14 "https://www.elfa.se/elfa3~se_en/elfa/init.do?item=73-295-89" H 7650 1400 60  0001 C CNN "Supplier3 link"
-F 15 "Digi-Key" H 7650 1400 60  0001 C CNN "Supplier4"
-F 16 "296-39431-1-ND" H 7650 1400 60  0001 C CNN "Supplier4 part"
-F 17 "http://www.digikey.se/short/7wdq10" H 7650 1400 60  0001 C CNN "Supplier4 link"
-	1    7650 1400
-	1    0    0    -1  
 $EndComp
 Text Notes 4450 650  0    60   ~ 0
 3.3V power management
@@ -195,60 +172,60 @@ $EndComp
 $Comp
 L GND #PWR02
 U 1 1 552DA4A6
-P 7100 1550
-F 0 "#PWR02" H 7100 1300 50  0001 C CNN
-F 1 "GND" H 7100 1400 50  0000 C CNN
-F 2 "" H 7100 1550 60  0000 C CNN
-F 3 "" H 7100 1550 60  0000 C CNN
-	1    7100 1550
-	1    0    0    -1  
+P 7100 2250
+F 0 "#PWR02" H 7100 2000 50  0001 C CNN
+F 1 "GND" H 7100 2100 50  0000 C CNN
+F 2 "" H 7100 2250 60  0000 C CNN
+F 3 "" H 7100 2250 60  0000 C CNN
+	1    7100 2250
+	0    1    1    0   
 $EndComp
 $Comp
 L C C5
 U 1 1 552DA4D5
-P 7100 1400
-F 0 "C5" H 7000 1500 50  0000 L CNN
-F 1 "10uF" H 6900 1300 50  0000 L CNN
-F 2 "Capacitors_SMD:C_1206_HandSoldering" H 7138 1250 30  0001 C CNN
-F 3 "http://www.mouser.com/ds/2/427/vjw1bcbascomseries-223529.pdf" H 7100 1400 60  0001 C CNN
-F 4 "Vishay / Vitramon" H 7100 1400 60  0001 C CNN "Vendor"
-F 5 "VJ1206V106ZXQTW1BC" H 7100 1400 60  0001 C CNN "Vendor part"
-F 6 "Mouser" H 6150 1500 60  0001 C CNN "Supplier1"
-F 7 "77-VJ1206V106ZXQTBC" H 7100 1400 60  0001 C CNN "Supplier1 part"
-F 8 "http://se.mouser.com/Search/ProductDetail.aspx?R=VJ1206V106ZXQTW1BCvirtualkey61340000virtualkey77-VJ1206V106ZXQTBC" H 7100 1400 60  0001 C CNN "Supplier1 link"
-F 9 "Farnell" H 7100 1400 60  0001 C CNN "Supplier2"
-F 10 "1759434" H 7100 1400 60  0001 C CNN "Supplier2 part"
-F 11 "http://se.farnell.com/multicomp/mc1206f106z100ct/cap-mlcc-y5v-10uf-1206/dp/1759434" H 7100 1400 60  0001 C CNN "Supplier2 link"
-F 12 "Elfa" H 7100 1400 60  0001 C CNN "Supplier3"
-F 13 "65-721-38" H 7100 1400 60  0001 C CNN "Supplier3 part"
-F 14 "https://www.elfa.se/elfa3~se_en/elfa/init.do?item=65-721-38" H 7100 1400 60  0001 C CNN "Supplier3 link"
-F 15 "Digi-Key" H 7100 1400 60  0001 C CNN "Supplier4"
-F 16 "399-1299-1-ND" H 7100 1400 60  0001 C CNN "Supplier4 part"
-F 17 "http://www.digikey.se/short/7w1z1n" H 7100 1400 60  0001 C CNN "Supplier4 link"
-	1    7100 1400
+P 7100 2100
+F 0 "C5" H 7000 2200 50  0000 L CNN
+F 1 "10uF" H 7150 2000 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1206_HandSoldering" H 7138 1950 30  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/427/vjw1bcbascomseries-223529.pdf" H 7100 2100 60  0001 C CNN
+F 4 "Vishay / Vitramon" H 7100 2100 60  0001 C CNN "Vendor"
+F 5 "VJ1206V106ZXQTW1BC" H 7100 2100 60  0001 C CNN "Vendor part"
+F 6 "Mouser" H 6150 2200 60  0001 C CNN "Supplier1"
+F 7 "77-VJ1206V106ZXQTBC" H 7100 2100 60  0001 C CNN "Supplier1 part"
+F 8 "http://se.mouser.com/Search/ProductDetail.aspx?R=VJ1206V106ZXQTW1BCvirtualkey61340000virtualkey77-VJ1206V106ZXQTBC" H 7100 2100 60  0001 C CNN "Supplier1 link"
+F 9 "Farnell" H 7100 2100 60  0001 C CNN "Supplier2"
+F 10 "1759434" H 7100 2100 60  0001 C CNN "Supplier2 part"
+F 11 "http://se.farnell.com/multicomp/mc1206f106z100ct/cap-mlcc-y5v-10uf-1206/dp/1759434" H 7100 2100 60  0001 C CNN "Supplier2 link"
+F 12 "Elfa" H 7100 2100 60  0001 C CNN "Supplier3"
+F 13 "65-721-38" H 7100 2100 60  0001 C CNN "Supplier3 part"
+F 14 "https://www.elfa.se/elfa3~se_en/elfa/init.do?item=65-721-38" H 7100 2100 60  0001 C CNN "Supplier3 link"
+F 15 "Digi-Key" H 7100 2100 60  0001 C CNN "Supplier4"
+F 16 "399-1299-1-ND" H 7100 2100 60  0001 C CNN "Supplier4 part"
+F 17 "http://www.digikey.se/short/7w1z1n" H 7100 2100 60  0001 C CNN "Supplier4 link"
+	1    7100 2100
 	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR03
 U 1 1 552E28B2
-P 8150 1650
-F 0 "#PWR03" H 8150 1400 50  0001 C CNN
-F 1 "GND" H 8150 1500 50  0000 C CNN
-F 2 "" H 8150 1650 60  0000 C CNN
-F 3 "" H 8150 1650 60  0000 C CNN
-	1    8150 1650
-	1    0    0    -1  
+P 8250 2250
+F 0 "#PWR03" H 8250 2000 50  0001 C CNN
+F 1 "GND" H 8250 2100 50  0000 C CNN
+F 2 "" H 8250 2250 60  0000 C CNN
+F 3 "" H 8250 2250 60  0000 C CNN
+	1    8250 2250
+	0    1    1    0   
 $EndComp
 $Comp
 L GND #PWR04
 U 1 1 552E2D10
-P 7650 1600
-F 0 "#PWR04" H 7650 1350 50  0001 C CNN
-F 1 "GND" H 7650 1450 50  0000 C CNN
-F 2 "" H 7650 1600 60  0000 C CNN
-F 3 "" H 7650 1600 60  0000 C CNN
-	1    7650 1600
-	1    0    0    -1  
+P 7700 1550
+F 0 "#PWR04" H 7700 1300 50  0001 C CNN
+F 1 "GND" V 7700 1350 50  0000 C CNN
+F 2 "" H 7700 1550 60  0000 C CNN
+F 3 "" H 7700 1550 60  0000 C CNN
+	1    7700 1550
+	0    1    1    0   
 $EndComp
 $Comp
 L Q_PMOS_GSD Q2
@@ -272,6 +249,9 @@ F 14 "https://www.elfa.se/elfa3~se_en/elfa/init.do?item=71-397-02" H 2900 2250 6
 F 15 "Digi-Key" H 2900 2250 60  0001 C CNN "Supplier4"
 F 16 "DMP3056L-7DICT-ND" H 2900 2250 60  0001 C CNN "Supplier4 part"
 F 17 "http://www.digikey.se/short/7wd8q3" H 2900 2250 60  0001 C CNN "Supplier4 link"
+F 18 "AliExpress" V 2900 2250 60  0001 C CNN "Supplier5"
+F 19 "32446073237" V 2900 2250 60  0001 C CNN "Supplier5 part"
+F 20 "http://www.aliexpress.com/item/Free-Shipping-20PCS-lot-DMP3056L-7-MOSFET-P-CH-30V-4-3A-SOT23-3056-DMP3056/32446073237.html" V 2900 2250 60  0001 C CNN "Supplier5 link"
 	1    2900 2250
 	0    1    -1   0   
 $EndComp
@@ -291,12 +271,12 @@ $EndComp
 $Comp
 L +3.3V #PWR06
 U 1 1 552E343F
-P 8150 1000
-F 0 "#PWR06" H 8150 850 50  0001 C CNN
-F 1 "+3.3V" H 8150 1140 50  0000 C CNN
-F 2 "" H 8150 1000 60  0000 C CNN
-F 3 "" H 8150 1000 60  0000 C CNN
-	1    8150 1000
+P 8250 900
+F 0 "#PWR06" H 8250 750 50  0001 C CNN
+F 1 "+3.3V" H 8250 1040 50  0000 C CNN
+F 2 "" H 8250 900 60  0000 C CNN
+F 3 "" H 8250 900 60  0000 C CNN
+	1    8250 900 
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1328,24 +1308,24 @@ $EndBitmap
 $Comp
 L INDUCTOR L1
 U 1 1 553348BA
-P 7650 1000
-F 0 "L1" V 7600 850 50  0000 C CNN
-F 1 "4.7uH" V 7600 1050 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 7650 1000 60  0001 C CNN
-F 3 "http://www.yuden.co.jp/productdata/catalog/en/wound02_e.pdf" H 7650 1000 60  0001 C CNN
-F 4 "Taiyo Yuden" V 7650 1000 60  0001 C CNN "Vendor"
-F 5 "CBC2012T4R7M" V 7650 1000 60  0001 C CNN "Vendor part"
-F 6 "Mouser" H 6400 1350 60  0001 C CNN "Supplier1"
-F 7 "963-CBC2012T4R7M" H 6400 1350 60  0001 C CNN "Supplier1 part"
-F 8 "http://se.mouser.com/ProductDetail/Taiyo-Yuden/CBC2012T4R7M/?qs=sGAEpiMZZMsg%252by3WlYCkU5iuzh4MJmq07CcsYWeuPq4%3d" V 7650 1000 60  0001 C CNN "Supplier1 link"
-F 9 "Farnell" H 7650 1000 60  0001 C CNN "Supplier2"
-F 10 "Elfa" H 7650 1000 60  0001 C CNN "Supplier3"
-F 11 "10-969-35" H 7650 1000 60  0001 C CNN "Supplier3 part"
-F 12 "https://www.elfa.se/elfa3~se_en/elfa/init.do?item=10-969-35" H 7650 1000 60  0001 C CNN "Supplier3 link"
-F 13 "Digi-Key" H 7650 1000 60  0001 C CNN "Supplier4"
-F 14 "587-1602-1-ND" H 7650 1000 60  0001 C CNN "Supplier4 part"
-F 15 "http://www.digikey.se/short/tc5dd3" H 7650 1000 60  0001 C CNN "Supplier4 link"
-	1    7650 1000
+P 7700 1000
+F 0 "L1" V 7650 850 50  0000 C CNN
+F 1 "4.7uH" V 7650 1050 50  0000 C CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 7700 1000 60  0001 C CNN
+F 3 "http://www.yuden.co.jp/productdata/catalog/en/wound02_e.pdf" H 7700 1000 60  0001 C CNN
+F 4 "Taiyo Yuden" V 7700 1000 60  0001 C CNN "Vendor"
+F 5 "CBC2012T4R7M" V 7700 1000 60  0001 C CNN "Vendor part"
+F 6 "Mouser" H 6450 1350 60  0001 C CNN "Supplier1"
+F 7 "963-CBC2012T4R7M" H 6450 1350 60  0001 C CNN "Supplier1 part"
+F 8 "http://se.mouser.com/ProductDetail/Taiyo-Yuden/CBC2012T4R7M/?qs=sGAEpiMZZMsg%252by3WlYCkU5iuzh4MJmq07CcsYWeuPq4%3d" V 7700 1000 60  0001 C CNN "Supplier1 link"
+F 9 "Farnell" H 7700 1000 60  0001 C CNN "Supplier2"
+F 10 "Elfa" H 7700 1000 60  0001 C CNN "Supplier3"
+F 11 "10-969-35" H 7700 1000 60  0001 C CNN "Supplier3 part"
+F 12 "https://www.elfa.se/elfa3~se_en/elfa/init.do?item=10-969-35" H 7700 1000 60  0001 C CNN "Supplier3 link"
+F 13 "Digi-Key" H 7700 1000 60  0001 C CNN "Supplier4"
+F 14 "587-1602-1-ND" H 7700 1000 60  0001 C CNN "Supplier4 part"
+F 15 "http://www.digikey.se/short/tc5dd3" H 7700 1000 60  0001 C CNN "Supplier4 link"
+	1    7700 1000
 	0    1    1    0   
 $EndComp
 $Bitmap
@@ -1396,7 +1376,7 @@ D8 D3 9D 84 66 E0 20 E9 19 91 48 77 62 17 8F A4 67 47 22 DD 49 6E CE 1D 92 9E 05
 48 7A 46 84 D2 9D 24 C4 0F 06 03 F6 32 83 A5 D5 6A D9 07 EC E9 84 E9 D5 81 52 E8 B2 EC C4 42 71 
 B9 96 03 AD 75 AF D7 B3 95 39 1B 19 0F DF 2C 28 A5 E4 8E 91 45 C4 A3 9B 67 41 AE 83 27 F4 F1 C1 
 22 BB 3E 1E 67 F3 45 58 5B 5B 93 2B 5C E4 E0 8E A0 9C 15 09 47 52 19 DF E9 74 46 97 65 81 7C D8 
-75 30 12 25 FF 00 F0 C3 C2 11 BF 26 9A 05 00 00 00 00 49 45 4E 44 AE 42 60 82 00 
+75 30 12 25 FF 00 F0 C3 C2 11 BF 26 9A 05 00 00 00 00 49 45 4E 44 AE 42 60 82 90 
 EndData
 $EndBitmap
 $Comp
@@ -1426,9 +1406,12 @@ F 8 "http://www.ebay.com/itm/200914924969?rmvSB=true" H 1850 6250 60  0001 C CNN
 F 9 "Farnell" H 1850 6250 60  0001 C CNN "Supplier2"
 F 10 "Elfa" H 1850 6250 60  0001 C CNN "Supplier3"
 F 11 "Digi-Key" H 1850 6250 60  0001 C CNN "Supplier4"
-F 12 "http://se.farnell.com/multicomp/2212s-12sg-85/socket-pcb-1-row-12way/dp/1593465" H 1850 6250 60  0001 C CNN "Socket 1x12"
-F 13 "https://www.elfa.se/elfa3~se_en/elfa/init.do?item=43-839-88&toc=19754" H 1850 6250 60  0001 C CNN "Socket 1x2"
-F 14 "https://www.elfa.se/elfa3~se_en/elfa/init.do?item=43-839-89&toc=19754" H 1850 6250 60  0001 C CNN "Socket 1x3"
+F 12 "AliExpress" H 1850 6250 60  0001 C CNN "Supplier5"
+F 13 "32313595044" H 1850 6250 60  0001 C CNN "Supplier5 part"
+F 14 "http://www.aliexpress.com/item/1pcs-lot-Pro-Mini-328-Mini-3-3V-8M-ATMEGA328-ATMEGA328P-AU-3-3V-8MHz-for/32313595044.html" H 1850 6250 60  0001 C CNN "Supplier5 link"
+F 15 "http://se.farnell.com/multicomp/2212s-12sg-85/socket-pcb-1-row-12way/dp/1593465" H 1850 6250 60  0001 C CNN "Socket 1x12"
+F 16 "https://www.elfa.se/elfa3~se_en/elfa/init.do?item=43-839-88&toc=19754" H 1850 6250 60  0001 C CNN "Socket 1x2"
+F 17 "https://www.elfa.se/elfa3~se_en/elfa/init.do?item=43-839-89&toc=19754" H 1850 6250 60  0001 C CNN "Socket 1x3"
 	1    1850 6250
 	1    0    0    -1  
 $EndComp
@@ -1759,26 +1742,26 @@ $EndComp
 $Comp
 L C C6
 U 1 1 5549EA8A
-P 8150 1500
-F 0 "C6" H 8200 1600 50  0000 L CNN
-F 1 "10uF" H 8175 1400 50  0000 L CNN
-F 2 "Capacitors_SMD:C_1206_HandSoldering" H 8188 1350 30  0001 C CNN
-F 3 "http://www.mouser.com/ds/2/427/vjw1bcbascomseries-223529.pdf" H 8150 1500 60  0001 C CNN
-F 4 "Vishay / Vitramon" H 8150 1500 60  0001 C CNN "Vendor"
-F 5 "VJ1206V106ZXQTW1BC" H 8150 1500 60  0001 C CNN "Vendor part"
-F 6 "Mouser" H 7200 1600 60  0001 C CNN "Supplier1"
-F 7 "77-VJ1206V106ZXQTBC" H 8150 1500 60  0001 C CNN "Supplier1 part"
-F 8 "http://se.mouser.com/Search/ProductDetail.aspx?R=VJ1206V106ZXQTW1BCvirtualkey61340000virtualkey77-VJ1206V106ZXQTBC" H 8150 1500 60  0001 C CNN "Supplier1 link"
-F 9 "Farnell" H 8150 1500 60  0001 C CNN "Supplier2"
-F 10 "1759434" H 8150 1500 60  0001 C CNN "Supplier2 part"
-F 11 "http://se.farnell.com/multicomp/mc1206f106z100ct/cap-mlcc-y5v-10uf-1206/dp/1759434" H 8150 1500 60  0001 C CNN "Supplier2 link"
-F 12 "Elfa" H 8150 1500 60  0001 C CNN "Supplier3"
-F 13 "65-721-38" H 8150 1500 60  0001 C CNN "Supplier3 part"
-F 14 "https://www.elfa.se/elfa3~se_en/elfa/init.do?item=65-721-38" H 8150 1500 60  0001 C CNN "Supplier3 link"
-F 15 "Digi-Key" H 8150 1500 60  0001 C CNN "Supplier4"
-F 16 "399-1299-1-ND" H 8150 1500 60  0001 C CNN "Supplier4 part"
-F 17 "http://www.digikey.se/short/7w1z1n" H 8150 1500 60  0001 C CNN "Supplier4 link"
-	1    8150 1500
+P 8250 2100
+F 0 "C6" H 8300 2200 50  0000 L CNN
+F 1 "10uF" H 8275 2000 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1206_HandSoldering" H 8288 1950 30  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/427/vjw1bcbascomseries-223529.pdf" H 8250 2100 60  0001 C CNN
+F 4 "Vishay / Vitramon" H 8250 2100 60  0001 C CNN "Vendor"
+F 5 "VJ1206V106ZXQTW1BC" H 8250 2100 60  0001 C CNN "Vendor part"
+F 6 "Mouser" H 7300 2200 60  0001 C CNN "Supplier1"
+F 7 "77-VJ1206V106ZXQTBC" H 8250 2100 60  0001 C CNN "Supplier1 part"
+F 8 "http://se.mouser.com/Search/ProductDetail.aspx?R=VJ1206V106ZXQTW1BCvirtualkey61340000virtualkey77-VJ1206V106ZXQTBC" H 8250 2100 60  0001 C CNN "Supplier1 link"
+F 9 "Farnell" H 8250 2100 60  0001 C CNN "Supplier2"
+F 10 "1759434" H 8250 2100 60  0001 C CNN "Supplier2 part"
+F 11 "http://se.farnell.com/multicomp/mc1206f106z100ct/cap-mlcc-y5v-10uf-1206/dp/1759434" H 8250 2100 60  0001 C CNN "Supplier2 link"
+F 12 "Elfa" H 8250 2100 60  0001 C CNN "Supplier3"
+F 13 "65-721-38" H 8250 2100 60  0001 C CNN "Supplier3 part"
+F 14 "https://www.elfa.se/elfa3~se_en/elfa/init.do?item=65-721-38" H 8250 2100 60  0001 C CNN "Supplier3 link"
+F 15 "Digi-Key" H 8250 2100 60  0001 C CNN "Supplier4"
+F 16 "399-1299-1-ND" H 8250 2100 60  0001 C CNN "Supplier4 part"
+F 17 "http://www.digikey.se/short/7w1z1n" H 8250 2100 60  0001 C CNN "Supplier4 link"
+	1    8250 2100
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1842,26 +1825,26 @@ Text Notes 3850 850  0    35   ~ 0
 $Comp
 L R R1
 U 1 1 55758384
-P 6850 1400
-F 0 "R1" H 6750 1400 50  0000 C CNN
-F 1 "150K" V 6850 1400 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 6780 1400 30  0001 C CNN
-F 3 "http://www.farnell.com/datasheets/1581132.pdf" H 6850 1400 30  0001 C CNN
-F 4 "Vishay / Dale" H 6850 1400 60  0001 C CNN "Vendor"
-F 5 "CRCW0805150KFKEA" H 6850 1400 60  0001 C CNN "Vendor part"
-F 6 "Mouser" H 6850 1400 60  0001 C CNN "Supplier1"
-F 7 "71-CRCW0805-150K-E3" H 6850 1400 60  0001 C CNN "Supplier1 part"
-F 8 "http://se.mouser.com/ProductDetail/Vishay-Dale/CRCW0805150KFKEA/?qs=sGAEpiMZZMvdGkrng054txEw7b1YnvGukcj15DsDxV0%3d" H 6850 1400 60  0001 C CNN "Supplier1 link"
-F 9 "Farnell" H 6850 1400 60  0001 C CNN "Supplier2"
-F 10 "1160270RL" H 6850 1400 60  0001 C CNN "Supplier2 part"
-F 11 "http://se.farnell.com/welwyn/pcf0805r-150kbt1/resistor-0805-150k/dp/1160270RL" H 6850 1400 60  0001 C CNN "Supplier2 link"
-F 12 "Elfa" H 6850 1400 60  0001 C CNN "Supplier3"
-F 13 "60-587-70" H 6850 1400 60  0001 C CNN "Supplier3 part"
-F 14 "https://www.elfa.se/elfa3~se_sv/elfa/init.do?item=60-587-70&toc=19543" H 6850 1400 60  0001 C CNN "Supplier3 link"
-F 15 "Digi-Key" H 6850 1400 60  0001 C CNN "Supplier4"
-F 16 "541-150KCCT-ND" H 6850 1400 60  0001 C CNN "Supplier4 part"
-F 17 "http://www.digikey.se/short/tcbcn3" H 6850 1400 60  0001 C CNN "Supplier4 link"
-	1    6850 1400
+P 6900 1250
+F 0 "R1" H 6800 1250 50  0000 C CNN
+F 1 "150K" V 6900 1250 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 6830 1250 30  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/1581132.pdf" H 6900 1250 30  0001 C CNN
+F 4 "Vishay / Dale" H 6900 1250 60  0001 C CNN "Vendor"
+F 5 "CRCW0805150KFKEA" H 6900 1250 60  0001 C CNN "Vendor part"
+F 6 "Mouser" H 6900 1250 60  0001 C CNN "Supplier1"
+F 7 "71-CRCW0805-150K-E3" H 6900 1250 60  0001 C CNN "Supplier1 part"
+F 8 "http://se.mouser.com/ProductDetail/Vishay-Dale/CRCW0805150KFKEA/?qs=sGAEpiMZZMvdGkrng054txEw7b1YnvGukcj15DsDxV0%3d" H 6900 1250 60  0001 C CNN "Supplier1 link"
+F 9 "Farnell" H 6900 1250 60  0001 C CNN "Supplier2"
+F 10 "1160270RL" H 6900 1250 60  0001 C CNN "Supplier2 part"
+F 11 "http://se.farnell.com/welwyn/pcf0805r-150kbt1/resistor-0805-150k/dp/1160270RL" H 6900 1250 60  0001 C CNN "Supplier2 link"
+F 12 "Elfa" H 6900 1250 60  0001 C CNN "Supplier3"
+F 13 "60-587-70" H 6900 1250 60  0001 C CNN "Supplier3 part"
+F 14 "https://www.elfa.se/elfa3~se_sv/elfa/init.do?item=60-587-70&toc=19543" H 6900 1250 60  0001 C CNN "Supplier3 link"
+F 15 "Digi-Key" H 6900 1250 60  0001 C CNN "Supplier4"
+F 16 "541-150KCCT-ND" H 6900 1250 60  0001 C CNN "Supplier4 part"
+F 17 "http://www.digikey.se/short/tcbcn3" H 6900 1250 60  0001 C CNN "Supplier4 link"
+	1    6900 1250
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2134,31 +2117,31 @@ MYSX_D7_SCL
 $Comp
 L Jumper_NO_Small JP6
 U 1 1 55A58F8D
-P 7450 1900
-F 0 "JP6" H 7450 1800 50  0000 C CNN
-F 1 "Jumper_NO_Small" H 7460 1840 50  0001 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 7450 1900 60  0001 C CNN
-F 3 "https://www1.elfa.se/data1/wwwroot/assets/datasheets/cgrid_III_90120_eng_dwg.pdf" H 7450 1900 60  0001 C CNN
-F 4 "HARWIN" H 7450 1900 60  0001 C CNN "Vendor"
-F 5 "M20-9993646" H 7450 1900 60  0001 C CNN "Vendor part"
-F 6 "Mouser" H 7100 2600 60  0001 C CNN "Supplier1"
-F 7 "710-61300211121" H 7100 2600 60  0001 C CNN "Supplier1 part"
-F 8 "http://www.mouser.com/ProductDetail/Wurth-Electronics/61300211121/?qs=sGAEpiMZZMs%252bGHln7q6pm0xQ%252bwYJLofO2aeIeJWXAx0%3d" H 7450 1900 60  0001 C CNN "Supplier1 link"
-F 9 "Farnell" H 7450 1900 60  0001 C CNN "Supplier2"
-F 10 "2356153" H 7450 1900 60  0001 C CNN "Supplier2 part"
-F 11 "http://se.farnell.com/wurth-elektronik/61300211121/header-2-54mm-pin-tht-vertical/dp/2356153?ost=61300211121" H 7450 1900 60  0001 C CNN "Supplier2 link"
-F 12 "Elfa" H 7450 1900 60  0001 C CNN "Supplier3"
-F 13 "43-004-90" H 7450 1900 60  0001 C CNN "Supplier3 part"
-F 14 "https://www.elfa.se/elfa3~se_en/elfa/init.do?item=43-004-90" H 7450 1900 60  0001 C CNN "Supplier3 link"
-F 15 "Digi-Key" H 7450 1900 60  0001 C CNN "Supplier4"
-F 16 "S1012EC-02-ND" H 7450 1900 60  0001 C CNN "Supplier4 part"
-F 17 "http://www.digikey.se/short/7w149z" H 7450 1900 60  0001 C CNN "Supplier4 link"
-	1    7450 1900
+P 7350 2500
+F 0 "JP6" H 7350 2450 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 7360 2440 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 7350 2500 60  0001 C CNN
+F 3 "https://www1.elfa.se/data1/wwwroot/assets/datasheets/cgrid_III_90120_eng_dwg.pdf" H 7350 2500 60  0001 C CNN
+F 4 "HARWIN" H 7350 2500 60  0001 C CNN "Vendor"
+F 5 "M20-9993646" H 7350 2500 60  0001 C CNN "Vendor part"
+F 6 "Mouser" H 7000 3200 60  0001 C CNN "Supplier1"
+F 7 "710-61300211121" H 7000 3200 60  0001 C CNN "Supplier1 part"
+F 8 "http://www.mouser.com/ProductDetail/Wurth-Electronics/61300211121/?qs=sGAEpiMZZMs%252bGHln7q6pm0xQ%252bwYJLofO2aeIeJWXAx0%3d" H 7350 2500 60  0001 C CNN "Supplier1 link"
+F 9 "Farnell" H 7350 2500 60  0001 C CNN "Supplier2"
+F 10 "2356153" H 7350 2500 60  0001 C CNN "Supplier2 part"
+F 11 "http://se.farnell.com/wurth-elektronik/61300211121/header-2-54mm-pin-tht-vertical/dp/2356153?ost=61300211121" H 7350 2500 60  0001 C CNN "Supplier2 link"
+F 12 "Elfa" H 7350 2500 60  0001 C CNN "Supplier3"
+F 13 "43-004-90" H 7350 2500 60  0001 C CNN "Supplier3 part"
+F 14 "https://www.elfa.se/elfa3~se_en/elfa/init.do?item=43-004-90" H 7350 2500 60  0001 C CNN "Supplier3 link"
+F 15 "Digi-Key" H 7350 2500 60  0001 C CNN "Supplier4"
+F 16 "S1012EC-02-ND" H 7350 2500 60  0001 C CNN "Supplier4 part"
+F 17 "http://www.digikey.se/short/7w149z" H 7350 2500 60  0001 C CNN "Supplier4 link"
+	1    7350 2500
 	-1   0    0    1   
 $EndComp
 Text GLabel 8600 3900 2    60   BiDi ~ 0
 MYSX_D10_A4
-Text GLabel 7550 1900 2    60   BiDi ~ 0
+Text GLabel 7450 2500 2    60   BiDi ~ 0
 MYSX_D10_A4
 Text GLabel 2850 6950 2    60   BiDi ~ 0
 MYSX_D10_A4
@@ -2249,7 +2232,9 @@ F 7 "511-LD1117DT33-TR" H 5100 1050 60  0001 C CNN "Supplier1 part"
 F 8 "http://se.mouser.com/ProductDetail/STMicroelectronics/LD1117DT33TR/?qs=sGAEpiMZZMvYvv22R2xfeIrtZ8xsVhPOTRtOhMdYKBM%3d" H 5100 1050 60  0001 C CNN "Supplier1 link"
 F 9 "Farnell" H 5100 1050 60  0001 C CNN "Supplier2"
 F 10 "Elfa" H 5100 1050 60  0001 C CNN "Supplier3"
-F 11 "Digi-Key" H 5100 1050 60  0001 C CNN "Supplier4"
+F 11 "AliExpress" H 5100 1050 60  0001 C CNN "Supplier5"
+F 12 "32395965284" H 5100 1050 60  0001 C CNN "Supplier5 part"
+F 13 "http://www.aliexpress.com/item/ICIC-LD1117-LD1117DT33TR-LD1117-3-3V-TO-252-Original-authentic-and-new-Free-Shipping-IC/32395965284.html" H 5100 1050 60  0001 C CNN "Supplier5 link"
 	1    5100 1050
 	-1   0    0    -1  
 $EndComp
@@ -2284,7 +2269,18 @@ P 2000 1000
 F 0 "BT3" H 2100 1050 50  0000 L CNN
 F 1 "Generic" H 2100 950 50  0000 L CNN
 F 2 "mysensors_connectors:TerminalBlock2.54mmx2-kcswalter" V 2000 1040 60  0001 C CNN
-F 3 "" V 2000 1040 60  0000 C CNN
+F 3 "http://www.mouser.com/ds/2/418/NG_CD_282834_C1-665080.pdf" V 2000 1040 60  0001 C CNN
+F 4 "TE Connectivity" H 2000 1000 60  0001 C CNN "Vendor"
+F 5 "282834-2" H 2000 1000 60  0001 C CNN "Vendor part"
+F 6 "Mouser" H 2000 1000 60  0001 C CNN "Supplier1"
+F 7 "571-282834-2" H 2000 1000 60  0001 C CNN "Supplier1 part"
+F 8 "http://www.mouser.se/ProductDetail/TE-Connectivity/282834-2/?qs=sGAEpiMZZMvZTcaMAxB2AJ%2f79sE4hFAYo1Yb6cyIxXA%3d" H 2000 1000 60  0001 C CNN "Supplier1 link"
+F 9 "Digi-Key" H 2000 1000 60  0001 C CNN "Supplier2"
+F 10 "ED10561-ND" H 2000 1000 60  0001 C CNN "Supplier2 part"
+F 11 "http://www.digikey.com/short/tzt88w" H 2000 1000 60  0001 C CNN "Supplier2 link"
+F 12 "AliExpress" H 2000 1000 60  0001 C CNN "Supplier5"
+F 13 "1252981306" H 2000 1000 60  0001 C CNN "Supplier5 part"
+F 14 "http://www.aliexpress.com/item/20pcs-2-Poles-2-Pin-2-54mm-0-1-PCB-Universal-Screw-Terminal-Block-Connector-G01/1252981306.html" H 2000 1000 60  0001 C CNN "Supplier5 link"
 	1    2000 1000
 	1    0    0    -1  
 $EndComp
@@ -2396,6 +2392,8 @@ F 1 "CR123" H 2550 950 50  0000 L CNN
 F 2 "mysensors_connectors:CR123_holder" V 2450 1040 60  0001 C CNN
 F 3 "" V 2450 1040 60  0000 C CNN
 F 4 "E-Bay" H 2450 1000 60  0001 C CNN "Supplier1"
+F 5 "181790677824" H 2450 1000 60  0001 C CNN "Supplier1 part"
+F 6 "http://www.ebay.com/itm/181790677824" H 2450 1000 60  0001 C CNN "Supplier1 link"
 	1    2450 1000
 	1    0    0    -1  
 $EndComp
@@ -2432,7 +2430,7 @@ F 3 "" H 2450 1150 60  0000 C CNN
 	1    2450 1150
 	-1   0    0    -1  
 $EndComp
-Text Notes 6750 800  0    35   ~ 0
+Text Notes 6800 700  0    35   ~ 0
 Low voltage step-up regulation (max 4.2V input voltage)
 Text Notes 4500 800  0    35   ~ 0
 High voltage LDO regulation (max 12V input voltage)
@@ -2495,352 +2493,14 @@ F 3 "" H 7550 3000 60  0000 C CNN
 	1    7550 3000
 	1    0    0    -1  
 $EndComp
-Text Notes 7350 1900 0    35   ~ 0
+Text Notes 7250 2550 0    35   ~ 0
 1
-Text Notes 6850 2050 0    35   ~ 0
+Text Notes 6950 2400 0    35   ~ 0
 Short JP6 to enable MCU controlled bypass of regulator
 Text Notes 3800 5750 0    35   ~ 0
 Optional
 Text Notes 4750 6100 0    35   ~ 0
 Optional
-Wire Wire Line
-	5800 1850 5550 1850
-Wire Wire Line
-	5100 1850 5350 1850
-Wire Wire Line
-	8150 1350 8100 1350
-Wire Wire Line
-	8100 1000 7950 1000
-Wire Wire Line
-	8100 1250 8100 1000
-Wire Wire Line
-	4800 2100 4950 2100
-Wire Wire Line
-	5100 2350 5100 2350
-Wire Wire Line
-	3150 2150 3150 1900
-Wire Wire Line
-	3100 2150 3150 2150
-Wire Notes Line
-	11000 800  10350 800 
-Wire Notes Line
-	11000 2150 11000 800 
-Wire Notes Line
-	10350 2150 11000 2150
-Wire Notes Line
-	10350 800  10350 2150
-Wire Wire Line
-	9300 4000 9300 4500
-Wire Wire Line
-	6950 4000 7550 4000
-Wire Notes Line
-	5850 4750 6850 4750
-Wire Notes Line
-	5800 6300 5800 4650
-Wire Notes Line
-	11200 6300 5800 6300
-Wire Notes Line
-	11200 4650 11200 6300
-Wire Notes Line
-	5800 4650 11200 4650
-Wire Wire Line
-	800  5150 950  5150
-Wire Wire Line
-	3850 3600 3550 3600
-Wire Wire Line
-	3750 3700 3550 3700
-Wire Wire Line
-	3650 3800 3550 3800
-Wire Wire Line
-	3650 3850 3650 3800
-Wire Wire Line
-	3050 3600 2850 3600
-Wire Wire Line
-	2950 3700 3050 3700
-Wire Wire Line
-	6950 4000 6950 4500
-Wire Wire Line
-	7050 4100 7050 4500
-Wire Wire Line
-	5750 3650 5750 4500
-Wire Wire Line
-	5950 3650 5750 3650
-Wire Wire Line
-	5850 3750 5850 4500
-Wire Wire Line
-	6600 3750 6600 4500
-Wire Wire Line
-	8600 4000 9300 4000
-Wire Wire Line
-	7050 4100 7550 4100
-Wire Wire Line
-	1600 2850 1600 2850
-Wire Wire Line
-	2250 3200 2250 3250
-Wire Wire Line
-	2150 3200 2250 3200
-Wire Notes Line
-	2350 4250 550  4250
-Wire Notes Line
-	2350 2600 2350 4250
-Wire Notes Line
-	550  2600 2350 2600
-Wire Notes Line
-	550  4250 550  2600
-Wire Wire Line
-	650  3250 1050 3250
-Wire Wire Line
-	750  3350 750  4500
-Wire Wire Line
-	1050 3350 750  3350
-Wire Wire Line
-	850  3450 850  4500
-Wire Wire Line
-	1050 3450 850  3450
-Wire Wire Line
-	950  3550 950  4500
-Wire Wire Line
-	1050 3550 950  3550
-Wire Wire Line
-	4100 3550 4400 3550
-Wire Wire Line
-	3050 3800 3050 4500
-Wire Wire Line
-	5300 2100 5350 2100
-Wire Wire Line
-	7200 1350 7200 1900
-Wire Wire Line
-	2650 2150 2700 2150
-Wire Wire Line
-	2650 2450 2950 2450
-Wire Notes Line
-	550  1550 550  550 
-Wire Notes Line
-	4350 1550 550  1550
-Wire Notes Line
-	4350 550  4350 1550
-Wire Notes Line
-	550  550  4350 550 
-Wire Wire Line
-	3750 5350 2850 5350
-Wire Bus Line
-	4700 4600 4700 6450
-Connection ~ 950  7350
-Wire Wire Line
-	950  7250 950  7450
-Wire Wire Line
-	2850 6550 4600 6550
-Wire Notes Line
-	8650 2150 8650 1100
-Wire Notes Line
-	10300 2150 8650 2150
-Wire Notes Line
-	10300 1100 10300 2150
-Wire Notes Line
-	8650 1100 10300 1100
-Wire Wire Line
-	5850 3750 5950 3750
-Wire Wire Line
-	6600 3750 6450 3750
-Wire Notes Line
-	4000 4250 4000 2850
-Wire Notes Line
-	5550 4250 4000 4250
-Wire Notes Line
-	5550 2850 5550 4250
-Wire Notes Line
-	4000 2850 5550 2850
-Connection ~ 5500 3550
-Wire Notes Line
-	6650 4250 5650 4250
-Wire Notes Line
-	6650 3450 6650 4250
-Wire Notes Line
-	5650 3450 6650 3450
-Wire Notes Line
-	5650 4250 5650 3450
-Wire Notes Line
-	2400 4250 2400 2950
-Wire Notes Line
-	3950 4250 2400 4250
-Wire Notes Line
-	3950 2950 3950 4250
-Wire Notes Line
-	2400 2950 3950 2950
-Wire Wire Line
-	4950 3350 5500 3350
-Wire Wire Line
-	5500 3350 5500 3700
-Wire Wire Line
-	4200 3650 4400 3650
-Wire Wire Line
-	4200 4500 4200 3650
-Wire Wire Line
-	4300 3750 4400 3750
-Wire Wire Line
-	4300 4500 4300 3750
-Wire Wire Line
-	4400 3850 4400 4500
-Wire Wire Line
-	3750 3700 3750 4500
-Wire Wire Line
-	2950 3700 2950 4500
-Wire Bus Line
-	2750 4600 2850 4600
-Wire Bus Line
-	850  4600 9200 4600
-Wire Bus Line
-	4300 4600 4500 4600
-Wire Bus Line
-	6950 4600 6850 4600
-Wire Notes Line
-	8600 2150 8600 550 
-Wire Wire Line
-	3150 1900 3000 1900
-Wire Wire Line
-	5300 1850 5300 2100
-Wire Notes Line
-	8600 550  4400 550 
-Wire Notes Line
-	4100 1600 4100 2800
-Wire Notes Line
-	4100 2800 6750 2800
-Wire Notes Line
-	6600 1600 4100 1600
-Wire Wire Line
-	5550 2400 5800 2400
-Wire Wire Line
-	7100 1250 7200 1250
-Wire Wire Line
-	5100 2350 5100 2400
-Wire Wire Line
-	5550 2400 5550 2600
-Wire Notes Line
-	5250 1950 5250 2750
-Wire Notes Line
-	5250 2750 6700 2750
-Wire Notes Line
-	6550 1950 5250 1950
-Wire Wire Line
-	6600 1000 7350 1000
-Connection ~ 5300 1850
-Connection ~ 4900 2100
-Wire Wire Line
-	5800 2100 5800 1850
-Wire Wire Line
-	5750 2100 5800 2100
-Connection ~ 7100 1250
-Wire Wire Line
-	7100 3300 7550 3300
-Wire Notes Line
-	6800 2700 6800 4250
-Wire Notes Line
-	6800 4250 9350 4250
-Wire Notes Line
-	9350 4250 9350 2700
-Wire Notes Line
-	9350 2700 6800 2700
-Wire Wire Line
-	6850 1900 7350 1900
-Wire Wire Line
-	5950 3900 5950 3850
-Wire Wire Line
-	2650 1900 2650 2150
-Wire Wire Line
-	2800 1900 2650 1900
-Wire Wire Line
-	8150 1000 8150 1350
-Connection ~ 2900 2450
-Wire Notes Line
-	2450 1600 2450 2600
-Wire Notes Line
-	2450 2600 4050 2600
-Wire Notes Line
-	4050 2600 4050 1600
-Wire Notes Line
-	4050 1600 2450 1600
-Wire Notes Line
-	2500 2000 2500 2550
-Wire Notes Line
-	2500 2550 3900 2550
-Wire Notes Line
-	3900 2550 3900 2000
-Wire Notes Line
-	3900 2000 2500 2000
-Wire Wire Line
-	5850 2600 5850 2600
-Connection ~ 7100 1000
-Wire Notes Line
-	6700 700  6700 2100
-Wire Notes Line
-	6700 2100 8550 2100
-Wire Notes Line
-	8550 2100 8550 700 
-Wire Notes Line
-	8550 700  6700 700 
-Wire Notes Line
-	4450 700  4450 1500
-Wire Notes Line
-	4450 1500 6000 1500
-Wire Notes Line
-	6000 1500 6000 700 
-Wire Notes Line
-	6000 700  4450 700 
-Wire Wire Line
-	5500 1000 6100 1000
-Connection ~ 3650 850 
-Connection ~ 3400 850 
-Connection ~ 2450 850 
-Connection ~ 2000 850 
-Wire Wire Line
-	1500 850  3700 850 
-Wire Wire Line
-	3900 850  4200 850 
-Wire Wire Line
-	6250 1450 6150 1450
-Wire Wire Line
-	6450 1450 6550 1450
-Wire Wire Line
-	7100 1000 7100 1250
-Connection ~ 5500 1000
-Connection ~ 4700 1000
-Connection ~ 8150 1350
-Connection ~ 5800 1850
-Connection ~ 5550 2400
-Wire Notes Line
-	4400 550  4400 1550
-Wire Notes Line
-	4400 1550 6650 1550
-Wire Notes Line
-	6650 1550 6650 2150
-Wire Notes Line
-	6650 2150 8600 2150
-Wire Wire Line
-	6850 1250 6850 1000
-Connection ~ 6850 1000
-Wire Wire Line
-	6850 1550 6850 1900
-Connection ~ 7200 1900
-Wire Wire Line
-	7550 1900 7550 1900
-Connection ~ 4400 3550
-Connection ~ 4700 4600
-Wire Wire Line
-	3850 5600 3900 5600
-Wire Wire Line
-	3850 5100 3900 5100
-Wire Wire Line
-	2850 5850 3750 5850
-Connection ~ 3650 5850
-Wire Wire Line
-	2850 6150 5100 6150
-Connection ~ 5050 6150
-Wire Wire Line
-	5200 5900 5250 5900
-Wire Wire Line
-	5200 6400 5250 6400
-Wire Wire Line
-	2900 3200 2900 3200
 $Comp
 L GND #PWR049
 U 1 1 55A92430
@@ -2910,7 +2570,6 @@ F 3 "" H 3500 3200 60  0000 C CNN
 	1    3500 3200
 	1    0    0    -1  
 $EndComp
-Connection ~ 1600 2850
 Text Notes 4100 3500 0    35   ~ 0
 Optional
 $Comp
@@ -2949,20 +2608,8 @@ F 3 "" H 5300 3050 60  0000 C CNN
 	1    5300 3050
 	-1   0    0    1   
 $EndComp
-Connection ~ 5300 3350
-Connection ~ 2650 2150
-Connection ~ 2650 1900
-Connection ~ 3150 1900
-Wire Wire Line
-	2850 6350 4600 6350
-Wire Wire Line
-	4600 6450 2850 6450
-Wire Wire Line
-	7550 3000 7550 3000
 Text Notes 7700 2950 0    35   ~ 0
 JP7 is a current measurement tap\nIt must be shorted for daughter board use
-Connection ~ 950  7450
-Connection ~ 800  5150
 $Comp
 L GND #PWR054
 U 1 1 55A9C7CB
@@ -2985,10 +2632,6 @@ F 3 "" H 8950 2900 60  0000 C CNN
 	1    8950 2900
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	8600 3200 9200 3200
-Connection ~ 8950 3200
-Connection ~ 7350 3300
 Text GLabel 9700 1300 2    60   BiDi ~ 0
 ATSHA_SDA
 $Comp
@@ -3027,8 +2670,6 @@ F 3 "" H 9450 1950 60  0000 C CNN
 	1    9450 1950
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9100 1300 9700 1300
 Text GLabel 2850 7050 2    60   BiDi ~ 0
 ATSHA_SDA
 Text Notes 7500 3050 0    35   ~ 0
@@ -3055,8 +2696,6 @@ F 3 "" H 5800 1000 60  0000 C CNN
 	1    5800 1000
 	-1   0    0    1   
 $EndComp
-Connection ~ 5800 1000
-Connection ~ 4050 850 
 $Comp
 L PWR_FLAG #FLG059
 U 1 1 55AA58E3
@@ -3068,7 +2707,6 @@ F 3 "" H 8600 3200 60  0000 C CNN
 	1    8600 3200
 	1    0    0    -1  
 $EndComp
-Connection ~ 8600 3200
 $Comp
 L PWR_FLAG #FLG060
 U 1 1 55AA6059
@@ -3120,18 +2758,6 @@ F 17 "http://www.digikey.se/short/7w149z" H 5950 2600 60  0001 C CNN "Supplier4 
 	1    5950 2600
 	-1   0    0    1   
 $EndComp
-Wire Notes Line
-	6750 2800 6750 2200
-Wire Notes Line
-	6750 2200 6600 2200
-Wire Notes Line
-	6600 2200 6600 1600
-Wire Notes Line
-	6550 1950 6550 2250
-Wire Notes Line
-	6550 2250 6700 2250
-Wire Notes Line
-	6700 2250 6700 2750
 Text Notes 5900 2450 0    35   ~ 0
 Short JP10 to enable\nlow-power battery sampling
 Text Notes 5850 6250 0    60   ~ 0
@@ -3163,12 +2789,6 @@ F 17 "http://www.digikey.se/short/7v5tfw" H 9650 1500 60  0001 C CNN "Supplier4 
 	1    9650 1500
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9450 1650 9650 1650
-Wire Wire Line
-	9650 1350 9650 1300
-Connection ~ 9650 1300
-Connection ~ 9450 1650
 $Comp
 L CP C2
 U 1 1 55A66528
@@ -3291,6 +2911,9 @@ F 14 "https://www.elfa.se/elfa3~se_en/elfa/init.do?item=43-019-56" H 1650 1000 6
 F 15 "Digi-Key" H 1650 1000 60  0001 C CNN "Supplier4"
 F 16 "455-1719-ND" H 1650 1000 60  0001 C CNN "Supplier4 part"
 F 17 "http://www.digikey.se/short/7wd8fm" H 1650 1000 60  0001 C CNN "Supplier4 link"
+F 18 "AliExpress" H 1650 1000 60  0001 C CNN "Supplier5"
+F 19 "1709786094" H 1650 1000 60  0001 C CNN "Supplier5 part"
+F 20 "http://www.aliexpress.com/item/free-shipping-2-0mm-2pin-header-wire-to-board-wire-2pin-connector/1709786094.html" H 1650 1000 60  0001 C CNN "Supplier5 link"
 	1    1650 1000
 	1    0    0    -1  
 $EndComp
@@ -3316,12 +2939,12 @@ F 14 "https://www.elfa.se/elfa3~se_en/elfa/init.do?item=42-205-20" H 1050 1000 6
 F 15 "Digi-Key" H 1050 1000 60  0001 C CNN "Supplier4"
 F 16 "CP-037B-ND" H 1050 1000 60  0001 C CNN "Supplier4 part"
 F 17 "http://www.digikey.se/short/7wd85d" H 1050 1000 60  0001 C CNN "Supplier4 link"
+F 18 "AliExpress" H 1050 1000 60  0001 C CNN "Supplier5"
+F 19 "1614043178" H 1050 1000 60  0001 C CNN "Supplier5 part"
+F 20 "http://www.aliexpress.com/item/2-5mm-DC-Jack-DC-Socket-DC-Power-Jack-50pcs-lot-for-Compaq-Armada-4150-4150T/1614043178.html" H 1050 1000 60  0001 C CNN "Supplier5 link"
 	1    1050 1000
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1500 1000 1500 1150
-Connection ~ 1500 1100
 $Comp
 L GND #PWR062
 U 1 1 55AC45B6
@@ -3333,7 +2956,6 @@ F 3 "" H 1650 1150 60  0000 C CNN
 	1    1650 1150
 	-1   0    0    -1  
 $EndComp
-Connection ~ 1650 850 
 $Comp
 L Battery BT5
 U 1 1 55AD573A
@@ -3350,7 +2972,6 @@ F 8 "http://se.mouser.com/ProductDetail/Keystone-Electronics/3039/?qs=sGAEpiMZZM
 	1    2900 1000
 	1    0    0    -1  
 $EndComp
-Connection ~ 2900 850 
 $Comp
 L GND #PWR063
 U 1 1 55AD5CC0
@@ -3425,30 +3046,12 @@ F 3 "" H 10700 3400 60  0000 C CNN
 	1    10700 3400
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	10700 3400 10900 3400
-Wire Wire Line
-	10900 3400 10900 3550
-Wire Wire Line
-	10900 3850 10900 4050
-Wire Wire Line
-	10900 4050 10700 4050
-Connection ~ 10700 4050
-Connection ~ 10700 3400
 Text GLabel 10350 3800 0    60   BiDi ~ 0
 MYSX_D7_SCL
 Text GLabel 10350 3650 0    60   BiDi ~ 0
 MYSX_D8_SDA
 Text Notes 9650 3200 0    60   ~ 0
 Temp/hum sensor
-Wire Notes Line
-	9600 3100 9600 4250
-Wire Notes Line
-	9600 4250 11150 4250
-Wire Notes Line
-	11150 4250 11150 3100
-Wire Notes Line
-	11150 3100 9600 3100
 $Comp
 L CONN_01X03 P3
 U 1 1 55B55DD2
@@ -3473,10 +3076,6 @@ F 3 "" H 9800 2450 60  0000 C CNN
 	1    9800 2450
 	1    0    0    -1  
 $EndComp
-Connection ~ 9900 2450
-Connection ~ 9800 2450
-Wire Wire Line
-	9800 2450 10000 2450
 $Comp
 L CONN_01X03 P4
 U 1 1 55B7B745
@@ -3499,8 +3098,500 @@ F 3 "" H 10250 2850 60  0000 C CNN
 	1    10250 2850
 	1    0    0    -1  
 $EndComp
+$Comp
+L TPS6122X U9
+U 1 1 55E5E6B6
+P 7700 1900
+F 0 "U9" H 7450 2200 40  0000 C CNN
+F 1 "TPS6122X" H 7700 2100 40  0000 C CNN
+F 2 "Housings_SOT-23_SOT-143_TSOT-6:SC-70-6" H 7700 2100 30  0001 C CIN
+F 3 "" H 7600 1900 60  0000 C CNN
+	1    7700 1900
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	10250 2850 10450 2850
+	5800 1850 5550 1850
+Wire Wire Line
+	5100 1850 5300 1850
+Wire Wire Line
+	5300 1850 5350 1850
+Wire Wire Line
+	8200 1000 8000 1000
+Wire Wire Line
+	8200 1000 8200 1200
+Wire Wire Line
+	8200 1200 8200 1750
+Wire Wire Line
+	4800 2100 4900 2100
+Wire Wire Line
+	4900 2100 4950 2100
+Wire Wire Line
+	5100 2350 5100 2350
+Wire Wire Line
+	3150 2150 3150 1900
+Wire Wire Line
+	3100 2150 3150 2150
+Wire Notes Line
+	11000 800  10350 800 
+Wire Notes Line
+	11000 2150 11000 800 
+Wire Notes Line
+	10350 2150 11000 2150
+Wire Notes Line
+	10350 800  10350 2150
+Wire Wire Line
+	9300 4000 9300 4500
+Wire Wire Line
+	6950 4000 7550 4000
+Wire Notes Line
+	5850 4750 6850 4750
+Wire Notes Line
+	5800 6300 5800 4650
+Wire Notes Line
+	11200 6300 5800 6300
+Wire Notes Line
+	11200 4650 11200 6300
+Wire Notes Line
+	5800 4650 11200 4650
+Wire Wire Line
+	800  5150 950  5150
+Wire Wire Line
+	3850 3600 3550 3600
+Wire Wire Line
+	3750 3700 3550 3700
+Wire Wire Line
+	3650 3800 3550 3800
+Wire Wire Line
+	3650 3850 3650 3800
+Wire Wire Line
+	3050 3600 2850 3600
+Wire Wire Line
+	2950 3700 3050 3700
+Wire Wire Line
+	6950 4000 6950 4500
+Wire Wire Line
+	7050 4100 7050 4500
+Wire Wire Line
+	5750 3650 5750 4500
+Wire Wire Line
+	5950 3650 5750 3650
+Wire Wire Line
+	5850 3750 5850 4500
+Wire Wire Line
+	6600 3750 6600 4500
+Wire Wire Line
+	8600 4000 9300 4000
+Wire Wire Line
+	7050 4100 7550 4100
+Wire Wire Line
+	1600 2850 1600 2850
+Wire Wire Line
+	2250 3200 2250 3250
+Wire Wire Line
+	2150 3200 2250 3200
+Wire Notes Line
+	2350 4250 550  4250
+Wire Notes Line
+	2350 2600 2350 4250
+Wire Notes Line
+	550  2600 2350 2600
+Wire Notes Line
+	550  4250 550  2600
+Wire Wire Line
+	650  3250 1050 3250
+Wire Wire Line
+	750  3350 750  4500
+Wire Wire Line
+	1050 3350 750  3350
+Wire Wire Line
+	850  3450 850  4500
+Wire Wire Line
+	1050 3450 850  3450
+Wire Wire Line
+	950  3550 950  4500
+Wire Wire Line
+	1050 3550 950  3550
+Wire Wire Line
+	4100 3550 4400 3550
+Wire Wire Line
+	3050 3800 3050 4500
+Wire Wire Line
+	5300 2100 5350 2100
+Wire Wire Line
+	7200 1300 7200 1950
+Wire Wire Line
+	7200 1950 7200 2500
+Wire Wire Line
+	2650 2150 2700 2150
+Wire Wire Line
+	2650 2450 2900 2450
+Wire Wire Line
+	2900 2450 2950 2450
+Wire Notes Line
+	550  1550 550  550 
+Wire Notes Line
+	4350 1550 550  1550
+Wire Notes Line
+	4350 550  4350 1550
+Wire Notes Line
+	550  550  4350 550 
+Wire Wire Line
+	3750 5350 2850 5350
+Wire Bus Line
+	4700 4600 4700 6250
+Wire Bus Line
+	4700 6250 4700 6350
+Wire Bus Line
+	4700 6350 4700 6450
+Connection ~ 950  7350
+Wire Wire Line
+	950  7250 950  7350
+Wire Wire Line
+	950  7350 950  7450
+Wire Wire Line
+	2850 6550 4600 6550
+Wire Notes Line
+	8650 2150 8650 1100
+Wire Notes Line
+	10300 2150 8650 2150
+Wire Notes Line
+	10300 1100 10300 2150
+Wire Notes Line
+	8650 1100 10300 1100
+Wire Wire Line
+	5850 3750 5950 3750
+Wire Wire Line
+	6600 3750 6450 3750
+Wire Notes Line
+	4000 4250 4000 2850
+Wire Notes Line
+	5550 4250 4000 4250
+Wire Notes Line
+	5550 2850 5550 4250
+Wire Notes Line
+	4000 2850 5550 2850
+Connection ~ 5500 3550
+Wire Notes Line
+	6650 4250 5650 4250
+Wire Notes Line
+	6650 3450 6650 4250
+Wire Notes Line
+	5650 3450 6650 3450
+Wire Notes Line
+	5650 4250 5650 3450
+Wire Notes Line
+	2400 4250 2400 2950
+Wire Notes Line
+	3950 4250 2400 4250
+Wire Notes Line
+	3950 2950 3950 4250
+Wire Notes Line
+	2400 2950 3950 2950
+Wire Wire Line
+	4950 3350 5300 3350
+Wire Wire Line
+	5300 3350 5500 3350
+Wire Wire Line
+	5500 3350 5500 3550
+Wire Wire Line
+	5500 3550 5500 3700
+Wire Wire Line
+	4200 3650 4400 3650
+Wire Wire Line
+	4200 4500 4200 3650
+Wire Wire Line
+	4300 3750 4400 3750
+Wire Wire Line
+	4300 4500 4300 3750
+Wire Wire Line
+	4400 3850 4400 4500
+Wire Wire Line
+	3750 3700 3750 4500
+Wire Wire Line
+	2950 3700 2950 4500
+Wire Bus Line
+	2750 4600 2850 4600
+Wire Bus Line
+	850  4600 950  4600
+Wire Bus Line
+	950  4600 1050 4600
+Wire Bus Line
+	1050 4600 3050 4600
+Wire Bus Line
+	3050 4600 3150 4600
+Wire Bus Line
+	3150 4600 3850 4600
+Wire Bus Line
+	3850 4600 4300 4600
+Wire Bus Line
+	4300 4600 4400 4600
+Wire Bus Line
+	4400 4600 4500 4600
+Wire Bus Line
+	4500 4600 4700 4600
+Wire Bus Line
+	4700 4600 5650 4600
+Wire Bus Line
+	5650 4600 5750 4600
+Wire Bus Line
+	5750 4600 6500 4600
+Wire Bus Line
+	6500 4600 6850 4600
+Wire Bus Line
+	6850 4600 6950 4600
+Wire Bus Line
+	6950 4600 9200 4600
+Wire Bus Line
+	4300 4600 4400 4600
+Wire Bus Line
+	4400 4600 4500 4600
+Wire Bus Line
+	6950 4600 6850 4600
+Wire Wire Line
+	3150 1900 3000 1900
+Wire Wire Line
+	5300 1850 5300 2100
+Wire Notes Line
+	8600 550  4400 550 
+Wire Notes Line
+	4100 1600 4100 2800
+Wire Notes Line
+	4100 2800 6750 2800
+Wire Notes Line
+	6600 1600 4100 1600
+Wire Wire Line
+	5550 2400 5800 2400
+Wire Wire Line
+	7100 1200 7250 1200
+Wire Wire Line
+	5100 2350 5100 2400
+Wire Wire Line
+	5550 2400 5550 2600
+Wire Notes Line
+	5250 1950 5250 2750
+Wire Notes Line
+	5250 2750 6700 2750
+Wire Notes Line
+	6550 1950 5250 1950
+Wire Wire Line
+	6600 1000 6900 1000
+Connection ~ 5300 1850
+Connection ~ 4900 2100
+Wire Wire Line
+	5800 2100 5800 1850
+Wire Wire Line
+	5750 2100 5800 2100
+Connection ~ 7100 1200
+Wire Wire Line
+	7100 3300 7350 3300
+Wire Wire Line
+	7350 3300 7550 3300
+Wire Notes Line
+	6800 2700 6800 4250
+Wire Notes Line
+	6800 4250 9350 4250
+Wire Notes Line
+	9350 4250 9350 2700
+Wire Notes Line
+	9350 2700 6800 2700
+Wire Wire Line
+	6900 2500 7200 2500
+Wire Wire Line
+	7200 2500 7250 2500
+Wire Wire Line
+	5950 3900 5950 3850
+Wire Wire Line
+	2650 1900 2650 2150
+Wire Wire Line
+	2800 1900 2650 1900
+Connection ~ 2900 2450
+Wire Notes Line
+	2450 1600 2450 2600
+Wire Notes Line
+	2450 2600 4050 2600
+Wire Notes Line
+	4050 2600 4050 1600
+Wire Notes Line
+	4050 1600 2450 1600
+Wire Notes Line
+	2500 2000 2500 2550
+Wire Notes Line
+	2500 2550 3900 2550
+Wire Notes Line
+	3900 2550 3900 2000
+Wire Notes Line
+	3900 2000 2500 2000
+Wire Wire Line
+	5850 2600 5850 2600
+Connection ~ 7100 1000
+Wire Notes Line
+	6700 600  6700 2100
+Wire Notes Line
+	4450 700  4450 1500
+Wire Notes Line
+	4450 1500 6000 1500
+Wire Notes Line
+	6000 1500 6000 700 
+Wire Notes Line
+	6000 700  4450 700 
+Wire Wire Line
+	5500 1000 5800 1000
+Wire Wire Line
+	5800 1000 6100 1000
+Connection ~ 3650 850 
+Connection ~ 3400 850 
+Connection ~ 2450 850 
+Connection ~ 2000 850 
+Wire Wire Line
+	1500 850  1650 850 
+Wire Wire Line
+	1650 850  2000 850 
+Wire Wire Line
+	2000 850  2450 850 
+Wire Wire Line
+	2450 850  2900 850 
+Wire Wire Line
+	2900 850  3400 850 
+Wire Wire Line
+	3400 850  3650 850 
+Wire Wire Line
+	3650 850  3700 850 
+Wire Wire Line
+	3900 850  4050 850 
+Wire Wire Line
+	4050 850  4200 850 
+Wire Wire Line
+	6250 1450 6150 1450
+Wire Wire Line
+	6450 1450 6550 1450
+Wire Wire Line
+	7100 1000 7100 1200
+Wire Wire Line
+	7100 1200 7100 1750
+Wire Wire Line
+	7100 1750 7100 1950
+Connection ~ 5500 1000
+Connection ~ 4700 1000
+Connection ~ 8250 1300
+Connection ~ 5800 1850
+Connection ~ 5550 2400
+Wire Notes Line
+	4400 550  4400 1550
+Wire Notes Line
+	4400 1550 6650 1550
+Wire Notes Line
+	6650 1550 6650 2150
+Wire Notes Line
+	8600 2650 6800 2650
+Wire Wire Line
+	6900 1000 6900 1000
+Wire Wire Line
+	6900 1000 6900 1100
+Connection ~ 6900 1000
+Wire Wire Line
+	6900 2500 6900 1400
+Connection ~ 7200 2500
+Connection ~ 4400 3550
+Connection ~ 4700 4600
+Wire Wire Line
+	3850 5600 3900 5600
+Wire Wire Line
+	3850 5100 3900 5100
+Wire Wire Line
+	2850 5850 3650 5850
+Wire Wire Line
+	3650 5850 3750 5850
+Connection ~ 3650 5850
+Wire Wire Line
+	2850 6150 5050 6150
+Wire Wire Line
+	5050 6150 5100 6150
+Connection ~ 5050 6150
+Wire Wire Line
+	5200 5900 5250 5900
+Wire Wire Line
+	5200 6400 5250 6400
+Wire Wire Line
+	2900 3200 2900 3200
+Connection ~ 1600 2850
+Connection ~ 5300 3350
+Connection ~ 2650 2150
+Connection ~ 2650 1900
+Connection ~ 3150 1900
+Wire Wire Line
+	2850 6350 4600 6350
+Wire Wire Line
+	4600 6450 2850 6450
+Wire Wire Line
+	7550 3000 7550 3000
+Connection ~ 950  7450
+Connection ~ 800  5150
+Wire Wire Line
+	8600 3200 8950 3200
+Wire Wire Line
+	8950 3200 9200 3200
+Connection ~ 8950 3200
+Connection ~ 7350 3300
+Wire Wire Line
+	9100 1300 9650 1300
+Wire Wire Line
+	9650 1300 9700 1300
+Connection ~ 5800 1000
+Connection ~ 4050 850 
+Connection ~ 8600 3200
+Wire Notes Line
+	6750 2800 6750 2200
+Wire Notes Line
+	6750 2200 6600 2200
+Wire Notes Line
+	6600 2200 6600 1600
+Wire Notes Line
+	6550 1950 6550 2250
+Wire Notes Line
+	6550 2250 6700 2250
+Wire Notes Line
+	6700 2250 6700 2750
+Wire Wire Line
+	9450 1650 9650 1650
+Wire Wire Line
+	9650 1350 9650 1300
+Connection ~ 9650 1300
+Connection ~ 9450 1650
+Wire Wire Line
+	1500 1000 1500 1100
+Wire Wire Line
+	1500 1100 1500 1150
+Connection ~ 1500 1100
+Connection ~ 1650 850 
+Connection ~ 2900 850 
+Wire Wire Line
+	10700 3400 10900 3400
+Wire Wire Line
+	10900 3400 10900 3550
+Wire Wire Line
+	10900 3850 10900 4050
+Wire Wire Line
+	10900 4050 10700 4050
+Connection ~ 10700 4050
+Connection ~ 10700 3400
+Wire Notes Line
+	9600 3100 9600 4250
+Wire Notes Line
+	9600 4250 11150 4250
+Wire Notes Line
+	11150 4250 11150 3100
+Wire Notes Line
+	11150 3100 9600 3100
+Connection ~ 9900 2450
+Connection ~ 9800 2450
+Wire Wire Line
+	9800 2450 9900 2450
+Wire Wire Line
+	9900 2450 10000 2450
+Wire Wire Line
+	10250 2850 10350 2850
+Wire Wire Line
+	10350 2850 10450 2850
 Connection ~ 10350 2850
 Connection ~ 10250 2850
 Wire Notes Line
@@ -3511,4 +3602,89 @@ Wire Notes Line
 	10700 3050 10700 2200
 Wire Notes Line
 	10700 2200 9600 2200
+$Comp
+L GND #PWR068
+U 1 1 55E60F17
+P 7700 2200
+F 0 "#PWR068" H 7700 1950 50  0001 C CNN
+F 1 "GND" H 7700 2050 50  0000 C CNN
+F 2 "" H 7700 2200 60  0000 C CNN
+F 3 "" H 7700 2200 60  0000 C CNN
+	1    7700 2200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8150 1300 8250 1300
+$Comp
+L TPS61097A U2
+U 1 1 552D8733
+P 7700 1350
+F 0 "U2" H 7450 1650 40  0000 C CNN
+F 1 "TPS61097A" H 7700 1550 40  0000 C CNN
+F 2 "mysensors_handsoldering:SOT-23-5_Handsoldering" H 7700 1500 30  0001 C CIN
+F 3 "http://www.ti.com/lit/ds/symlink/tps61097a-33.pdf" H 7600 1350 60  0001 C CNN
+F 4 "Texas Instruments" H 7700 1350 60  0001 C CNN "Vendor"
+F 5 "TPS61097A-33DBVT" H 7700 1350 60  0001 C CNN "Vendor part"
+F 6 "Mouser" H 5700 1550 60  0001 C CNN "Supplier1"
+F 7 "595-TPS61097A-33DBVT" H 5700 1550 60  0001 C CNN "Supplier1 part"
+F 8 "http://www.mouser.com/ProductDetail/Texas-Instruments/TPS61097A-33DBVT/?qs=sGAEpiMZZMtfXl%252bsADUrUCB2uhymfgl%2fcdZ3ROtzxNM%3d" H 7700 1350 60  0001 C CNN "Supplier1 link"
+F 9 "Farnell" H 5700 1550 60  0001 C CNN "Supplier2"
+F 10 "2352441" H 5700 1550 60  0001 C CNN "Supplier2 part"
+F 11 "http://se.farnell.com/texas-instruments/tps61097-33dbvr/dc-dc-converter-boost-sot-23-5/dp/2352441" H 7700 1350 60  0001 C CNN "Supplier2 link"
+F 12 "Elfa" H 7700 1350 60  0001 C CNN "Supplier3"
+F 13 "73-295-89" H 7700 1350 60  0001 C CNN "Supplier3 part"
+F 14 "https://www.elfa.se/elfa3~se_en/elfa/init.do?item=73-295-89" H 7700 1350 60  0001 C CNN "Supplier3 link"
+F 15 "Digi-Key" H 7700 1350 60  0001 C CNN "Supplier4"
+F 16 "296-39431-1-ND" H 7700 1350 60  0001 C CNN "Supplier4 part"
+F 17 "http://www.digikey.se/short/7wdq10" H 7700 1350 60  0001 C CNN "Supplier4 link"
+	1    7700 1350
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	6700 2100 6850 2100
+Wire Wire Line
+	8250 900  8250 1300
+Wire Wire Line
+	8250 1300 8250 1850
+Wire Wire Line
+	8250 1850 8250 1950
+Wire Wire Line
+	7200 1300 7250 1300
+Wire Wire Line
+	7250 1950 7200 1950
+Connection ~ 7200 1950
+Wire Wire Line
+	7250 1750 7100 1750
+Connection ~ 7100 1750
+Wire Wire Line
+	8150 1850 8250 1850
+Connection ~ 8250 1850
+Wire Wire Line
+	8200 1200 8150 1200
+Wire Wire Line
+	8200 1750 8150 1750
+Connection ~ 8200 1200
+Wire Wire Line
+	8250 1950 8150 1950
+Connection ~ 8250 1950
+Wire Notes Line
+	6650 2150 6800 2150
+Wire Notes Line
+	6800 2150 6800 2650
+Wire Notes Line
+	8600 550  8600 2650
+Wire Notes Line
+	8550 600  8550 2600
+Wire Notes Line
+	8550 600  6700 600 
+Wire Notes Line
+	8550 2600 6850 2600
+Wire Notes Line
+	6850 2600 6850 2100
+Wire Wire Line
+	6900 1000 7100 1000
+Wire Wire Line
+	7100 1000 7400 1000
+Text Notes 6800 750  0    35   ~ 0
+NOTE: U2 and U9 are mutually exclusive
 $EndSCHEMATC
