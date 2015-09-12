@@ -1,0 +1,34 @@
+Count	Reference	Value	Footprint	Datasheet	Vendor	Vendor part	Supplier	Supplier part	Supplier link
+1	ANT1	CONN_01X01	Wire_Pads:SolderWirePad_single_1-2mmDrill				Missing	Missing	Missing
+1	BT1	2.5mm jack	mysensors_connectors:dc_socket-kcswalter	http://www.mouser.com/ds/2/393/rapc712x_cd-371318.pdf	Switchcraft	RAPC712X	RS	878-6724	http://se.rs-online.com/web/p/dc-power-plugs/8786724
+1	BT2	JST	mysensors_connectors:s2b-ph-kl-kcswalter	http://www.farnell.com/datasheets/80564.pdf	JST	S2B-PH-K-S (LF)(SN)	RS	820-1494	http://se.rs-online.com/web/p/pcb-headers/8201494
+1	BT3	Generic	mysensors_connectors:TerminalBlock2.54mmx2-kcswalter	http://www.mouser.com/ds/2/418/NG_CD_282834_C1-665080.pdf	TE Connectivity	282834-2	Missing	Missing	Missing
+1	BT4	CR123	mysensors_connectors:CR123_holder	http://www.mouser.com/ds/2/215/051-743208.pdf	Keystone Electronics	1051	Missing	Missing	Missing
+1	BT5	24.5mm	mysensors_connectors:keystone_3009-kcswalter	http://www.mouser.com/ds/2/215/3039-285159.pdf	Keystone Electronics	3039	Missing	Missing	Missing
+1	C1	47uF	Capacitors_Tantalum_SMD:TantalC_SizeC_EIA-6032_HandSoldering	http://www.avx.com/docs/Catalogs/tps.pdf	AVX	TPSC476K016R0350	RS	407-0047	http://se.rs-online.com/web/p/tantalum-capacitors/4070047
+5	C2 C10 C12 C13 C14	4.7uF	Capacitors_Tantalum_SMD:TantalC_SizeB_EIA-3528_HandSoldering	http://www.avx.com/docs/Catalogs/tps.pdf	AVX	TPSB475K025R0900	RS	699-3349	http://se.rs-online.com/web/p/tantalum-capacitors/6993349
+2	C3 C4	10uF	Capacitors_Tantalum_SMD:TantalC_SizeA_EIA-3216_HandSoldering	http://www.mouser.com/ds/2/40/f93-221107.pdf	AVX	F931C106MAA	Missing	Missing	Missing
+2	C5 C6	10uF	Capacitors_SMD:C_1206_HandSoldering	http://www.mouser.com/ds/2/427/vjw1bcbascomseries-223529.pdf	Vishay / Vitramon	VJ1206V106ZXQTW1BC	RS	723-6616	http://se.rs-online.com/web/p/ceramic-multilayer-capacitors/7236616
+6	C7 C11 C15 C16 C17 C18	0.1uF	Capacitors_SMD:C_1206_HandSoldering	http://www.farnell.com/datasheets/1825494.pdf	MULTICOMP	MCSH31B104K250CT	Missing	Missing	Missing
+1	C8	C	Resistors_Universal:Resistor_SMD+THTuniversal_0805to1206_RM10_HandSoldering		User specific		Missing	Missing	Missing
+1	C9	0.1uF	Capacitors_SMD:C_1206_HandSoldering	http://www.mouser.com/ds/2/427/vjw1bcbascomseries-223529.pdf	Vishay	VJ1206Y104KXXCW1BC	Missing	Missing	Missing
+7	JP1 JP3 JP4 JP5 JP6 JP7 JP10	Jumper_NO_Small	Pin_Headers:Pin_Header_Straight_1x02	https://www1.elfa.se/data1/wwwroot/assets/datasheets/cgrid_III_90120_eng_dwg.pdf	Wurth Electronics	61300211121	RS	828-1581	http://se.rs-online.com/web/p/pcb-headers/8281581
+3	JP2 JP8 JP9	JUMPER3	Pin_Headers:Pin_Header_Straight_1x03	http://www.mouser.com/ds/2/1/3m_ts0816-349901.pdf	HARWIN	M20-9990346	RS	745-7068	http://se.rs-online.com/web/p/pcb-headers/7457068
+1	L1	4.7uH	Capacitors_SMD:C_0805_HandSoldering	http://www.yuden.co.jp/productdata/catalog/en/wound02_e.pdf	Taiyo Yuden	CBC2012T4R7M	Missing	Missing	Missing
+1	P1	MYSX_1.5	mysensors_connectors:MYSX_1.5	http://www.mouser.com/ds/2/181/M20-998-351176.pdf	HARWIN	M20-9981045	RS	681-2969	http://se.rs-online.com/web/p/pcb-headers/6812969
+1	P2	CONN_02X03	Pin_Headers:Pin_Header_Straight_2x03	http://www.farnell.com/datasheets/1712126.pdf	HARWIN	M20-9980346	RS	745-7046	http://se.rs-online.com/web/p/pcb-headers/7457046
+2	P3 P4	CONN_01X03	Pin_Headers:Pin_Header_Straight_1x03	http://www.mouser.com/ds/2/1/3m_ts0816-349901.pdf	HARWIN	M20-9993646	Missing	Missing	Missing
+2	Q1 Q2	DMP3056L-7	Housings_SOT-23_SOT-143_TSOT-6:SOT-23_Handsoldering	http://www.mouser.com/ds/2/115/DMP3056L-526286.pdf	Diodes Incorporated	DMP3056L-7	Missing	Missing	Missing
+1	R1	150K	Resistors_SMD:R_0805_HandSoldering	http://www.farnell.com/datasheets/1581132.pdf	Vishay / Dale	CRCW0805150KFKEA	RS	2508365162	http://se.rs-online.com/web/p/surface-mount-fixed-resistors/2508365162
+4	R2 R3 R4 R5	10K	Resistors_SMD:R_0805_HandSoldering	https://www1.elfa.se/data1/wwwroot/assets/datasheets/flD-CRCW-e3_data_en.pdf	Vishay	CRCW080510K0FKEA	Missing	Missing	Missing
+4	R6 R7 R8 R9	56K	Resistors_SMD:R_0805_HandSoldering	https://www1.elfa.se/data1/wwwroot/assets/datasheets/flD-CRCW-e3_data_en.pdf	Panasonic	ERJP06F5602V	Missing	Missing	Missing
+1	RV1	1M	Potentiometers:Potentiometer_Bourns_3296Y_3-8Zoll_Angular_ScrewUp	http://www.farnell.com/datasheets/1815117.pdf	BOURNS	3296Y-1-105LF	Missing	Missing	Missing
+1	U1	LD1117DT33TR	mysensors_obscurities:d-pak-kcswalter	http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf	STMicroelectronics	LD1117DT33TR	RS	686-9252	http://se.rs-online.com/web/p/low-dropout-voltage-regulators/6869252
+1	U2	TPS61097A	mysensors_handsoldering:SOT-23-5_Handsoldering	http://www.ti.com/lit/ds/symlink/tps61097a-33.pdf	Texas Instruments	TPS61097A-33DBVT	RS	812-3619	http://se.rs-online.com/web/p/boost-converters/8123619
+1	U3	ATSHA204A	Housings_SOT-23_SOT-143_TSOT-6:SOT-23_Handsoldering	http://www.mouser.com/ds/2/36/Atmel-8885-CryptoAuth-ATSHA204A-Datasheet-336392.pdf	Atmel	ATSHA204A	Missing	Missing	Missing
+1	U4	RFM69HW	mysensors_radios:RFM69HW_SMD_ThroughHole_Handsoldering	http://modtronicsaustralia.com/wp-content/uploads/2014/11/RFM69HW-V1.3.pdf	HOPE Microelectronics	RFM69HW	Missing	Missing	Missing
+1	U5	NRF24L01	mysensors_radios:NRF24L01	http://www.farnell.com/datasheets/1697510.pdf	MULTICOMP	2214S-08SG-85	RS	495-8638	http://se.rs-online.com/web/p/pcb-sockets/4958638
+1	U6	AT25DF512C	Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm	http://www.mouser.com/ds/2/590/DS-AT25DF512C-030-534014.pdf	Adesto Technologies	AT25DF512C-SSHN-B	RS	822-8477	http://se.rs-online.com/web/p/flash-memory-chips/8228477
+1	U7	ArduinoProMini	mysensors_arduino:pro_mini	http://www.arduino.cc/en/uploads/Main/Arduino-Pro-Mini-schematic.pdf	Arduino	Pro Mini (China model)	Missing	Missing	Missing
+1	U8	Si7021	Housings_DFN_QFN:DFN-6-1EP_3x3mm_Pitch0.95mm	https://www.silabs.com/Support%20Documents/TechnicalDocs/Si7021-A20.pdf	Silicon Labs	Si7021-A20-GM1	RS	865-2328	http://se.rs-online.com/web/p/temperature-humidity-sensors/8652328
+1	U9	TPS61221	Housings_SOT-23_SOT-143_TSOT-6:SC-70-6	http://www.ti.com/lit/gpn/tps61221	Texas Instruments	TPS61221DCK	RS	812-3631	http://se.rs-online.com/web/p/boost-converters/8123631
