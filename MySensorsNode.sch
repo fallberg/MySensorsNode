@@ -37,7 +37,6 @@ LIBS:mysensors_connectors
 LIBS:mysensors_logic
 LIBS:mysensors_network
 LIBS:mysensors_sensors
-LIBS:MySensorsNode-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -62,21 +61,21 @@ F 2 "Capacitors_SMD:C_1206_HandSoldering" H 5738 2450 30  0001 C CNN
 F 3 "http://www.mouser.com/ds/2/427/vjw1bcbascomseries-223529.pdf" H 5700 2600 60  0001 C CNN
 F 4 "Vishay" H 5700 2600 60  0001 C CNN "Vendor"
 F 5 "VJ1206Y104KXXCW1BC" H 5700 2600 60  0001 C CNN "Vendor part"
-F 6 "Mouser" H 5350 2600 60  0001 C CNN "Supplier1"
-F 7 "77-VJ1206Y104KXXCBC" H 5350 2600 60  0001 C CNN "Supplier1 part"
-F 8 "http://www.mouser.se/ProductDetail/Vishay-Vitramon/VJ1206Y104KXXCW1BC/?qs=sGAEpiMZZMs0AnBnWHyRQLWhsuYvNua173KAs7M5TbI%3d" H 5700 2600 60  0001 C CNN "Supplier1 link"
-F 9 "Farnell" H 5700 2600 60  0001 C CNN "Supplier2"
-F 10 "1759312" H 5700 2600 60  0001 C CNN "Supplier2 part"
-F 11 "http://se.farnell.com/multicomp/mc1206b104k250ct/cap-mlcc-x7r-25v-100nf-1206/dp/1759312" H 5700 2600 60  0001 C CNN "Supplier2 link"
-F 12 "Digi-Key" H 5700 2600 60  0001 C CNN "Supplier3"
-F 13 "1276-2742-1-ND" H 5700 2600 60  0001 C CNN "Supplier3 part"
-F 14 "http://www.digikey.se/short/t4zm2w" H 5700 2600 60  0001 C CNN "Supplier3 link"
-F 15 "Elfa" H 5700 2600 60  0001 C CNN "Supplier4"
-F 16 "65-722-69" H 5700 2600 60  0001 C CNN "Supplier4 part"
-F 17 "https://www.elfa.se/elfa3~se_en/elfa/init.do?item=65-722-69" H 5700 2600 60  0001 C CNN "Supplier4 link"
-F 18 "AliExpress" H 5700 2600 60  0001 C CNN "Supplier5"
-F 19 "32323646062" H 5700 2600 60  0001 C CNN "Supplier5 part"
-F 20 "http://www.aliexpress.com/item/200pcs-lot-CL31B104KACNNNC-Ceramic-Capacitors-CAP-CER-0-1UF-25V-10-X7R-1206/32323646062.html" H 5700 2600 60  0001 C CNN "Supplier5 link"
+F 6 "Farnell" H 5700 2600 60  0001 C CNN "Supplier1"
+F 7 "1759312" H 5700 2600 60  0001 C CNN "Supplier1 part"
+F 8 "http://se.farnell.com/multicomp/mc1206b104k250ct/cap-mlcc-x7r-25v-100nf-1206/dp/1759312" H 5700 2600 60  0001 C CNN "Supplier1 link"
+F 9 "AliExpress" H 5700 2600 60  0001 C CNN "Supplier2"
+F 10 "32323646062" H 5700 2600 60  0001 C CNN "Supplier2 part"
+F 11 "http://www.aliexpress.com/item/200pcs-lot-CL31B104KACNNNC-Ceramic-Capacitors-CAP-CER-0-1UF-25V-10-X7R-1206/32323646062.html" H 5700 2600 60  0001 C CNN "Supplier2 link"
+F 12 "Mouser" H 5350 2600 60  0001 C CNN "Supplier3"
+F 13 "77-VJ1206Y104KXXCBC" H 5350 2600 60  0001 C CNN "Supplier3 part"
+F 14 "http://www.mouser.se/ProductDetail/Vishay-Vitramon/VJ1206Y104KXXCW1BC/?qs=sGAEpiMZZMs0AnBnWHyRQLWhsuYvNua173KAs7M5TbI%3d" H 5700 2600 60  0001 C CNN "Supplier3 link"
+F 15 "Digi-Key" H 5700 2600 60  0001 C CNN "Supplier4"
+F 16 "1276-2742-1-ND" H 5700 2600 60  0001 C CNN "Supplier4 part"
+F 17 "http://www.digikey.se/short/t4zm2w" H 5700 2600 60  0001 C CNN "Supplier4 link"
+F 18 "Elfa" H 5700 2600 60  0001 C CNN "Supplier5"
+F 19 "65-755-90" H 5700 2600 60  0001 C CNN "Supplier5 part"
+F 20 "https://www.elfa.se/elfa3~se_en/elfa/init.do?item=65-755-90" H 5700 2600 60  0001 C CNN "Supplier5 link"
 	1    5700 2600
 	0    1    1    0   
 $EndComp
@@ -128,9 +127,9 @@ F 14 "http://se.farnell.com/multicomp/mc1206f106z100ct/cap-mlcc-y5v-10uf-1206/dp
 F 15 "Digi-Key" H 7250 2100 60  0001 C CNN "Supplier4"
 F 16 "399-1299-1-ND" H 7250 2100 60  0001 C CNN "Supplier4 part"
 F 17 "http://www.digikey.se/short/7w1z1n" H 7250 2100 60  0001 C CNN "Supplier4 link"
-F 18 "Elfa" H 7250 2100 60  0001 C CNN "Supplier5"
-F 19 "65-721-38" H 7250 2100 60  0001 C CNN "Supplier5 part"
-F 20 "https://www.elfa.se/elfa3~se_en/elfa/init.do?item=65-721-38" H 7250 2100 60  0001 C CNN "Supplier5 link"
+F 18 "RS" H 7250 2100 60  0001 C CNN "Supplier5"
+F 19 "723-6616" H 7250 2100 60  0001 C CNN "Supplier5 part"
+F 20 "http://se.rs-online.com/web/p/ceramic-multilayer-capacitors/7236616" H 7250 2100 60  0001 C CNN "Supplier5 link"
 	1    7250 2100
 	1    0    0    -1  
 $EndComp
@@ -224,12 +223,15 @@ F 8 "http://se.farnell.com/multicomp/2214s-08sg-85/socket-pcb-2-row-vert-8way/dp
 F 9 "Digi-Key" H 3300 3650 60  0001 C CNN "Supplier2"
 F 10 "A106657-ND" H 3300 3650 60  0001 C CNN "Supplier2 part"
 F 11 "http://www.digikey.se/short/7w1mzt" H 3300 3650 60  0001 C CNN "Supplier2 link"
-F 12 "Mouser" H 3050 1550 60  0001 C CNN "Supplier3"
-F 13 "517-929975-01-04-RK" H 3050 1550 60  0001 C CNN "Supplier3 part"
-F 14 "http://www.mouser.com/ProductDetail/3M-Electronic-Solutions-Division/929975-01-04-RK/?qs=sGAEpiMZZMs%252bGHln7q6pm%252bCiuHjnbsudhj3Q0sp5gbo%3d" H 3300 3650 60  0001 C CNN "Supplier3 link"
-F 15 "Elfa" H 3300 3650 60  0001 C CNN "Supplier4"
-F 16 "43-006-59" H 3300 3650 60  0001 C CNN "Supplier4 part"
-F 17 "https://www.elfa.se/elfa3~se_en/elfa/init.do?item=43-006-59" H 3300 3650 60  0001 C CNN "Supplier4 link"
+F 12 "RS" H 3050 1550 60  0001 C CNN "Supplier3"
+F 13 "495-8638" H 3050 1550 60  0001 C CNN "Supplier3 part"
+F 14 "http://se.rs-online.com/web/p/pcb-sockets/4958638" H 3300 3650 60  0001 C CNN "Supplier3 link"
+F 15 "Mouser" H 3300 3650 60  0001 C CNN "Supplier4"
+F 16 "517-929975-01-04-RK" H 3300 3650 60  0001 C CNN "Supplier4 part"
+F 17 "http://www.mouser.com/ProductDetail/3M-Electronic-Solutions-Division/929975-01-04-RK/?qs=sGAEpiMZZMs%252bGHln7q6pm%252bCiuHjnbsudhj3Q0sp5gbo%3d" H 3300 3650 60  0001 C CNN "Supplier4 link"
+F 18 "Elfa" H 3300 3650 60  0001 C CNN "Supplier5"
+F 19 "43-006-59" H 3300 3650 60  0001 C CNN "Supplier5 part"
+F 20 "https://www.elfa.se/elfa3~se_en/elfa/init.do?item=43-006-59" H 3300 3650 60  0001 C CNN "Supplier5 link"
 	1    3300 3650
 	1    0    0    -1  
 $EndComp
@@ -279,15 +281,18 @@ F 2 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 4950 3700 30  0001 C CIN
 F 3 "http://www.mouser.com/ds/2/590/DS-AT25DF512C-030-534014.pdf" H 4950 3700 60  0001 C CNN
 F 4 "Adesto Technologies" H 4950 3700 60  0001 C CNN "Vendor"
 F 5 "AT25DF512C-SSHN-B" H 4950 3700 60  0001 C CNN "Vendor part"
-F 6 "Mouser" H 1100 1550 60  0001 C CNN "Supplier1"
-F 7 "988-AT25DF512CSSHN-B" H 1100 1550 60  0001 C CNN "Supplier1 part"
-F 8 "http://www.mouser.com/Search/ProductDetail.aspx?R=AT25DF512C-SSHN-Bvirtualkey58070000virtualkey988-AT25DF512CSSHN-B" H 4950 3700 60  0001 C CNN "Supplier1 link"
-F 9 "Farnell" H 4950 3700 60  0001 C CNN "Supplier2"
-F 10 "2414322" H 4950 3700 60  0001 C CNN "Supplier2 part"
-F 11 "http://se.farnell.com/adesto-technologies/at45db041e-sshn-b/memory-serial-flash-4mbit-soic/dp/2414322" H 4950 3700 60  0001 C CNN "Supplier2 link"
-F 12 "Digi-Key" H 4950 3700 60  0001 C CNN "Supplier3"
-F 13 "1265-1114-1-ND" H 4950 3700 60  0001 C CNN "Supplier3 part"
-F 14 "http://www.digikey.se/short/7wd874" H 4950 3700 60  0001 C CNN "Supplier3 link"
+F 6 "RS" H 1100 1550 60  0001 C CNN "Supplier1"
+F 7 "822-8477" H 1100 1550 60  0001 C CNN "Supplier1 part"
+F 8 "http://se.rs-online.com/web/p/flash-memory-chips/8228477" H 4950 3700 60  0001 C CNN "Supplier1 link"
+F 9 "Mouser" H 4950 3700 60  0001 C CNN "Supplier2"
+F 10 "988-AT25DF512CSSHN-B" H 4950 3700 60  0001 C CNN "Supplier2 part"
+F 11 "http://www.mouser.com/Search/ProductDetail.aspx?R=AT25DF512C-SSHN-Bvirtualkey58070000virtualkey988-AT25DF512CSSHN-B" H 4950 3700 60  0001 C CNN "Supplier2 link"
+F 12 "Farnell" H 4950 3700 60  0001 C CNN "Supplier3"
+F 13 "2414322" H 4950 3700 60  0001 C CNN "Supplier3 part"
+F 14 "http://se.farnell.com/adesto-technologies/at45db041e-sshn-b/memory-serial-flash-4mbit-soic/dp/2414322" H 4950 3700 60  0001 C CNN "Supplier3 link"
+F 15 "Digi-Key" H 4950 3700 60  0001 C CNN "Supplier4"
+F 16 "1265-1114-1-ND" H 4950 3700 60  0001 C CNN "Supplier4 part"
+F 17 "http://www.digikey.se/short/7wd874" H 4950 3700 60  0001 C CNN "Supplier4 link"
 	1    4950 3700
 	1    0    0    -1  
 $EndComp
@@ -336,19 +341,22 @@ F 1 "CONN_02X03" H 6200 3550 50  0001 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_2x03" H 6200 2550 60  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/1712126.pdf" H 6200 2550 60  0001 C CNN
 F 4 "HARWIN" H 6200 3750 60  0001 C CNN "Vendor"
-F 5 "M20-9981045" H 6200 3750 60  0001 C CNN "Vendor part"
-F 6 "Mouser" H 1100 1550 60  0001 C CNN "Supplier1"
-F 7 "855-M20-9981045" H 1100 1550 60  0001 C CNN "Supplier1 part"
-F 8 "http://www.mouser.se/ProductDetail/Harwin/M20-9981045/?qs=%2fha2pyFadujqlg98%252bRR1%2foXEmwb1N0a2JtD8074fLsjJTaqL0Cbd0A%3d%3d" H 6200 3750 60  0001 C CNN "Supplier1 link"
-F 9 "Farnell" H 6200 3750 60  0001 C CNN "Supplier2"
-F 10 "2127560" H 6200 3750 60  0001 C CNN "Supplier2 part"
-F 11 "http://se.farnell.com/harwin/m20-9981045/board-to-board-connector-header/dp/2127560" H 6200 3750 60  0001 C CNN "Supplier2 link"
-F 12 "Elfa" H 6200 3750 60  0001 C CNN "Supplier3"
-F 13 "43-006-07" H 6200 3750 60  0001 C CNN "Supplier3 part"
-F 14 "https://www.elfa.se/elfa3~se_en/elfa/init.do?item=43-006-07" H 6200 3750 60  0001 C CNN "Supplier3 link"
-F 15 "Digi-Key" H 6200 3750 60  0001 C CNN "Supplier4"
-F 16 "952-2121-ND" H 6200 3750 60  0001 C CNN "Supplier4 part"
-F 17 "http://www.digikey.se/short/7w1m89" H 6200 3750 60  0001 C CNN "Supplier4 link"
+F 5 "M20-9980346" H 6200 3750 60  0001 C CNN "Vendor part"
+F 6 "RS" H 1100 1550 60  0001 C CNN "Supplier1"
+F 7 "745-7046" H 1100 1550 60  0001 C CNN "Supplier1 part"
+F 8 "http://se.rs-online.com/web/p/pcb-headers/7457046" H 6200 3750 60  0001 C CNN "Supplier1 link"
+F 9 "Mouser" H 6200 3750 60  0001 C CNN "Supplier2"
+F 10 "855-M20-9981045" H 6200 3750 60  0001 C CNN "Supplier2 part"
+F 11 "http://www.mouser.se/ProductDetail/Harwin/M20-9981045/?qs=%2fha2pyFadujqlg98%252bRR1%2foXEmwb1N0a2JtD8074fLsjJTaqL0Cbd0A%3d%3d" H 6200 3750 60  0001 C CNN "Supplier2 link"
+F 12 "Digi-Key" H 6200 3750 60  0001 C CNN "Supplier3"
+F 13 "952-2121-ND" H 6200 3750 60  0001 C CNN "Supplier3 part"
+F 14 "http://www.digikey.se/short/7w1m89" H 6200 3750 60  0001 C CNN "Supplier3 link"
+F 15 "Farnell" H 6200 3750 60  0001 C CNN "Supplier4"
+F 16 "2127560" H 6200 3750 60  0001 C CNN "Supplier4 part"
+F 17 "http://se.farnell.com/harwin/m20-9981045/board-to-board-connector-header/dp/2127560" H 6200 3750 60  0001 C CNN "Supplier4 link"
+F 18 "Elfa" H 6200 3750 60  0001 C CNN "Supplier5"
+F 19 "43-006-07" H 6200 3750 60  0001 C CNN "Supplier5 part"
+F 20 "https://www.elfa.se/elfa3~se_en/elfa/init.do?item=43-006-07" H 6200 3750 60  0001 C CNN "Supplier5 link"
 	1    6200 3750
 	1    0    0    -1  
 $EndComp
@@ -549,7 +557,7 @@ Text Notes 600  650  0    60   ~ 0
 Power connectors (no need to mount them all unless desired)
 $Bitmap
 Pos 10350 6850
-Scale 1,000000
+Scale 1.000000
 Data
 89 50 4E 47 0D 0A 1A 0A 00 00 00 0D 49 48 44 52 00 00 01 F4 00 00 00 AC 08 02 00 00 00 02 1E C9 
 F3 00 00 00 03 73 42 49 54 08 08 08 DB E1 4F E0 00 00 00 09 70 48 59 73 00 00 0A F0 00 00 0A F0 
@@ -1201,7 +1209,7 @@ F1 54 95 14 9F EF 69 AF 2F E5 68 0C 80 4D C9 83 B8 C7 32 D7 FA 45 6F 95 BF E8 F3
 88 3B 00 28 44 DC 01 40 21 E2 0E 00 0A 11 77 00 50 88 B8 03 80 42 C4 1D 00 14 22 EE 00 A0 10 71 
 07 00 85 88 3B 00 28 44 DC 01 40 21 E2 0E 00 0A 11 77 00 50 88 B8 03 80 42 C4 1D 00 14 22 EE 00 
 A0 10 71 07 00 85 88 3B 00 28 F4 2F 6E 0E 73 66 69 F5 31 42 00 00 00 00 49 45 4E 44 AE 42 60 82 
-90 
+50 
 EndData
 $EndBitmap
 $Comp
@@ -1216,7 +1224,7 @@ F 4 "Taiyo Yuden" V 7850 1000 60  0001 C CNN "Vendor"
 F 5 "CBC2012T4R7M" V 7850 1000 60  0001 C CNN "Vendor part"
 F 6 "Farnell" H 7850 1000 60  0001 C CNN "Supplier1"
 F 7 "2215656" H 7850 1000 60  0001 C CNN "Supplier1 part"
-F 8 "http://se.farnell.com/tdk/mlz2012m4r7wt/inductor-shielded-4-7uh-20/dp/2215656?ost=CBC2012T4R7M&rpsku=CBC2012T4R7M" H 7850 1000 60  0001 C CNN "Supplier1 link"
+F 8 "http://se.farnell.com/tdk/mlz2012m4r7wt/inductor-shielded-4-7uh-20/dp/2215656" H 7850 1000 60  0001 C CNN "Supplier1 link"
 F 9 "Digi-Key" H 7850 1000 60  0001 C CNN "Supplier2"
 F 10 "587-1602-1-ND" H 7850 1000 60  0001 C CNN "Supplier2 part"
 F 11 "http://www.digikey.se/short/tc5dd3" H 7850 1000 60  0001 C CNN "Supplier2 link"
@@ -1231,7 +1239,7 @@ F 17 "https://www.elfa.se/elfa3~se_en/elfa/init.do?item=10-969-35" H 7850 1000 6
 $EndComp
 $Bitmap
 Pos 9250 6850
-Scale 1,000000
+Scale 1.000000
 Data
 89 50 4E 47 0D 0A 1A 0A 00 00 00 0D 49 48 44 52 00 00 00 A8 00 00 00 70 08 02 00 00 00 05 44 AC 
 A1 00 00 00 03 73 42 49 54 08 08 08 DB E1 4F E0 00 00 00 09 70 48 59 73 00 00 0A F0 00 00 0A F0 
@@ -1277,7 +1285,7 @@ D8 D3 9D 84 66 E0 20 E9 19 91 48 77 62 17 8F A4 67 47 22 DD 49 6E CE 1D 92 9E 05
 48 7A 46 84 D2 9D 24 C4 0F 06 03 F6 32 83 A5 D5 6A D9 07 EC E9 84 E9 D5 81 52 E8 B2 EC C4 42 71 
 B9 96 03 AD 75 AF D7 B3 95 39 1B 19 0F DF 2C 28 A5 E4 8E 91 45 C4 A3 9B 67 41 AE 83 27 F4 F1 C1 
 22 BB 3E 1E 67 F3 45 58 5B 5B 93 2B 5C E4 E0 8E A0 9C 15 09 47 52 19 DF E9 74 46 97 65 81 7C D8 
-75 30 12 25 FF 00 F0 C3 C2 11 BF 26 9A 05 00 00 00 00 49 45 4E 44 AE 42 60 82 00 
+75 30 12 25 FF 00 F0 C3 C2 11 BF 26 9A 05 00 00 00 00 49 45 4E 44 AE 42 60 82 8C 
 EndData
 $EndBitmap
 $Comp
@@ -1303,7 +1311,7 @@ F 4 "Arduino" H 1850 6250 60  0001 C CNN "Vendor"
 F 5 "Pro Mini (China model)" H 1850 6250 60  0001 C CNN "Vendor part"
 F 6 "eBay" H 1000 1550 60  0001 C CNN "Supplier1"
 F 7 "200914924969" H 1850 6250 60  0001 C CNN "Supplier1 part"
-F 8 "http://www.ebay.com/itm/200914924969?rmvSB=true" H 1850 6250 60  0001 C CNN "Supplier1 link"
+F 8 "http://www.ebay.com/itm/200914924969" H 1850 6250 60  0001 C CNN "Supplier1 link"
 F 9 "AliExpress" H 1850 6250 60  0001 C CNN "Supplier2"
 F 10 "32313595044" H 1850 6250 60  0001 C CNN "Supplier2 part"
 F 11 "http://www.aliexpress.com/item/1pcs-lot-Pro-Mini-328-Mini-3-3V-8M-ATMEGA328-ATMEGA328P-AU-3-3V-8MHz-for/32313595044.html" H 1850 6250 60  0001 C CNN "Supplier2 link"
@@ -1325,7 +1333,7 @@ F 4 "HOPE Microelectronics" H 1600 3200 60  0001 C CNN "Vendor"
 F 5 "RFM69HW" H 1600 3200 60  0001 C CNN "Vendor part"
 F 6 "eBay" H -450 1550 60  0001 C CNN "Supplier1"
 F 7 "171567167962" H 1600 3200 60  0001 C CNN "Supplier1 part"
-F 8 "http://www.ebay.com/itm/171567167962?rmvSB=true" H 1600 3200 60  0001 C CNN "Supplier1 link"
+F 8 "http://www.ebay.com/itm/171567167962" H 1600 3200 60  0001 C CNN "Supplier1 link"
 F 9 "AliExpress" H 1600 3200 60  0001 C CNN "Supplier2"
 F 10 "2010762994" H 1600 3200 60  0001 C CNN "Supplier2 part"
 F 11 "http://www.aliexpress.com/item//2010762994.html?aff_platform=aaf&sk=unUFyvvZB%3A&cpt=1441897274529&aff_trace_key=e3b1cec3d07644edbd4dddec09283fd7-1441897274529-05462-unUFyvvZB" H 1600 3200 60  0001 C CNN "Supplier2 link"
@@ -1463,31 +1471,6 @@ JP8 selects INT1 interrupt source. Pos 1-2 selects MYSX_D3_INT source and pos 2-
 Text Notes 5850 6050 0    60   ~ 0
 JP9 selects SPI SS destination. Pos 1-2 selects RF24 and pos 2-3 selects RF69.
 $Comp
-L Jumper_NO_Small JP3
-U 1 1 5540F3D7
-P 6400 1450
-F 0 "JP3" H 6400 1550 50  0000 C CNN
-F 1 "Jumper_NO_Small" H 6410 1390 50  0001 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 6400 1450 60  0001 C CNN
-F 3 "https://www1.elfa.se/data1/wwwroot/assets/datasheets/cgrid_III_90120_eng_dwg.pdf" H 6400 1450 60  0001 C CNN
-F 4 "HARWIN" H 6400 1450 60  0001 C CNN "Vendor"
-F 5 "M20-9993646" H 6400 1450 60  0001 C CNN "Vendor part"
-F 6 "Farnell" H 6400 1450 60  0001 C CNN "Supplier1"
-F 7 "2356153" H 6400 1450 60  0001 C CNN "Supplier1 part"
-F 8 "http://se.farnell.com/wurth-elektronik/61300211121/header-2-54mm-pin-tht-vertical/dp/2356153?ost=61300211121" H 6400 1450 60  0001 C CNN "Supplier1 link"
-F 9 "Digi-Key" H 6400 1450 60  0001 C CNN "Supplier2"
-F 10 "S1012EC-02-ND" H 6400 1450 60  0001 C CNN "Supplier2 part"
-F 11 "http://www.digikey.se/short/7w149z" H 6400 1450 60  0001 C CNN "Supplier2 link"
-F 12 "Mouser" H 6050 2150 60  0001 C CNN "Supplier3"
-F 13 "710-61300211121" H 6050 2150 60  0001 C CNN "Supplier3 part"
-F 14 "http://www.mouser.com/ProductDetail/Wurth-Electronics/61300211121/?qs=sGAEpiMZZMs%252bGHln7q6pm0xQ%252bwYJLofO2aeIeJWXAx0%3d" H 6400 1450 60  0001 C CNN "Supplier3 link"
-F 15 "Elfa" H 6400 1450 60  0001 C CNN "Supplier4"
-F 16 "43-004-90" H 6400 1450 60  0001 C CNN "Supplier4 part"
-F 17 "https://www.elfa.se/elfa3~se_en/elfa/init.do?item=43-004-90" H 6400 1450 60  0001 C CNN "Supplier4 link"
-	1    6400 1450
-	1    0    0    -1  
-$EndComp
-$Comp
 L R R4
 U 1 1 55490BF2
 P 10650 1050
@@ -1537,17 +1520,17 @@ F 6 "AliExpress" H 7050 1250 60  0001 C CNN "Supplier1"
 F 7 "32218540982" H 7050 1250 60  0001 C CNN "Supplier1 part"
 F 8 "http://www.aliexpress.com/item/0805-SMD-Resistors-150K-150K-ohm-1-8W-1-0805-SMD-Resistors-0805-Chip-resistor-500pcs/32218540982.html" H 7050 1250 60  0001 C CNN "Supplier1 link"
 F 9 "Farnell" H 7050 1250 60  0001 C CNN "Supplier2"
-F 10 "1160270RL" H 7050 1250 60  0001 C CNN "Supplier2 part"
-F 11 "http://se.farnell.com/welwyn/pcf0805r-150kbt1/resistor-0805-150k/dp/1160270RL" H 7050 1250 60  0001 C CNN "Supplier2 link"
+F 10 "2078969" H 7050 1250 60  0001 C CNN "Supplier2 part"
+F 11 "http://se.farnell.com/welwyn/asc0805-150kft5/resistor-anti-sulphur-0805-150k/dp/2078969" H 7050 1250 60  0001 C CNN "Supplier2 link"
 F 12 "Mouser" H 7050 1250 60  0001 C CNN "Supplier3"
 F 13 "71-CRCW0805-150K-E3" H 7050 1250 60  0001 C CNN "Supplier3 part"
 F 14 "http://se.mouser.com/ProductDetail/Vishay-Dale/CRCW0805150KFKEA/?qs=sGAEpiMZZMvdGkrng054txEw7b1YnvGukcj15DsDxV0%3d" H 7050 1250 60  0001 C CNN "Supplier3 link"
 F 15 "Digi-Key" H 7050 1250 60  0001 C CNN "Supplier4"
 F 16 "541-150KCCT-ND" H 7050 1250 60  0001 C CNN "Supplier4 part"
 F 17 "http://www.digikey.se/short/tcbcn3" H 7050 1250 60  0001 C CNN "Supplier4 link"
-F 18 "Elfa" H 7050 1250 60  0001 C CNN "Supplier5"
-F 19 "60-587-70" H 7050 1250 60  0001 C CNN "Supplier5 part"
-F 20 "https://www.elfa.se/elfa3~se_sv/elfa/init.do?item=60-587-70&toc=19543" H 7050 1250 60  0001 C CNN "Supplier5 link"
+F 18 "RS" H 7050 1250 60  0001 C CNN "Supplier5"
+F 19 "2508365162" H 7050 1250 60  0001 C CNN "Supplier5 part"
+F 20 "http://se.rs-online.com/web/p/surface-mount-fixed-resistors/2508365162" H 7050 1250 60  0001 C CNN "Supplier5 link"
 	1    7050 1250
 	1    0    0    -1  
 $EndComp
@@ -1644,11 +1627,8 @@ F 0 "C8" H 4800 2350 50  0000 L CNN
 F 1 "C" H 4800 2150 50  0000 L CNN
 F 2 "Resistors_Universal:Resistor_SMD+THTuniversal_0805to1206_RM10_HandSoldering" H 4938 2100 30  0001 C CNN
 F 3 "" H 4900 2250 60  0001 C CNN
-F 4 "Mouser" H 4550 2250 60  0001 C CNN "Supplier1"
-F 5 "Farnell" H 4900 2250 60  0001 C CNN "Supplier2"
-F 6 "Elfa" H 4900 2250 60  0001 C CNN "Supplier3"
-F 7 "Digi-Key" H 4900 2250 60  0001 C CNN "Supplier4"
-F 8 "AliExpress" H 4900 2250 60  0001 C CNN "Supplier5"
+F 4 "User specific" H 4900 2250 60  0001 C CNN "Vendor"
+F 5 "User specific" H 4900 2250 60  0001 C CNN "Supplier1"
 	1    4900 2250
 	1    0    0    -1  
 $EndComp
@@ -1680,21 +1660,24 @@ P 7550 3200
 F 0 "P1" H 7800 3300 50  0000 C CNN
 F 1 "MYSX_1.5" H 8100 3300 50  0000 C CNN
 F 2 "mysensors_connectors:MYSX_1.5" H 7550 2000 60  0001 C CNN
-F 3 "" H 7550 2000 60  0000 C CNN
+F 3 "http://www.mouser.com/ds/2/181/M20-998-351176.pdf" H 7550 2000 60  0001 C CNN
 F 4 "HARWIN" H 7550 3200 60  0001 C CNN "Vendor"
 F 5 "M20-9981045" H 7550 3200 60  0001 C CNN "Vendor part"
 F 6 "Elfa" H 7550 3200 60  0001 C CNN "Supplier1"
 F 7 "43-702-35" H 7550 3200 60  0001 C CNN "Supplier1 part"
 F 8 "https://www.elfa.se/elfa3~se_en/elfa/init.do?item=43-702-35" H 7550 3200 60  0001 C CNN "Supplier1 link"
-F 9 "Mouser" H 7550 3200 60  0001 C CNN "Supplier2"
-F 10 "855-M20-9981045" H 7550 3200 60  0001 C CNN "Supplier2 part"
-F 11 "http://www.mouser.se/ProductDetail/Harwin/M20-9981045/?qs=%2fha2pyFadujqlg98%252bRR1%2foXEmwb1N0a2JtD8074fLsjJTaqL0Cbd0A%3d%3d" H 7550 3200 60  0001 C CNN "Supplier2 link"
-F 12 "Digi-Key" H 7550 3200 60  0001 C CNN "Supplier3"
-F 13 "952-2129-ND" H 7550 3200 60  0001 C CNN "Supplier3 part"
-F 14 "http://www.digikey.se/short/t4z5r3" H 7550 3200 60  0001 C CNN "Supplier3 link"
-F 15 "Farnell" H 7550 3200 60  0001 C CNN "Supplier4"
-F 16 "2127560" H 7550 3200 60  0001 C CNN "Supplier4 part"
-F 17 "http://se.farnell.com/harwin/m20-9981045/board-to-board-connector-header/dp/2127560" H 7550 3200 60  0001 C CNN "Supplier4 link"
+F 9 "RS" H 7550 3200 60  0001 C CNN "Supplier2"
+F 10 "681-2969" H 7550 3200 60  0001 C CNN "Supplier2 part"
+F 11 "http://se.rs-online.com/web/p/pcb-headers/6812969" H 7550 3200 60  0001 C CNN "Supplier2 link"
+F 12 "Mouser" H 7550 3200 60  0001 C CNN "Supplier3"
+F 13 "855-M20-9981045" H 7550 3200 60  0001 C CNN "Supplier3 part"
+F 14 "http://www.mouser.se/ProductDetail/Harwin/M20-9981045/?qs=%2fha2pyFadujqlg98%252bRR1%2foXEmwb1N0a2JtD8074fLsjJTaqL0Cbd0A%3d%3d" H 7550 3200 60  0001 C CNN "Supplier3 link"
+F 15 "Digi-Key" H 7550 3200 60  0001 C CNN "Supplier4"
+F 16 "952-2129-ND" H 7550 3200 60  0001 C CNN "Supplier4 part"
+F 17 "http://www.digikey.se/short/t4z5r3" H 7550 3200 60  0001 C CNN "Supplier4 link"
+F 18 "Farnell" H 7550 3200 60  0001 C CNN "Supplier5"
+F 19 "2127560" H 7550 3200 60  0001 C CNN "Supplier5 part"
+F 20 "http://se.farnell.com/harwin/m20-9981045/board-to-board-connector-header/dp/2127560" H 7550 3200 60  0001 C CNN "Supplier5 link"
 	1    7550 3200
 	1    0    0    -1  
 $EndComp
@@ -1796,12 +1779,15 @@ F 2 "mysensors_obscurities:d-pak-kcswalter" H 5100 1150 40  0001 C CNN
 F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf" H 5100 1050 60  0001 C CNN
 F 4 "STMicroelectronics" H 5100 1050 60  0001 C CNN "Vendor"
 F 5 "LD1117DT33TR" H 5100 1050 60  0001 C CNN "Vendor part"
-F 6 "AliExpress" H 5100 1050 60  0001 C CNN "Supplier1"
-F 7 "32395965284" H 5100 1050 60  0001 C CNN "Supplier1 part"
-F 8 "http://www.aliexpress.com/item/ICIC-LD1117-LD1117DT33TR-LD1117-3-3V-TO-252-Original-authentic-and-new-Free-Shipping-IC/32395965284.html" H 5100 1050 60  0001 C CNN "Supplier1 link"
+F 6 "RS" H 5100 1050 60  0001 C CNN "Supplier1"
+F 7 "686-9252" H 5100 1050 60  0001 C CNN "Supplier1 part"
+F 8 "http://se.rs-online.com/web/p/low-dropout-voltage-regulators/6869252" H 5100 1050 60  0001 C CNN "Supplier1 link"
 F 9 "Mouser" H 5100 1050 60  0001 C CNN "Supplier2"
 F 10 "511-LD1117DT33-TR" H 5100 1050 60  0001 C CNN "Supplier2 part"
 F 11 "http://se.mouser.com/ProductDetail/STMicroelectronics/LD1117DT33TR/?qs=sGAEpiMZZMvYvv22R2xfeIrtZ8xsVhPOTRtOhMdYKBM%3d" H 5100 1050 60  0001 C CNN "Supplier2 link"
+F 12 "AliExpress" H 5100 1050 60  0001 C CNN "Supplier3"
+F 13 "32395965284" H 5100 1050 60  0001 C CNN "Supplier3 part"
+F 14 "http://www.aliexpress.com/item/ICIC-LD1117-LD1117DT33TR-LD1117-3-3V-TO-252-Original-authentic-and-new-Free-Shipping-IC/32395965284.html" H 5100 1050 60  0001 C CNN "Supplier3 link"
 	1    5100 1050
 	-1   0    0    -1  
 $EndComp
@@ -1873,6 +1859,9 @@ F 14 "http://se.mouser.com/ProductDetail/AVX/TPSC476K016R0350/?qs=sGAEpiMZZMuEN2
 F 15 "Farnell" H 3400 1000 60  0001 C CNN "Supplier4"
 F 16 "1754090" H 3400 1000 60  0001 C CNN "Supplier4 part"
 F 17 "http://se.farnell.com/vishay-sprague/tr3c476k016c0350/cap-tant-47uf-16v-case-c/dp/1754090" H 3400 1000 60  0001 C CNN "Supplier4 link"
+F 18 "RS" H 3400 1000 60  0001 C CNN "Supplier5"
+F 19 "407-0047" H 3400 1000 60  0001 C CNN "Supplier5 part"
+F 20 "http://se.rs-online.com/web/p/tantalum-capacitors/4070047" H 3400 1000 60  0001 C CNN "Supplier5 link"
 	1    3400 1000
 	1    0    0    -1  
 $EndComp
@@ -1885,19 +1874,22 @@ F 1 "JUMPER3" H 6400 1100 50  0001 C BNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x03" H 6400 1000 60  0001 C CNN
 F 3 "http://www.mouser.com/ds/2/1/3m_ts0816-349901.pdf" H 6400 1000 60  0001 C CNN
 F 4 "HARWIN" H 6400 1000 60  0001 C CNN "Vendor"
-F 5 "M20-9993646" H 6400 1000 60  0001 C CNN "Vendor part"
+F 5 "M20-9990346" H 6400 1000 60  0001 C CNN "Vendor part"
 F 6 "Farnell" H 6400 1000 60  0001 C CNN "Supplier1"
 F 7 "1593412" H 6400 1000 60  0001 C CNN "Supplier1 part"
 F 8 "http://se.farnell.com/multicomp/2211s-03g/header-1-row-vert-3way/dp/1593412" H 6400 1000 60  0001 C CNN "Supplier1 link"
-F 9 "Digi-Key" H 6400 1000 60  0001 C CNN "Supplier2"
-F 10 "952-2264-ND" H 6400 1000 60  0001 C CNN "Supplier2 part"
-F 11 "http://www.digikey.se/short/7w1485" H 6400 1000 60  0001 C CNN "Supplier2 link"
-F 12 "Mouser" H 3750 -2800 60  0001 C CNN "Supplier3"
-F 13 "517-9611036804AR" H 3750 -2800 60  0001 C CNN "Supplier3 part"
-F 14 "http://www.mouser.com/ProductDetail/3M-Electronic-Solutions-Division/961103-6804-AR/?qs=sGAEpiMZZMs%252bGHln7q6pm53vbKor1bMJoeppOe7LBrw%3d" H 6400 1000 60  0001 C CNN "Supplier3 link"
-F 15 "Elfa" H 6400 1000 60  0001 C CNN "Supplier4"
-F 16 "43-004-91" H 6400 1000 60  0001 C CNN "Supplier4 part"
-F 17 "https://www.elfa.se/elfa3~se_en/elfa/init.do?item=43-004-91" H 6400 1000 60  0001 C CNN "Supplier4 link"
+F 9 "RS" H 6400 1000 60  0001 C CNN "Supplier2"
+F 10 "745-7068" H 6400 1000 60  0001 C CNN "Supplier2 part"
+F 11 "http://se.rs-online.com/web/p/pcb-headers/7457068" H 6400 1000 60  0001 C CNN "Supplier2 link"
+F 12 "Digi-Key" H 3750 -2800 60  0001 C CNN "Supplier3"
+F 13 "952-2264-ND" H 3750 -2800 60  0001 C CNN "Supplier3 part"
+F 14 "http://www.digikey.se/short/7w1485" H 6400 1000 60  0001 C CNN "Supplier3 link"
+F 15 "Mouser" H 6400 1000 60  0001 C CNN "Supplier4"
+F 16 "517-9611036804AR" H 6400 1000 60  0001 C CNN "Supplier4 part"
+F 17 "http://www.mouser.com/ProductDetail/3M-Electronic-Solutions-Division/961103-6804-AR/?qs=sGAEpiMZZMs%252bGHln7q6pm53vbKor1bMJoeppOe7LBrw%3d" H 6400 1000 60  0001 C CNN "Supplier4 link"
+F 18 "Elfa" H 6400 1000 60  0001 C CNN "Supplier5"
+F 19 "43-004-91" H 6400 1000 60  0001 C CNN "Supplier5 part"
+F 20 "https://www.elfa.se/elfa3~se_en/elfa/init.do?item=43-004-91" H 6400 1000 60  0001 C CNN "Supplier5 link"
 	1    6400 1000
 	-1   0    0    1   
 $EndComp
@@ -1960,10 +1952,21 @@ P 2450 1000
 F 0 "BT4" H 2550 1050 50  0000 L CNN
 F 1 "CR123" H 2550 950 50  0000 L CNN
 F 2 "mysensors_connectors:CR123_holder" V 2450 1040 60  0001 C CNN
-F 3 "" V 2450 1040 60  0000 C CNN
-F 4 "E-Bay" H 2450 1000 60  0001 C CNN "Supplier1"
-F 5 "181790677824" H 2450 1000 60  0001 C CNN "Supplier1 part"
-F 6 "http://www.ebay.com/itm/181790677824" H 2450 1000 60  0001 C CNN "Supplier1 link"
+F 3 "http://www.mouser.com/ds/2/215/051-743208.pdf" V 2450 1040 60  0001 C CNN
+F 4 "Keystone Electronics" H 2450 1000 60  0001 C CNN "Vendor"
+F 5 "1051" H 2450 1000 60  0001 C CNN "Vendor part"
+F 6 "eBay" H 2450 1000 60  0001 C CNN "Supplier1"
+F 7 "181790677824" H 2450 1000 60  0001 C CNN "Supplier1 part"
+F 8 "http://www.ebay.com/itm/181790677824" H 2450 1000 60  0001 C CNN "Supplier1 link"
+F 9 "AliExpress" H 2450 1000 60  0001 C CNN "Supplier2"
+F 10 "724661148" H 2450 1000 60  0001 C CNN "Supplier2 part"
+F 11 "http://www.aliexpress.com/item/20PCS-LOT-Plastic-Battery-Holder-Case-Box-For-CR123-CR123A-CR16340-and-CR17335-Photo-Lithium-Battery/724661148.html" H 2450 1000 60  0001 C CNN "Supplier2 link"
+F 12 "Digi-Key" H 2450 1000 60  0001 C CNN "Supplier3"
+F 13 "36-1051-ND" H 2450 1000 60  0001 C CNN "Supplier3 part"
+F 14 "http://www.digikey.se/short/t4b3bp" H 2450 1000 60  0001 C CNN "Supplier3 link"
+F 15 "Mouser" H 2450 1000 60  0001 C CNN "Supplier4"
+F 16 "534-1051" H 2450 1000 60  0001 C CNN "Supplier4 part"
+F 17 "http://www.mouser.se/ProductDetail/Keystone-Electronics/1051/?Keystone-Electronics%2f1051%2f&Keystone-Electronics%2f1051%2f&qs=sGAEpiMZZMvEjrTWH%2f8WZ5YOpCuoa01R" H 2450 1000 60  0001 C CNN "Supplier4 link"
 	1    2450 1000
 	1    0    0    -1  
 $EndComp
@@ -2163,10 +2166,10 @@ F 1 "0.1uF" H 9600 1200 50  0000 L CNN
 F 2 "Capacitors_SMD:C_1206_HandSoldering" H 9588 1150 30  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/1825494.pdf" H 9550 1300 60  0001 C CNN
 F 4 "MULTICOMP" H 9550 1300 60  0001 C CNN "Vendor"
-F 5 "RR1220P-105-B-T5" H 9550 1300 60  0001 C CNN "Vendor part"
+F 5 "MCSH31B104K250CT" H 9550 1300 60  0001 C CNN "Vendor part"
 F 6 "Farnell" H 9550 1300 60  0001 C CNN "Supplier1"
 F 7 "1856619" H 9550 1300 60  0001 C CNN "Supplier1 part"
-F 8 "http://se.farnell.com/multicomp/mcsh31b104k250ct/cap-mlcc-x7r-100nf-25v-1206/dp/1856619?ost=1856619" H 9550 1300 60  0001 C CNN "Supplier1 link"
+F 8 "http://se.farnell.com/multicomp/mcsh31b104k250ct/cap-mlcc-x7r-100nf-25v-1206/dp/1856619" H 9550 1300 60  0001 C CNN "Supplier1 link"
 F 9 "Mouser" H 9200 1300 60  0001 C CNN "Supplier2"
 F 10 "77-VJ1206Y104KXQPBC" H 9200 1300 60  0001 C CNN "Supplier2 part"
 F 11 "http://se.mouser.com/ProductDetail/Vishay-Vitramon/VJ1206Y104KXQPW1BC/?qs=sGAEpiMZZMs0AnBnWHyRQHefeAIkSpb%2fQ4QtfI01vrc%3d" H 9550 1300 60  0001 C CNN "Supplier2 link"
@@ -2256,31 +2259,6 @@ Text Notes 5850 5450 0    60   ~ 0
 JP4 bypasses low-power battery sampling circuitry in favor of "default" voltage divider mechanism.\nLow-power battery sampling is activated by driving MYSX_D9_A3 low together with JP10.
 Text Notes 5850 5150 0    60   ~ 0
 JP2 is used to select either high voltage regulation or low voltage regulation for 3.3V rail.\nPos 1-2 selects low-voltage and pos 2-3 selects high-voltage.
-$Comp
-L Jumper_NO_Small JP10
-U 1 1 55AAC2DC
-P 5950 2600
-F 0 "JP10" H 5950 2700 50  0000 C CNN
-F 1 "Jumper_NO_Small" H 5960 2540 50  0001 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 5950 2600 60  0001 C CNN
-F 3 "https://www1.elfa.se/data1/wwwroot/assets/datasheets/cgrid_III_90120_eng_dwg.pdf" H 5950 2600 60  0001 C CNN
-F 4 "HARWIN" H 5950 2600 60  0001 C CNN "Vendor"
-F 5 "M20-9993646" H 5950 2600 60  0001 C CNN "Vendor part"
-F 6 "Mouser" H 5600 3300 60  0001 C CNN "Supplier1"
-F 7 "710-61300211121" H 5600 3300 60  0001 C CNN "Supplier1 part"
-F 8 "http://www.mouser.com/ProductDetail/Wurth-Electronics/61300211121/?qs=sGAEpiMZZMs%252bGHln7q6pm0xQ%252bwYJLofO2aeIeJWXAx0%3d" H 5950 2600 60  0001 C CNN "Supplier1 link"
-F 9 "Farnell" H 5950 2600 60  0001 C CNN "Supplier2"
-F 10 "2356153" H 5950 2600 60  0001 C CNN "Supplier2 part"
-F 11 "http://se.farnell.com/wurth-elektronik/61300211121/header-2-54mm-pin-tht-vertical/dp/2356153?ost=61300211121" H 5950 2600 60  0001 C CNN "Supplier2 link"
-F 12 "Elfa" H 5950 2600 60  0001 C CNN "Supplier3"
-F 13 "43-004-90" H 5950 2600 60  0001 C CNN "Supplier3 part"
-F 14 "https://www.elfa.se/elfa3~se_en/elfa/init.do?item=43-004-90" H 5950 2600 60  0001 C CNN "Supplier3 link"
-F 15 "Digi-Key" H 5950 2600 60  0001 C CNN "Supplier4"
-F 16 "S1012EC-02-ND" H 5950 2600 60  0001 C CNN "Supplier4 part"
-F 17 "http://www.digikey.se/short/7w149z" H 5950 2600 60  0001 C CNN "Supplier4 link"
-	1    5950 2600
-	-1   0    0    1   
-$EndComp
 Text Notes 5900 2450 0    35   ~ 0
 Short JP10 to enable\nlow-power battery sampling
 Text Notes 5850 6250 0    60   ~ 0
@@ -2308,7 +2286,7 @@ F 13 "1500644RL" H 9750 1000 60  0001 C CNN "Supplier3 part"
 F 14 "http://se.farnell.com/yageo-phycomp/rt0603fre0756kl/motst-nd-0603-1-50ppm-56k/dp/1500644RL" H 9750 1000 60  0001 C CNN "Supplier3 link"
 F 15 "Elfa" H 9750 1000 60  0001 C CNN "Supplier4"
 F 16 "60-255-52" H 9750 1000 60  0001 C CNN "Supplier4 part"
-F 17 "https://www.elfa.se/elfa3~se_en/elfa/init.do?item=60-255-52&toc=19543" H 9750 1000 60  0001 C CNN "Supplier4 link"
+F 17 "https://www.elfa.se/elfa3~se_en/elfa/init.do?item=60-255-52" H 9750 1000 60  0001 C CNN "Supplier4 link"
 F 18 "Digi-Key" H 9750 1000 60  0001 C CNN "Supplier5"
 F 19 "541-56KACT-ND" H 9750 1000 60  0001 C CNN "Supplier5 part"
 F 20 "http://www.digikey.se/short/7v5tfw" H 9750 1000 60  0001 C CNN "Supplier5 link"
@@ -2337,9 +2315,9 @@ F 14 "http://www.digikey.se/short/t3tnrw" H 3650 1000 60  0001 C CNN "Supplier3 
 F 15 "Mouser" H 3650 1000 60  0001 C CNN "Supplier4"
 F 16 "581-TPSB475K025R0900" H 3650 1000 60  0001 C CNN "Supplier4 part"
 F 17 "http://se.mouser.com/ProductDetail/AVX/TPSB475K025R0900/?qs=sGAEpiMZZMuEN2agSAc2pkIWJcW2hAciBvjiIg4pnBc%3d" H 3650 1000 60  0001 C CNN "Supplier4 link"
-F 18 "Elfa" H 3650 1000 60  0001 C CNN "Supplier5"
-F 19 "67-700-69" H 3650 1000 60  0001 C CNN "Supplier5 part"
-F 20 "https://www.elfa.se/elfa3~se_sv/elfa/init.do?item=67-700-69" H 3650 1000 60  0001 C CNN "Supplier5 link"
+F 18 "RS" H 3650 1000 60  0001 C CNN "Supplier5"
+F 19 "699-3349" H 3650 1000 60  0001 C CNN "Supplier5 part"
+F 20 "http://se.rs-online.com/web/p/tantalum-capacitors/6993349" H 3650 1000 60  0001 C CNN "Supplier5 link"
 	1    3650 1000
 	1    0    0    -1  
 $EndComp
@@ -2362,9 +2340,9 @@ F 11 "http://se.farnell.com/jst-japan-solderless-terminals/s2b-ph-k-s-lf-sn/conn
 F 12 "Digi-Key" H 1650 1000 60  0001 C CNN "Supplier3"
 F 13 "455-1719-ND" H 1650 1000 60  0001 C CNN "Supplier3 part"
 F 14 "http://www.digikey.se/short/7wd8fm" H 1650 1000 60  0001 C CNN "Supplier3 link"
-F 15 "Electrokit Sweden AB" H 1650 1000 60  0001 C CNN "Supplier4"
-F 16 "41012805" H 1650 1000 60  0001 C CNN "Supplier4 part"
-F 17 "http://www.electrokit.com/stiftlist-ph-2pol-2-0mm-vinklad.52011" H 1650 1000 60  0001 C CNN "Supplier4 link"
+F 15 "RS" H 1650 1000 60  0001 C CNN "Supplier4"
+F 16 "820-1494" H 1650 1000 60  0001 C CNN "Supplier4 part"
+F 17 "http://se.rs-online.com/web/p/pcb-headers/8201494" H 1650 1000 60  0001 C CNN "Supplier4 link"
 F 18 "Elfa" H 1650 1000 60  0001 C CNN "Supplier5"
 F 19 "43-019-56" H 1650 1000 60  0001 C CNN "Supplier5 part"
 F 20 "https://www.elfa.se/elfa3~se_en/elfa/init.do?item=43-019-56" H 1650 1000 60  0001 C CNN "Supplier5 link"
@@ -2393,9 +2371,9 @@ F 14 "http://www.mouser.com/ProductDetail/Switchcraft/RAPC712X/?qs=%2fha2pyFadui
 F 15 "Farnell" H 1050 1000 60  0001 C CNN "Supplier4"
 F 16 "1608726" H 1050 1000 60  0001 C CNN "Supplier4 part"
 F 17 "http://se.farnell.com/switchcraft/rapc712x/jack-socket-dc-250v-5a/dp/1608726" H 1050 1000 60  0001 C CNN "Supplier4 link"
-F 18 "Elfa" H 1050 1000 60  0001 C CNN "Supplier5"
-F 19 "42-205-20" H 1050 1000 60  0001 C CNN "Supplier5 part"
-F 20 "https://www.elfa.se/elfa3~se_en/elfa/init.do?item=42-205-20" H 1050 1000 60  0001 C CNN "Supplier5 link"
+F 18 "RS" H 1050 1000 60  0001 C CNN "Supplier5"
+F 19 "878-6724" H 1050 1000 60  0001 C CNN "Supplier5 part"
+F 20 "http://se.rs-online.com/web/p/dc-power-plugs/8786724" H 1050 1000 60  0001 C CNN "Supplier5 link"
 	1    1050 1000
 	1    0    0    -1  
 $EndComp
@@ -2420,9 +2398,12 @@ F 2 "mysensors_connectors:keystone_3009-kcswalter" V 2900 1040 60  0001 C CNN
 F 3 "http://www.mouser.com/ds/2/215/3039-285159.pdf" V 2900 1040 60  0001 C CNN
 F 4 "Keystone Electronics" H 2900 1000 60  0001 C CNN "Vendor"
 F 5 "3039" H 2900 1000 60  0001 C CNN "Vendor part"
-F 6 "Mouser" H 2900 1000 60  0001 C CNN "Supplier1"
-F 7 "534-3039" H 2900 1000 60  0001 C CNN "Supplier1 part"
-F 8 "http://se.mouser.com/ProductDetail/Keystone-Electronics/3039/?qs=sGAEpiMZZMtT9MhkajLHrg1t4FKJFDRo6aSYuA6EkaQ%3d" H 2900 1000 60  0001 C CNN "Supplier1 link"
+F 6 "Digi-Key" H 2900 1000 60  0001 C CNN "Supplier1"
+F 7 "36-3039-ND" H 2900 1000 60  0001 C CNN "Supplier1 part"
+F 8 "http://www.digikey.se/short/t4bqwf" H 2900 1000 60  0001 C CNN "Supplier1 link"
+F 9 "Mouser" H 2900 1000 60  0001 C CNN "Supplier2"
+F 10 "534-3039" H 2900 1000 60  0001 C CNN "Supplier2 part"
+F 11 "http://se.mouser.com/ProductDetail/Keystone-Electronics/3039/?qs=sGAEpiMZZMtT9MhkajLHrg1t4FKJFDRo6aSYuA6EkaQ%3d" H 2900 1000 60  0001 C CNN "Supplier2 link"
 	1    2900 1000
 	1    0    0    -1  
 $EndComp
@@ -2453,9 +2434,12 @@ F 8 "http://se.mouser.com/ProductDetail/Silicon-Laboratories/Si7021-A20-GM1/?qs=
 F 9 "Digi-Key" H 10450 3300 60  0001 C CNN "Supplier2"
 F 10 "336-3141-ND" H 10450 3300 60  0001 C CNN "Supplier2 part"
 F 11 "http://www.digikey.se/short/t4z9dd" H 10450 3300 60  0001 C CNN "Supplier2 link"
-F 12 "Farnell" H 10450 3300 60  0001 C CNN "Supplier3"
-F 13 "2473671" H 10450 3300 60  0001 C CNN "Supplier3 part"
-F 14 "http://se.farnell.com/silicon-labs/si7021-a20-gm1/temp-fuktighet-sensor--0-4gr-c/dp/2473671?ost=Si7021-A20-GM1" H 10450 3300 60  0001 C CNN "Supplier3 link"
+F 12 "RS" H 10450 3300 60  0001 C CNN "Supplier3"
+F 13 "865-2328" H 10450 3300 60  0001 C CNN "Supplier3 part"
+F 14 "http://se.rs-online.com/web/p/temperature-humidity-sensors/8652328" H 10450 3300 60  0001 C CNN "Supplier3 link"
+F 15 "Farnell" H 10450 3300 60  0001 C CNN "Supplier4"
+F 16 "2473671" H 10450 3300 60  0001 C CNN "Supplier4 part"
+F 17 "http://se.farnell.com/silicon-labs/si7021-a20-gm1/temp-fuktighet-sensor--0-4gr-c/dp/2473671" H 10450 3300 60  0001 C CNN "Supplier4 link"
 	1    10450 3300
 	1    0    0    -1  
 $EndComp
@@ -2580,9 +2564,12 @@ F 11 "http://www.digikey.se/short/t4qd8p" H 7850 1900 60  0001 C CNN "Supplier2 
 F 12 "Mouser" H 7850 1900 60  0001 C CNN "Supplier3"
 F 13 "595-TPS61221DCKR" H 7850 1900 60  0001 C CNN "Supplier3 part"
 F 14 "http://www.mouser.se/ProductDetail/Texas-Instruments/TPS61221DCKR/?qs=sGAEpiMZZMtitjHzVIkrqSrJfzSN7oNP2INrRQr4QsY%3d" H 7850 1900 60  0001 C CNN "Supplier3 link"
-F 15 "Farnell" H 7850 1900 60  0001 C CNN "Supplier4"
-F 16 "2395700" H 7850 1900 60  0001 C CNN "Supplier4 part"
-F 17 "http://se.farnell.com/texas-instruments/tps61221dckt/dc-dc-converter-boost-2mhz-50ma/dp/2395700" H 7850 1900 60  0001 C CNN "Supplier4 link"
+F 15 "RS" H 7850 1900 60  0001 C CNN "Supplier4"
+F 16 "812-3631" H 7850 1900 60  0001 C CNN "Supplier4 part"
+F 17 "http://se.rs-online.com/web/p/boost-converters/8123631" H 7850 1900 60  0001 C CNN "Supplier4 link"
+F 18 "Farnell" H 7850 1900 60  0001 C CNN "Supplier5"
+F 19 "2395700" H 7850 1900 60  0001 C CNN "Supplier5 part"
+F 20 "http://se.farnell.com/texas-instruments/tps61221dckt/dc-dc-converter-boost-2mhz-50ma/dp/2395700" H 7850 1900 60  0001 C CNN "Supplier5 link"
 	1    7850 1900
 	1    0    0    -1  
 $EndComp
@@ -3002,18 +2989,21 @@ F 2 "mysensors_handsoldering:SOT-23-5_Handsoldering" H 7850 1500 30  0001 C CIN
 F 3 "http://www.ti.com/lit/ds/symlink/tps61097a-33.pdf" H 7750 1350 60  0001 C CNN
 F 4 "Texas Instruments" H 7850 1350 60  0001 C CNN "Vendor"
 F 5 "TPS61097A-33DBVT" H 7850 1350 60  0001 C CNN "Vendor part"
-F 6 "Mouser" H 5850 1550 60  0001 C CNN "Supplier1"
-F 7 "595-TPS61097A-33DBVT" H 5850 1550 60  0001 C CNN "Supplier1 part"
-F 8 "http://www.mouser.com/ProductDetail/Texas-Instruments/TPS61097A-33DBVT/?qs=sGAEpiMZZMtfXl%252bsADUrUCB2uhymfgl%2fcdZ3ROtzxNM%3d" H 7850 1350 60  0001 C CNN "Supplier1 link"
-F 9 "Farnell" H 5850 1550 60  0001 C CNN "Supplier2"
-F 10 "2352441" H 5850 1550 60  0001 C CNN "Supplier2 part"
-F 11 "http://se.farnell.com/texas-instruments/tps61097-33dbvr/dc-dc-converter-boost-sot-23-5/dp/2352441" H 7850 1350 60  0001 C CNN "Supplier2 link"
-F 12 "Elfa" H 7850 1350 60  0001 C CNN "Supplier3"
-F 13 "73-295-89" H 7850 1350 60  0001 C CNN "Supplier3 part"
-F 14 "https://www.elfa.se/elfa3~se_en/elfa/init.do?item=73-295-89" H 7850 1350 60  0001 C CNN "Supplier3 link"
+F 6 "RS" H 5850 1550 60  0001 C CNN "Supplier1"
+F 7 "812-3619" H 5850 1550 60  0001 C CNN "Supplier1 part"
+F 8 "http://se.rs-online.com/web/p/boost-converters/8123619" H 7850 1350 60  0001 C CNN "Supplier1 link"
+F 9 "AliExpress" H 5850 1550 60  0001 C CNN "Supplier2"
+F 10 "32369898019" H 5850 1550 60  0001 C CNN "Supplier2 part"
+F 11 "http://www.aliexpress.com/item/Free-Shipping-5PCS-lot-TPS61097-33DBVT-IC-REG-BST-SYNC-3-3V-1A-SOT23-5-61097/32369898019.html" H 7850 1350 60  0001 C CNN "Supplier2 link"
+F 12 "Mouser" H 7850 1350 60  0001 C CNN "Supplier3"
+F 13 "595-TPS61097A-33DBVT" H 7850 1350 60  0001 C CNN "Supplier3 part"
+F 14 "http://www.mouser.com/ProductDetail/Texas-Instruments/TPS61097A-33DBVT/?qs=sGAEpiMZZMtfXl%252bsADUrUCB2uhymfgl%2fcdZ3ROtzxNM%3d" H 7850 1350 60  0001 C CNN "Supplier3 link"
 F 15 "Digi-Key" H 7850 1350 60  0001 C CNN "Supplier4"
 F 16 "296-39431-1-ND" H 7850 1350 60  0001 C CNN "Supplier4 part"
 F 17 "http://www.digikey.se/short/7wdq10" H 7850 1350 60  0001 C CNN "Supplier4 link"
+F 18 "Farnell" H 7850 1350 60  0001 C CNN "Supplier5"
+F 19 "2352441" H 7850 1350 60  0001 C CNN "Supplier5 part"
+F 20 "http://se.farnell.com/texas-instruments/tps61097-33dbvr/dc-dc-converter-boost-sot-23-5/dp/2352441" H 7850 1350 60  0001 C CNN "Supplier5 link"
 	1    7850 1350
 	1    0    0    -1  
 $EndComp
@@ -3051,118 +3041,6 @@ Wire Notes Line
 Text Notes 6950 750  0    35   ~ 0
 NOTE: U2 and U9 are mutually exclusive
 $Comp
-L CP C10
-U 1 1 55F04705
-P 1450 2850
-F 0 "C10" V 1250 2750 50  0000 L CNN
-F 1 "4.7uF" V 1350 2600 50  0000 L CNN
-F 2 "Capacitors_Tantalum_SMD:TantalC_SizeB_EIA-3528_HandSoldering" H 1488 2700 30  0001 C CNN
-F 3 "http://www.avx.com/docs/Catalogs/tps.pdf" H 1450 2850 60  0001 C CNN
-F 4 "AVX" H 1450 2850 60  0001 C CNN "Vendor"
-F 5 "TPSB475K025R0900" H 1450 2850 60  0001 C CNN "Vendor part"
-F 6 "Mouser" H 1450 2850 60  0001 C CNN "Supplier1"
-F 7 "581-TPSB475K025R0900" H 1450 2850 60  0001 C CNN "Supplier1 part"
-F 8 "http://se.mouser.com/ProductDetail/AVX/TPSB475K025R0900/?qs=sGAEpiMZZMuEN2agSAc2pkIWJcW2hAciBvjiIg4pnBc%3d" H 1450 2850 60  0001 C CNN "Supplier1 link"
-F 9 "Farnell" H 1450 2850 60  0001 C CNN "Supplier2"
-F 10 "1432589RL" H 1450 2850 60  0001 C CNN "Supplier2 part"
-F 11 "http://se.farnell.com/avx/tpsb475k025r0900/cap-tant-4-7uf-25v-case-b/dp/1432589RL" H 1450 2850 60  0001 C CNN "Supplier2 link"
-F 12 "Digi-Key" H 1450 2850 60  0001 C CNN "Supplier3"
-F 13 "478-2408-1-ND" H 1450 2850 60  0001 C CNN "Supplier3 part"
-F 14 "http://www.digikey.se/short/t3tnrw" H 1450 2850 60  0001 C CNN "Supplier3 link"
-F 15 "Elfa" H 1450 2850 60  0001 C CNN "Supplier4"
-F 16 "67-700-69" H 1450 2850 60  0001 C CNN "Supplier4 part"
-F 17 "https://www.elfa.se/elfa3~se_sv/elfa/init.do?item=67-700-69" H 1450 2850 60  0001 C CNN "Supplier4 link"
-F 18 "AliExpress" H 1450 2850 60  0001 C CNN "Supplier5"
-F 19 "32456411946" H 1450 2850 60  0001 C CNN "Supplier5 part"
-F 20 "http://www.aliexpress.com/item/Free-shipping-20pcs-B-3528-4-7uF-16V-SMD-tantalum-capacitor/32456411946.html" H 1450 2850 60  0001 C CNN "Supplier5 link"
-	1    1450 2850
-	0    1    1    0   
-$EndComp
-$Comp
-L CP C14
-U 1 1 55F05877
-P 3050 3200
-F 0 "C14" V 3200 3050 50  0000 L CNN
-F 1 "4.7uF" V 3100 2950 50  0000 L CNN
-F 2 "Capacitors_Tantalum_SMD:TantalC_SizeB_EIA-3528_HandSoldering" H 3088 3050 30  0001 C CNN
-F 3 "http://www.avx.com/docs/Catalogs/tps.pdf" H 3050 3200 60  0001 C CNN
-F 4 "AVX" H 3050 3200 60  0001 C CNN "Vendor"
-F 5 "TPSB475K025R0900" H 3050 3200 60  0001 C CNN "Vendor part"
-F 6 "Mouser" H 3050 3200 60  0001 C CNN "Supplier1"
-F 7 "581-TPSB475K025R0900" H 3050 3200 60  0001 C CNN "Supplier1 part"
-F 8 "http://se.mouser.com/ProductDetail/AVX/TPSB475K025R0900/?qs=sGAEpiMZZMuEN2agSAc2pkIWJcW2hAciBvjiIg4pnBc%3d" H 3050 3200 60  0001 C CNN "Supplier1 link"
-F 9 "Farnell" H 3050 3200 60  0001 C CNN "Supplier2"
-F 10 "1432589RL" H 3050 3200 60  0001 C CNN "Supplier2 part"
-F 11 "http://se.farnell.com/avx/tpsb475k025r0900/cap-tant-4-7uf-25v-case-b/dp/1432589RL" H 3050 3200 60  0001 C CNN "Supplier2 link"
-F 12 "Digi-Key" H 3050 3200 60  0001 C CNN "Supplier3"
-F 13 "478-2408-1-ND" H 3050 3200 60  0001 C CNN "Supplier3 part"
-F 14 "http://www.digikey.se/short/t3tnrw" H 3050 3200 60  0001 C CNN "Supplier3 link"
-F 15 "Elfa" H 3050 3200 60  0001 C CNN "Supplier4"
-F 16 "67-700-69" H 3050 3200 60  0001 C CNN "Supplier4 part"
-F 17 "https://www.elfa.se/elfa3~se_sv/elfa/init.do?item=67-700-69" H 3050 3200 60  0001 C CNN "Supplier4 link"
-F 18 "AliExpress" H 3050 3200 60  0001 C CNN "Supplier5"
-F 19 "32456411946" H 3050 3200 60  0001 C CNN "Supplier5 part"
-F 20 "http://www.aliexpress.com/item/Free-shipping-20pcs-B-3528-4-7uF-16V-SMD-tantalum-capacitor/32456411946.html" H 3050 3200 60  0001 C CNN "Supplier5 link"
-	1    3050 3200
-	0    -1   -1   0   
-$EndComp
-$Comp
-L CP C13
-U 1 1 55F069F1
-P 7350 3150
-F 0 "C13" H 7400 3250 50  0000 L CNN
-F 1 "4.7uF" H 7400 3050 50  0000 L CNN
-F 2 "Capacitors_Tantalum_SMD:TantalC_SizeB_EIA-3528_HandSoldering" H 7388 3000 30  0001 C CNN
-F 3 "http://www.avx.com/docs/Catalogs/tps.pdf" H 7350 3150 60  0001 C CNN
-F 4 "AVX" H 7350 3150 60  0001 C CNN "Vendor"
-F 5 "TPSB475K025R0900" H 7350 3150 60  0001 C CNN "Vendor part"
-F 6 "Mouser" H 7350 3150 60  0001 C CNN "Supplier1"
-F 7 "581-TPSB475K025R0900" H 7350 3150 60  0001 C CNN "Supplier1 part"
-F 8 "http://se.mouser.com/ProductDetail/AVX/TPSB475K025R0900/?qs=sGAEpiMZZMuEN2agSAc2pkIWJcW2hAciBvjiIg4pnBc%3d" H 7350 3150 60  0001 C CNN "Supplier1 link"
-F 9 "Farnell" H 7350 3150 60  0001 C CNN "Supplier2"
-F 10 "1432589RL" H 7350 3150 60  0001 C CNN "Supplier2 part"
-F 11 "http://se.farnell.com/avx/tpsb475k025r0900/cap-tant-4-7uf-25v-case-b/dp/1432589RL" H 7350 3150 60  0001 C CNN "Supplier2 link"
-F 12 "Digi-Key" H 7350 3150 60  0001 C CNN "Supplier3"
-F 13 "478-2408-1-ND" H 7350 3150 60  0001 C CNN "Supplier3 part"
-F 14 "http://www.digikey.se/short/t3tnrw" H 7350 3150 60  0001 C CNN "Supplier3 link"
-F 15 "Elfa" H 7350 3150 60  0001 C CNN "Supplier4"
-F 16 "67-700-69" H 7350 3150 60  0001 C CNN "Supplier4 part"
-F 17 "https://www.elfa.se/elfa3~se_sv/elfa/init.do?item=67-700-69" H 7350 3150 60  0001 C CNN "Supplier4 link"
-F 18 "AliExpress" H 7350 3150 60  0001 C CNN "Supplier5"
-F 19 "32456411946" H 7350 3150 60  0001 C CNN "Supplier5 part"
-F 20 "http://www.aliexpress.com/item/Free-shipping-20pcs-B-3528-4-7uF-16V-SMD-tantalum-capacitor/32456411946.html" H 7350 3150 60  0001 C CNN "Supplier5 link"
-	1    7350 3150
-	-1   0    0    1   
-$EndComp
-$Comp
-L CP C12
-U 1 1 55F07C9A
-P 8950 3050
-F 0 "C12" H 9000 3150 50  0000 L CNN
-F 1 "4.7uF" H 8700 2950 50  0000 L CNN
-F 2 "Capacitors_Tantalum_SMD:TantalC_SizeB_EIA-3528_HandSoldering" H 8988 2900 30  0001 C CNN
-F 3 "http://www.avx.com/docs/Catalogs/tps.pdf" H 8950 3050 60  0001 C CNN
-F 4 "AVX" H 8950 3050 60  0001 C CNN "Vendor"
-F 5 "TPSB475K025R0900" H 8950 3050 60  0001 C CNN "Vendor part"
-F 6 "Mouser" H 8950 3050 60  0001 C CNN "Supplier1"
-F 7 "581-TPSB475K025R0900" H 8950 3050 60  0001 C CNN "Supplier1 part"
-F 8 "http://se.mouser.com/ProductDetail/AVX/TPSB475K025R0900/?qs=sGAEpiMZZMuEN2agSAc2pkIWJcW2hAciBvjiIg4pnBc%3d" H 8950 3050 60  0001 C CNN "Supplier1 link"
-F 9 "Farnell" H 8950 3050 60  0001 C CNN "Supplier2"
-F 10 "1432589RL" H 8950 3050 60  0001 C CNN "Supplier2 part"
-F 11 "http://se.farnell.com/avx/tpsb475k025r0900/cap-tant-4-7uf-25v-case-b/dp/1432589RL" H 8950 3050 60  0001 C CNN "Supplier2 link"
-F 12 "Digi-Key" H 8950 3050 60  0001 C CNN "Supplier3"
-F 13 "478-2408-1-ND" H 8950 3050 60  0001 C CNN "Supplier3 part"
-F 14 "http://www.digikey.se/short/t3tnrw" H 8950 3050 60  0001 C CNN "Supplier3 link"
-F 15 "Elfa" H 8950 3050 60  0001 C CNN "Supplier4"
-F 16 "67-700-69" H 8950 3050 60  0001 C CNN "Supplier4 part"
-F 17 "https://www.elfa.se/elfa3~se_sv/elfa/init.do?item=67-700-69" H 8950 3050 60  0001 C CNN "Supplier4 link"
-F 18 "AliExpress" H 8950 3050 60  0001 C CNN "Supplier5"
-F 19 "32456411946" H 8950 3050 60  0001 C CNN "Supplier5 part"
-F 20 "http://www.aliexpress.com/item/Free-shipping-20pcs-B-3528-4-7uF-16V-SMD-tantalum-capacitor/32456411946.html" H 8950 3050 60  0001 C CNN "Supplier5 link"
-	1    8950 3050
-	-1   0    0    1   
-$EndComp
-$Comp
 L CP C3
 U 1 1 55F12810
 P 4700 1150
@@ -3187,31 +3065,6 @@ $EndComp
 Text Notes 9850 1100 0    35   ~ 0
 Optional
 $Comp
-L Jumper_NO_Small JP6
-U 1 1 55F1BE6B
-P 7500 2500
-F 0 "JP6" H 7500 2450 50  0000 C CNN
-F 1 "Jumper_NO_Small" H 7510 2440 50  0001 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 7500 2500 60  0001 C CNN
-F 3 "https://www1.elfa.se/data1/wwwroot/assets/datasheets/cgrid_III_90120_eng_dwg.pdf" H 7500 2500 60  0001 C CNN
-F 4 "HARWIN" H 7500 2500 60  0001 C CNN "Vendor"
-F 5 "M20-9993646" H 7500 2500 60  0001 C CNN "Vendor part"
-F 6 "Farnell" H 7500 2500 60  0001 C CNN "Supplier1"
-F 7 "2356153" H 7500 2500 60  0001 C CNN "Supplier1 part"
-F 8 "http://se.farnell.com/wurth-elektronik/61300211121/header-2-54mm-pin-tht-vertical/dp/2356153?ost=61300211121" H 7500 2500 60  0001 C CNN "Supplier1 link"
-F 9 "Digi-Key" H 7500 2500 60  0001 C CNN "Supplier2"
-F 10 "S1012EC-02-ND" H 7500 2500 60  0001 C CNN "Supplier2 part"
-F 11 "http://www.digikey.se/short/7w149z" H 7500 2500 60  0001 C CNN "Supplier2 link"
-F 12 "Mouser" H 7150 3200 60  0001 C CNN "Supplier3"
-F 13 "710-61300211121" H 7150 3200 60  0001 C CNN "Supplier3 part"
-F 14 "http://www.mouser.com/ProductDetail/Wurth-Electronics/61300211121/?qs=sGAEpiMZZMs%252bGHln7q6pm0xQ%252bwYJLofO2aeIeJWXAx0%3d" H 7500 2500 60  0001 C CNN "Supplier3 link"
-F 15 "Elfa" H 7500 2500 60  0001 C CNN "Supplier4"
-F 16 "43-004-90" H 7500 2500 60  0001 C CNN "Supplier4 part"
-F 17 "https://www.elfa.se/elfa3~se_en/elfa/init.do?item=43-004-90" H 7500 2500 60  0001 C CNN "Supplier4 link"
-	1    7500 2500
-	-1   0    0    1   
-$EndComp
-$Comp
 L Jumper_NO_Small JP1
 U 1 1 55F1E4C5
 P 3800 850
@@ -3219,189 +3072,24 @@ F 0 "JP1" H 3800 750 50  0000 C CNN
 F 1 "Jumper_NO_Small" H 3810 790 50  0001 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 3800 850 60  0001 C CNN
 F 3 "https://www1.elfa.se/data1/wwwroot/assets/datasheets/cgrid_III_90120_eng_dwg.pdf" H 3800 850 60  0001 C CNN
-F 4 "HARWIN" H 3800 850 60  0001 C CNN "Vendor"
-F 5 "M20-9993646" H 3800 850 60  0001 C CNN "Vendor part"
+F 4 "Wurth Electronics" H 3800 850 60  0001 C CNN "Vendor"
+F 5 "61300211121" H 3800 850 60  0001 C CNN "Vendor part"
 F 6 "Farnell" H 3800 850 60  0001 C CNN "Supplier1"
 F 7 "2356153" H 3800 850 60  0001 C CNN "Supplier1 part"
-F 8 "http://se.farnell.com/wurth-elektronik/61300211121/header-2-54mm-pin-tht-vertical/dp/2356153?ost=61300211121" H 3800 850 60  0001 C CNN "Supplier1 link"
+F 8 "http://se.farnell.com/wurth-elektronik/61300211121/header-2-54mm-pin-tht-vertical/dp/2356153" H 3800 850 60  0001 C CNN "Supplier1 link"
 F 9 "Digi-Key" H 3800 850 60  0001 C CNN "Supplier2"
 F 10 "S1012EC-02-ND" H 3800 850 60  0001 C CNN "Supplier2 part"
 F 11 "http://www.digikey.se/short/7w149z" H 3800 850 60  0001 C CNN "Supplier2 link"
 F 12 "Mouser" H 3450 1550 60  0001 C CNN "Supplier3"
 F 13 "710-61300211121" H 3450 1550 60  0001 C CNN "Supplier3 part"
 F 14 "http://www.mouser.com/ProductDetail/Wurth-Electronics/61300211121/?qs=sGAEpiMZZMs%252bGHln7q6pm0xQ%252bwYJLofO2aeIeJWXAx0%3d" H 3800 850 60  0001 C CNN "Supplier3 link"
-F 15 "Elfa" H 3800 850 60  0001 C CNN "Supplier4"
-F 16 "43-004-90" H 3800 850 60  0001 C CNN "Supplier4 part"
-F 17 "https://www.elfa.se/elfa3~se_en/elfa/init.do?item=43-004-90" H 3800 850 60  0001 C CNN "Supplier4 link"
+F 15 "RS" H 3800 850 60  0001 C CNN "Supplier4"
+F 16 "828-1581" H 3800 850 60  0001 C CNN "Supplier4 part"
+F 17 "http://se.rs-online.com/web/p/pcb-headers/8281581" H 3800 850 60  0001 C CNN "Supplier4 link"
+F 18 "Elfa" H 3800 850 60  0001 C CNN "Supplier5"
+F 19 "43-004-90" H 3800 850 60  0001 C CNN "Supplier5 part"
+F 20 "https://www.elfa.se/elfa3~se_en/elfa/init.do?item=43-004-90" H 3800 850 60  0001 C CNN "Supplier5 link"
 	1    3800 850 
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C6
-U 1 1 55F1F577
-P 8400 2100
-F 0 "C6" H 8450 2200 50  0000 L CNN
-F 1 "10uF" H 8400 2000 50  0000 L CNN
-F 2 "Capacitors_SMD:C_1206_HandSoldering" H 8438 1950 30  0001 C CNN
-F 3 "http://www.mouser.com/ds/2/427/vjw1bcbascomseries-223529.pdf" H 8400 2100 60  0001 C CNN
-F 4 "Vishay / Vitramon" H 8400 2100 60  0001 C CNN "Vendor"
-F 5 "VJ1206V106ZXQTW1BC" H 8400 2100 60  0001 C CNN "Vendor part"
-F 6 "AliExpress" H 8400 2100 60  0001 C CNN "Supplier1"
-F 7 "32308484869" H 8400 2100 60  0001 C CNN "Supplier1 part"
-F 8 "http://www.aliexpress.com/item/100pcs-1206-3216-106K-10uF-16V-106-Ceramic-SMD-Capacitors-NEW-Products-and-ROHS/32308484869.html" H 8400 2100 60  0001 C CNN "Supplier1 link"
-F 9 "Mouser" H 7450 2200 60  0001 C CNN "Supplier2"
-F 10 "77-VJ1206V106ZXQTBC" H 8400 2100 60  0001 C CNN "Supplier2 part"
-F 11 "http://se.mouser.com/Search/ProductDetail.aspx?R=VJ1206V106ZXQTW1BCvirtualkey61340000virtualkey77-VJ1206V106ZXQTBC" H 8400 2100 60  0001 C CNN "Supplier2 link"
-F 12 "Farnell" H 8400 2100 60  0001 C CNN "Supplier3"
-F 13 "1759434" H 8400 2100 60  0001 C CNN "Supplier3 part"
-F 14 "http://se.farnell.com/multicomp/mc1206f106z100ct/cap-mlcc-y5v-10uf-1206/dp/1759434" H 8400 2100 60  0001 C CNN "Supplier3 link"
-F 15 "Digi-Key" H 8400 2100 60  0001 C CNN "Supplier4"
-F 16 "399-1299-1-ND" H 8400 2100 60  0001 C CNN "Supplier4 part"
-F 17 "http://www.digikey.se/short/7w1z1n" H 8400 2100 60  0001 C CNN "Supplier4 link"
-F 18 "Elfa" H 8400 2100 60  0001 C CNN "Supplier5"
-F 19 "65-721-38" H 8400 2100 60  0001 C CNN "Supplier5 part"
-F 20 "https://www.elfa.se/elfa3~se_en/elfa/init.do?item=65-721-38" H 8400 2100 60  0001 C CNN "Supplier5 link"
-	1    8400 2100
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C18
-U 1 1 55F25CE5
-P 10700 3300
-F 0 "C18" H 10750 3400 50  0000 L CNN
-F 1 "0.1uF" H 10750 3200 50  0000 L CNN
-F 2 "Capacitors_SMD:C_1206_HandSoldering" H 10738 3150 30  0001 C CNN
-F 3 "http://www.farnell.com/datasheets/1825494.pdf" H 10700 3300 60  0001 C CNN
-F 4 "MULTICOMP" H 10700 3300 60  0001 C CNN "Vendor"
-F 5 "RR1220P-105-B-T5" H 10700 3300 60  0001 C CNN "Vendor part"
-F 6 "Farnell" H 10700 3300 60  0001 C CNN "Supplier1"
-F 7 "1856619" H 10700 3300 60  0001 C CNN "Supplier1 part"
-F 8 "http://se.farnell.com/multicomp/mcsh31b104k250ct/cap-mlcc-x7r-100nf-25v-1206/dp/1856619?ost=1856619" H 10700 3300 60  0001 C CNN "Supplier1 link"
-F 9 "Mouser" H 10350 3300 60  0001 C CNN "Supplier2"
-F 10 "77-VJ1206Y104KXQPBC" H 10350 3300 60  0001 C CNN "Supplier2 part"
-F 11 "http://se.mouser.com/ProductDetail/Vishay-Vitramon/VJ1206Y104KXQPW1BC/?qs=sGAEpiMZZMs0AnBnWHyRQHefeAIkSpb%2fQ4QtfI01vrc%3d" H 10700 3300 60  0001 C CNN "Supplier2 link"
-F 12 "Digi-Key" H 10700 3300 60  0001 C CNN "Supplier3"
-F 13 "399-1249-1-ND" H 10700 3300 60  0001 C CNN "Supplier3 part"
-F 14 "http://www.digikey.se/short/7w1zrd" H 10700 3300 60  0001 C CNN "Supplier3 link"
-F 15 "AliExpress" H 10700 3300 60  0001 C CNN "Supplier4"
-F 16 "32274650296" H 10700 3300 60  0001 C CNN "Supplier4 part"
-F 17 "http://www.aliexpress.com/item/1206-100NF-104M-Y5V-50V-SMD-Capacitor-Multilayer-chip-ceramic-capacitor-100Pcs-Lot/32274650296.html" H 10700 3300 60  0001 C CNN "Supplier4 link"
-F 18 "Elfa" H 10700 3300 60  0001 C CNN "Supplier5"
-F 19 "65-724-45" H 10700 3300 60  0001 C CNN "Supplier5 part"
-F 20 "https://www.elfa.se/elfa3~se_en/elfa/init.do?item=65-724-45" H 10700 3300 60  0001 C CNN "Supplier5 link"
-	1    10700 3300
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C16
-U 1 1 55F266DD
-P 5300 3200
-F 0 "C16" H 5150 3300 50  0000 L CNN
-F 1 "0.1uF" H 5050 3100 50  0000 L CNN
-F 2 "Capacitors_SMD:C_1206_HandSoldering" H 5338 3050 30  0001 C CNN
-F 3 "http://www.farnell.com/datasheets/1825494.pdf" H 5300 3200 60  0001 C CNN
-F 4 "MULTICOMP" H 5300 3200 60  0001 C CNN "Vendor"
-F 5 "RR1220P-105-B-T5" H 5300 3200 60  0001 C CNN "Vendor part"
-F 6 "Farnell" H 5300 3200 60  0001 C CNN "Supplier1"
-F 7 "1856619" H 5300 3200 60  0001 C CNN "Supplier1 part"
-F 8 "http://se.farnell.com/multicomp/mcsh31b104k250ct/cap-mlcc-x7r-100nf-25v-1206/dp/1856619?ost=1856619" H 5300 3200 60  0001 C CNN "Supplier1 link"
-F 9 "Mouser" H 4950 3200 60  0001 C CNN "Supplier2"
-F 10 "77-VJ1206Y104KXQPBC" H 4950 3200 60  0001 C CNN "Supplier2 part"
-F 11 "http://se.mouser.com/ProductDetail/Vishay-Vitramon/VJ1206Y104KXQPW1BC/?qs=sGAEpiMZZMs0AnBnWHyRQHefeAIkSpb%2fQ4QtfI01vrc%3d" H 5300 3200 60  0001 C CNN "Supplier2 link"
-F 12 "Digi-Key" H 5300 3200 60  0001 C CNN "Supplier3"
-F 13 "399-1249-1-ND" H 5300 3200 60  0001 C CNN "Supplier3 part"
-F 14 "http://www.digikey.se/short/7w1zrd" H 5300 3200 60  0001 C CNN "Supplier3 link"
-F 15 "AliExpress" H 5300 3200 60  0001 C CNN "Supplier4"
-F 16 "32274650296" H 5300 3200 60  0001 C CNN "Supplier4 part"
-F 17 "http://www.aliexpress.com/item/1206-100NF-104M-Y5V-50V-SMD-Capacitor-Multilayer-chip-ceramic-capacitor-100Pcs-Lot/32274650296.html" H 5300 3200 60  0001 C CNN "Supplier4 link"
-F 18 "Elfa" H 5300 3200 60  0001 C CNN "Supplier5"
-F 19 "65-724-45" H 5300 3200 60  0001 C CNN "Supplier5 part"
-F 20 "https://www.elfa.se/elfa3~se_en/elfa/init.do?item=65-724-45" H 5300 3200 60  0001 C CNN "Supplier5 link"
-	1    5300 3200
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C15
-U 1 1 55F26EEF
-P 3650 3200
-F 0 "C15" V 3500 3200 50  0000 L CNN
-F 1 "0.1uF" V 3600 3250 50  0000 L CNN
-F 2 "Capacitors_SMD:C_1206_HandSoldering" H 3688 3050 30  0001 C CNN
-F 3 "http://www.farnell.com/datasheets/1825494.pdf" H 3650 3200 60  0001 C CNN
-F 4 "MULTICOMP" H 3650 3200 60  0001 C CNN "Vendor"
-F 5 "RR1220P-105-B-T5" H 3650 3200 60  0001 C CNN "Vendor part"
-F 6 "Farnell" H 3650 3200 60  0001 C CNN "Supplier1"
-F 7 "1856619" H 3650 3200 60  0001 C CNN "Supplier1 part"
-F 8 "http://se.farnell.com/multicomp/mcsh31b104k250ct/cap-mlcc-x7r-100nf-25v-1206/dp/1856619?ost=1856619" H 3650 3200 60  0001 C CNN "Supplier1 link"
-F 9 "Mouser" H 3300 3200 60  0001 C CNN "Supplier2"
-F 10 "77-VJ1206Y104KXQPBC" H 3300 3200 60  0001 C CNN "Supplier2 part"
-F 11 "http://se.mouser.com/ProductDetail/Vishay-Vitramon/VJ1206Y104KXQPW1BC/?qs=sGAEpiMZZMs0AnBnWHyRQHefeAIkSpb%2fQ4QtfI01vrc%3d" H 3650 3200 60  0001 C CNN "Supplier2 link"
-F 12 "Digi-Key" H 3650 3200 60  0001 C CNN "Supplier3"
-F 13 "399-1249-1-ND" H 3650 3200 60  0001 C CNN "Supplier3 part"
-F 14 "http://www.digikey.se/short/7w1zrd" H 3650 3200 60  0001 C CNN "Supplier3 link"
-F 15 "AliExpress" H 3650 3200 60  0001 C CNN "Supplier4"
-F 16 "32274650296" H 3650 3200 60  0001 C CNN "Supplier4 part"
-F 17 "http://www.aliexpress.com/item/1206-100NF-104M-Y5V-50V-SMD-Capacitor-Multilayer-chip-ceramic-capacitor-100Pcs-Lot/32274650296.html" H 3650 3200 60  0001 C CNN "Supplier4 link"
-F 18 "Elfa" H 3650 3200 60  0001 C CNN "Supplier5"
-F 19 "65-724-45" H 3650 3200 60  0001 C CNN "Supplier5 part"
-F 20 "https://www.elfa.se/elfa3~se_en/elfa/init.do?item=65-724-45" H 3650 3200 60  0001 C CNN "Supplier5 link"
-	1    3650 3200
-	0    1    1    0   
-$EndComp
-$Comp
-L C C11
-U 1 1 55F27C36
-P 1750 2850
-F 0 "C11" V 1550 2900 50  0000 L CNN
-F 1 "0.1uF" V 1650 2900 50  0000 L CNN
-F 2 "Capacitors_SMD:C_1206_HandSoldering" H 1788 2700 30  0001 C CNN
-F 3 "http://www.farnell.com/datasheets/1825494.pdf" H 1750 2850 60  0001 C CNN
-F 4 "MULTICOMP" H 1750 2850 60  0001 C CNN "Vendor"
-F 5 "RR1220P-105-B-T5" H 1750 2850 60  0001 C CNN "Vendor part"
-F 6 "Farnell" H 1750 2850 60  0001 C CNN "Supplier1"
-F 7 "1856619" H 1750 2850 60  0001 C CNN "Supplier1 part"
-F 8 "http://se.farnell.com/multicomp/mcsh31b104k250ct/cap-mlcc-x7r-100nf-25v-1206/dp/1856619?ost=1856619" H 1750 2850 60  0001 C CNN "Supplier1 link"
-F 9 "Mouser" H 1400 2850 60  0001 C CNN "Supplier2"
-F 10 "77-VJ1206Y104KXQPBC" H 1400 2850 60  0001 C CNN "Supplier2 part"
-F 11 "http://se.mouser.com/ProductDetail/Vishay-Vitramon/VJ1206Y104KXQPW1BC/?qs=sGAEpiMZZMs0AnBnWHyRQHefeAIkSpb%2fQ4QtfI01vrc%3d" H 1750 2850 60  0001 C CNN "Supplier2 link"
-F 12 "Digi-Key" H 1750 2850 60  0001 C CNN "Supplier3"
-F 13 "399-1249-1-ND" H 1750 2850 60  0001 C CNN "Supplier3 part"
-F 14 "http://www.digikey.se/short/7w1zrd" H 1750 2850 60  0001 C CNN "Supplier3 link"
-F 15 "AliExpress" H 1750 2850 60  0001 C CNN "Supplier4"
-F 16 "32274650296" H 1750 2850 60  0001 C CNN "Supplier4 part"
-F 17 "http://www.aliexpress.com/item/1206-100NF-104M-Y5V-50V-SMD-Capacitor-Multilayer-chip-ceramic-capacitor-100Pcs-Lot/32274650296.html" H 1750 2850 60  0001 C CNN "Supplier4 link"
-F 18 "Elfa" H 1750 2850 60  0001 C CNN "Supplier5"
-F 19 "65-724-45" H 1750 2850 60  0001 C CNN "Supplier5 part"
-F 20 "https://www.elfa.se/elfa3~se_en/elfa/init.do?item=65-724-45" H 1750 2850 60  0001 C CNN "Supplier5 link"
-	1    1750 2850
-	0    1    1    0   
-$EndComp
-$Comp
-L C C17
-U 1 1 55F28C7A
-P 800 5300
-F 0 "C17" H 650 5400 50  0000 L CNN
-F 1 "0.1uF" H 550 5200 50  0000 L CNN
-F 2 "Capacitors_SMD:C_1206_HandSoldering" H 838 5150 30  0001 C CNN
-F 3 "http://www.farnell.com/datasheets/1825494.pdf" H 800 5300 60  0001 C CNN
-F 4 "MULTICOMP" H 800 5300 60  0001 C CNN "Vendor"
-F 5 "RR1220P-105-B-T5" H 800 5300 60  0001 C CNN "Vendor part"
-F 6 "Farnell" H 800 5300 60  0001 C CNN "Supplier1"
-F 7 "1856619" H 800 5300 60  0001 C CNN "Supplier1 part"
-F 8 "http://se.farnell.com/multicomp/mcsh31b104k250ct/cap-mlcc-x7r-100nf-25v-1206/dp/1856619?ost=1856619" H 800 5300 60  0001 C CNN "Supplier1 link"
-F 9 "Mouser" H 450 5300 60  0001 C CNN "Supplier2"
-F 10 "77-VJ1206Y104KXQPBC" H 450 5300 60  0001 C CNN "Supplier2 part"
-F 11 "http://se.mouser.com/ProductDetail/Vishay-Vitramon/VJ1206Y104KXQPW1BC/?qs=sGAEpiMZZMs0AnBnWHyRQHefeAIkSpb%2fQ4QtfI01vrc%3d" H 800 5300 60  0001 C CNN "Supplier2 link"
-F 12 "Digi-Key" H 800 5300 60  0001 C CNN "Supplier3"
-F 13 "399-1249-1-ND" H 800 5300 60  0001 C CNN "Supplier3 part"
-F 14 "http://www.digikey.se/short/7w1zrd" H 800 5300 60  0001 C CNN "Supplier3 link"
-F 15 "AliExpress" H 800 5300 60  0001 C CNN "Supplier4"
-F 16 "32274650296" H 800 5300 60  0001 C CNN "Supplier4 part"
-F 17 "http://www.aliexpress.com/item/1206-100NF-104M-Y5V-50V-SMD-Capacitor-Multilayer-chip-ceramic-capacitor-100Pcs-Lot/32274650296.html" H 800 5300 60  0001 C CNN "Supplier4 link"
-F 18 "Elfa" H 800 5300 60  0001 C CNN "Supplier5"
-F 19 "65-724-45" H 800 5300 60  0001 C CNN "Supplier5 part"
-F 20 "https://www.elfa.se/elfa3~se_en/elfa/init.do?item=65-724-45" H 800 5300 60  0001 C CNN "Supplier5 link"
-	1    800  5300
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -3425,7 +3113,7 @@ F 13 "1500644RL" H 5050 6000 60  0001 C CNN "Supplier3 part"
 F 14 "http://se.farnell.com/yageo-phycomp/rt0603fre0756kl/motst-nd-0603-1-50ppm-56k/dp/1500644RL" H 5050 6000 60  0001 C CNN "Supplier3 link"
 F 15 "Elfa" H 5050 6000 60  0001 C CNN "Supplier4"
 F 16 "60-255-52" H 5050 6000 60  0001 C CNN "Supplier4 part"
-F 17 "https://www.elfa.se/elfa3~se_en/elfa/init.do?item=60-255-52&toc=19543" H 5050 6000 60  0001 C CNN "Supplier4 link"
+F 17 "https://www.elfa.se/elfa3~se_en/elfa/init.do?item=60-255-52" H 5050 6000 60  0001 C CNN "Supplier4 link"
 F 18 "Digi-Key" H 5050 6000 60  0001 C CNN "Supplier5"
 F 19 "541-56KACT-ND" H 5050 6000 60  0001 C CNN "Supplier5 part"
 F 20 "http://www.digikey.se/short/7v5tfw" H 5050 6000 60  0001 C CNN "Supplier5 link"
@@ -3453,7 +3141,7 @@ F 13 "1500644RL" H 3650 5700 60  0001 C CNN "Supplier3 part"
 F 14 "http://se.farnell.com/yageo-phycomp/rt0603fre0756kl/motst-nd-0603-1-50ppm-56k/dp/1500644RL" H 3650 5700 60  0001 C CNN "Supplier3 link"
 F 15 "Elfa" H 3650 5700 60  0001 C CNN "Supplier4"
 F 16 "60-255-52" H 3650 5700 60  0001 C CNN "Supplier4 part"
-F 17 "https://www.elfa.se/elfa3~se_en/elfa/init.do?item=60-255-52&toc=19543" H 3650 5700 60  0001 C CNN "Supplier4 link"
+F 17 "https://www.elfa.se/elfa3~se_en/elfa/init.do?item=60-255-52" H 3650 5700 60  0001 C CNN "Supplier4 link"
 F 18 "Digi-Key" H 3650 5700 60  0001 C CNN "Supplier5"
 F 19 "541-56KACT-ND" H 3650 5700 60  0001 C CNN "Supplier5 part"
 F 20 "http://www.digikey.se/short/7v5tfw" H 3650 5700 60  0001 C CNN "Supplier5 link"
@@ -3481,140 +3169,15 @@ F 13 "1500644RL" H 4400 3400 60  0001 C CNN "Supplier3 part"
 F 14 "http://se.farnell.com/yageo-phycomp/rt0603fre0756kl/motst-nd-0603-1-50ppm-56k/dp/1500644RL" H 4400 3400 60  0001 C CNN "Supplier3 link"
 F 15 "Elfa" H 4400 3400 60  0001 C CNN "Supplier4"
 F 16 "60-255-52" H 4400 3400 60  0001 C CNN "Supplier4 part"
-F 17 "https://www.elfa.se/elfa3~se_en/elfa/init.do?item=60-255-52&toc=19543" H 4400 3400 60  0001 C CNN "Supplier4 link"
+F 17 "https://www.elfa.se/elfa3~se_en/elfa/init.do?item=60-255-52" H 4400 3400 60  0001 C CNN "Supplier4 link"
 F 18 "Digi-Key" H 4400 3400 60  0001 C CNN "Supplier5"
 F 19 "541-56KACT-ND" H 4400 3400 60  0001 C CNN "Supplier5 part"
 F 20 "http://www.digikey.se/short/7v5tfw" H 4400 3400 60  0001 C CNN "Supplier5 link"
 	1    4400 3400
 	-1   0    0    1   
 $EndComp
-$Comp
-L JUMPER3 JP8
-U 1 1 55F2E6C2
-P 3850 5350
-F 0 "JP8" V 3850 5450 50  0000 L CNN
-F 1 "JUMPER3" H 3850 5450 50  0001 C BNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x03" H 3850 5350 60  0001 C CNN
-F 3 "http://www.mouser.com/ds/2/1/3m_ts0816-349901.pdf" H 3850 5350 60  0001 C CNN
-F 4 "HARWIN" H 3850 5350 60  0001 C CNN "Vendor"
-F 5 "M20-9993646" H 3850 5350 60  0001 C CNN "Vendor part"
-F 6 "Farnell" H 3850 5350 60  0001 C CNN "Supplier1"
-F 7 "1593412" H 3850 5350 60  0001 C CNN "Supplier1 part"
-F 8 "http://se.farnell.com/multicomp/2211s-03g/header-1-row-vert-3way/dp/1593412" H 3850 5350 60  0001 C CNN "Supplier1 link"
-F 9 "Digi-Key" H 3850 5350 60  0001 C CNN "Supplier2"
-F 10 "952-2264-ND" H 3850 5350 60  0001 C CNN "Supplier2 part"
-F 11 "http://www.digikey.se/short/7w1485" H 3850 5350 60  0001 C CNN "Supplier2 link"
-F 12 "Mouser" H 1200 1550 60  0001 C CNN "Supplier3"
-F 13 "517-9611036804AR" H 1200 1550 60  0001 C CNN "Supplier3 part"
-F 14 "http://www.mouser.com/ProductDetail/3M-Electronic-Solutions-Division/961103-6804-AR/?qs=sGAEpiMZZMs%252bGHln7q6pm53vbKor1bMJoeppOe7LBrw%3d" H 3850 5350 60  0001 C CNN "Supplier3 link"
-F 15 "Elfa" H 3850 5350 60  0001 C CNN "Supplier4"
-F 16 "43-004-91" H 3850 5350 60  0001 C CNN "Supplier4 part"
-F 17 "https://www.elfa.se/elfa3~se_en/elfa/init.do?item=43-004-91" H 3850 5350 60  0001 C CNN "Supplier4 link"
-	1    3850 5350
-	0    1    1    0   
-$EndComp
-$Comp
-L JUMPER3 JP9
-U 1 1 55F2F3CE
-P 5200 6150
-F 0 "JP9" V 5200 6250 50  0000 L CNN
-F 1 "JUMPER3" H 5200 6250 50  0001 C BNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x03" H 5200 6150 60  0001 C CNN
-F 3 "http://www.mouser.com/ds/2/1/3m_ts0816-349901.pdf" H 5200 6150 60  0001 C CNN
-F 4 "HARWIN" H 5200 6150 60  0001 C CNN "Vendor"
-F 5 "M20-9993646" H 5200 6150 60  0001 C CNN "Vendor part"
-F 6 "Farnell" H 5200 6150 60  0001 C CNN "Supplier1"
-F 7 "1593412" H 5200 6150 60  0001 C CNN "Supplier1 part"
-F 8 "http://se.farnell.com/multicomp/2211s-03g/header-1-row-vert-3way/dp/1593412" H 5200 6150 60  0001 C CNN "Supplier1 link"
-F 9 "Digi-Key" H 5200 6150 60  0001 C CNN "Supplier2"
-F 10 "952-2264-ND" H 5200 6150 60  0001 C CNN "Supplier2 part"
-F 11 "http://www.digikey.se/short/7w1485" H 5200 6150 60  0001 C CNN "Supplier2 link"
-F 12 "Mouser" H 2550 2350 60  0001 C CNN "Supplier3"
-F 13 "517-9611036804AR" H 2550 2350 60  0001 C CNN "Supplier3 part"
-F 14 "http://www.mouser.com/ProductDetail/3M-Electronic-Solutions-Division/961103-6804-AR/?qs=sGAEpiMZZMs%252bGHln7q6pm53vbKor1bMJoeppOe7LBrw%3d" H 5200 6150 60  0001 C CNN "Supplier3 link"
-F 15 "Elfa" H 5200 6150 60  0001 C CNN "Supplier4"
-F 16 "43-004-91" H 5200 6150 60  0001 C CNN "Supplier4 part"
-F 17 "https://www.elfa.se/elfa3~se_en/elfa/init.do?item=43-004-91" H 5200 6150 60  0001 C CNN "Supplier4 link"
-	1    5200 6150
-	0    1    1    0   
-$EndComp
 Text Notes 6000 2650 0    35   ~ 0
 1
-$Comp
-L Jumper_NO_Small JP4
-U 1 1 55F3232E
-P 5450 1850
-F 0 "JP4" H 5450 1750 50  0000 C CNN
-F 1 "Jumper_NO_Small" H 5460 1790 50  0001 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 5450 1850 60  0001 C CNN
-F 3 "https://www1.elfa.se/data1/wwwroot/assets/datasheets/cgrid_III_90120_eng_dwg.pdf" H 5450 1850 60  0001 C CNN
-F 4 "HARWIN" H 5450 1850 60  0001 C CNN "Vendor"
-F 5 "M20-9993646" H 5450 1850 60  0001 C CNN "Vendor part"
-F 6 "Mouser" H 5100 2550 60  0001 C CNN "Supplier1"
-F 7 "710-61300211121" H 5100 2550 60  0001 C CNN "Supplier1 part"
-F 8 "http://www.mouser.com/ProductDetail/Wurth-Electronics/61300211121/?qs=sGAEpiMZZMs%252bGHln7q6pm0xQ%252bwYJLofO2aeIeJWXAx0%3d" H 5450 1850 60  0001 C CNN "Supplier1 link"
-F 9 "Farnell" H 5450 1850 60  0001 C CNN "Supplier2"
-F 10 "2356153" H 5450 1850 60  0001 C CNN "Supplier2 part"
-F 11 "http://se.farnell.com/wurth-elektronik/61300211121/header-2-54mm-pin-tht-vertical/dp/2356153?ost=61300211121" H 5450 1850 60  0001 C CNN "Supplier2 link"
-F 12 "Elfa" H 5450 1850 60  0001 C CNN "Supplier3"
-F 13 "43-004-90" H 5450 1850 60  0001 C CNN "Supplier3 part"
-F 14 "https://www.elfa.se/elfa3~se_en/elfa/init.do?item=43-004-90" H 5450 1850 60  0001 C CNN "Supplier3 link"
-F 15 "Digi-Key" H 5450 1850 60  0001 C CNN "Supplier4"
-F 16 "S1012EC-02-ND" H 5450 1850 60  0001 C CNN "Supplier4 part"
-F 17 "http://www.digikey.se/short/7w149z" H 5450 1850 60  0001 C CNN "Supplier4 link"
-	1    5450 1850
-	-1   0    0    1   
-$EndComp
-$Comp
-L Jumper_NO_Small JP5
-U 1 1 55F326D1
-P 2900 1900
-F 0 "JP5" H 2900 1800 50  0000 C CNN
-F 1 "Jumper_NO_Small" H 2910 1840 50  0001 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 2900 1900 60  0001 C CNN
-F 3 "https://www1.elfa.se/data1/wwwroot/assets/datasheets/cgrid_III_90120_eng_dwg.pdf" H 2900 1900 60  0001 C CNN
-F 4 "HARWIN" H 2900 1900 60  0001 C CNN "Vendor"
-F 5 "M20-9993646" H 2900 1900 60  0001 C CNN "Vendor part"
-F 6 "Mouser" H 2550 2600 60  0001 C CNN "Supplier1"
-F 7 "710-61300211121" H 2550 2600 60  0001 C CNN "Supplier1 part"
-F 8 "http://www.mouser.com/ProductDetail/Wurth-Electronics/61300211121/?qs=sGAEpiMZZMs%252bGHln7q6pm0xQ%252bwYJLofO2aeIeJWXAx0%3d" H 2900 1900 60  0001 C CNN "Supplier1 link"
-F 9 "Farnell" H 2900 1900 60  0001 C CNN "Supplier2"
-F 10 "2356153" H 2900 1900 60  0001 C CNN "Supplier2 part"
-F 11 "http://se.farnell.com/wurth-elektronik/61300211121/header-2-54mm-pin-tht-vertical/dp/2356153?ost=61300211121" H 2900 1900 60  0001 C CNN "Supplier2 link"
-F 12 "Elfa" H 2900 1900 60  0001 C CNN "Supplier3"
-F 13 "43-004-90" H 2900 1900 60  0001 C CNN "Supplier3 part"
-F 14 "https://www.elfa.se/elfa3~se_en/elfa/init.do?item=43-004-90" H 2900 1900 60  0001 C CNN "Supplier3 link"
-F 15 "Digi-Key" H 2900 1900 60  0001 C CNN "Supplier4"
-F 16 "S1012EC-02-ND" H 2900 1900 60  0001 C CNN "Supplier4 part"
-F 17 "http://www.digikey.se/short/7w149z" H 2900 1900 60  0001 C CNN "Supplier4 link"
-	1    2900 1900
-	-1   0    0    1   
-$EndComp
-$Comp
-L Jumper_NO_Small JP7
-U 1 1 55F33363
-P 7550 3100
-F 0 "JP7" V 7550 3000 50  0000 C CNN
-F 1 "Jumper_NO_Small" H 7560 3040 50  0001 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 7550 3100 60  0001 C CNN
-F 3 "https://www1.elfa.se/data1/wwwroot/assets/datasheets/cgrid_III_90120_eng_dwg.pdf" H 7550 3100 60  0001 C CNN
-F 4 "HARWIN" H 7550 3100 60  0001 C CNN "Vendor"
-F 5 "M20-9993646" H 7550 3100 60  0001 C CNN "Vendor part"
-F 6 "Mouser" H 7200 3800 60  0001 C CNN "Supplier1"
-F 7 "710-61300211121" H 7200 3800 60  0001 C CNN "Supplier1 part"
-F 8 "http://www.mouser.com/ProductDetail/Wurth-Electronics/61300211121/?qs=sGAEpiMZZMs%252bGHln7q6pm0xQ%252bwYJLofO2aeIeJWXAx0%3d" H 7550 3100 60  0001 C CNN "Supplier1 link"
-F 9 "Farnell" H 7550 3100 60  0001 C CNN "Supplier2"
-F 10 "2356153" H 7550 3100 60  0001 C CNN "Supplier2 part"
-F 11 "http://se.farnell.com/wurth-elektronik/61300211121/header-2-54mm-pin-tht-vertical/dp/2356153?ost=61300211121" H 7550 3100 60  0001 C CNN "Supplier2 link"
-F 12 "Elfa" H 7550 3100 60  0001 C CNN "Supplier3"
-F 13 "43-004-90" H 7550 3100 60  0001 C CNN "Supplier3 part"
-F 14 "https://www.elfa.se/elfa3~se_en/elfa/init.do?item=43-004-90" H 7550 3100 60  0001 C CNN "Supplier3 link"
-F 15 "Digi-Key" H 7550 3100 60  0001 C CNN "Supplier4"
-F 16 "S1012EC-02-ND" H 7550 3100 60  0001 C CNN "Supplier4 part"
-F 17 "http://www.digikey.se/short/7w149z" H 7550 3100 60  0001 C CNN "Supplier4 link"
-	1    7550 3100
-	0    -1   -1   0   
-$EndComp
 $Comp
 L R R5
 U 1 1 55F354FB
@@ -3726,5 +3289,509 @@ F 19 "1894624" H 5550 2200 60  0001 C CNN "Supplier5 part"
 F 20 "http://se.farnell.com/nxp/pmv32up/mosfet-p-ch-20v-4a-sot23/dp/1894624" H 5550 2200 60  0001 C CNN "Supplier5 link"
 	1    5550 2200
 	0    -1   -1   0   
+$EndComp
+$Comp
+L Jumper_NO_Small JP3
+U 1 1 55F34F52
+P 6400 1450
+F 0 "JP3" H 6400 1550 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 6410 1390 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 6400 1450 60  0001 C CNN
+F 3 "https://www1.elfa.se/data1/wwwroot/assets/datasheets/cgrid_III_90120_eng_dwg.pdf" H 6400 1450 60  0001 C CNN
+F 4 "Wurth Electronics" H 6400 1450 60  0001 C CNN "Vendor"
+F 5 "61300211121" H 6400 1450 60  0001 C CNN "Vendor part"
+F 6 "Farnell" H 6400 1450 60  0001 C CNN "Supplier1"
+F 7 "2356153" H 6400 1450 60  0001 C CNN "Supplier1 part"
+F 8 "http://se.farnell.com/wurth-elektronik/61300211121/header-2-54mm-pin-tht-vertical/dp/2356153" H 6400 1450 60  0001 C CNN "Supplier1 link"
+F 9 "Digi-Key" H 6400 1450 60  0001 C CNN "Supplier2"
+F 10 "S1012EC-02-ND" H 6400 1450 60  0001 C CNN "Supplier2 part"
+F 11 "http://www.digikey.se/short/7w149z" H 6400 1450 60  0001 C CNN "Supplier2 link"
+F 12 "Mouser" H 6050 2150 60  0001 C CNN "Supplier3"
+F 13 "710-61300211121" H 6050 2150 60  0001 C CNN "Supplier3 part"
+F 14 "http://www.mouser.com/ProductDetail/Wurth-Electronics/61300211121/?qs=sGAEpiMZZMs%252bGHln7q6pm0xQ%252bwYJLofO2aeIeJWXAx0%3d" H 6400 1450 60  0001 C CNN "Supplier3 link"
+F 15 "RS" H 6400 1450 60  0001 C CNN "Supplier4"
+F 16 "828-1581" H 6400 1450 60  0001 C CNN "Supplier4 part"
+F 17 "http://se.rs-online.com/web/p/pcb-headers/8281581" H 6400 1450 60  0001 C CNN "Supplier4 link"
+F 18 "Elfa" H 6400 1450 60  0001 C CNN "Supplier5"
+F 19 "43-004-90" H 6400 1450 60  0001 C CNN "Supplier5 part"
+F 20 "https://www.elfa.se/elfa3~se_en/elfa/init.do?item=43-004-90" H 6400 1450 60  0001 C CNN "Supplier5 link"
+	1    6400 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper_NO_Small JP6
+U 1 1 55F35B5C
+P 7500 2500
+F 0 "JP6" H 7500 2450 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 7510 2440 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 7500 2500 60  0001 C CNN
+F 3 "https://www1.elfa.se/data1/wwwroot/assets/datasheets/cgrid_III_90120_eng_dwg.pdf" H 7500 2500 60  0001 C CNN
+F 4 "Wurth Electronics" H 7500 2500 60  0001 C CNN "Vendor"
+F 5 "61300211121" H 7500 2500 60  0001 C CNN "Vendor part"
+F 6 "Farnell" H 7500 2500 60  0001 C CNN "Supplier1"
+F 7 "2356153" H 7500 2500 60  0001 C CNN "Supplier1 part"
+F 8 "http://se.farnell.com/wurth-elektronik/61300211121/header-2-54mm-pin-tht-vertical/dp/2356153" H 7500 2500 60  0001 C CNN "Supplier1 link"
+F 9 "Digi-Key" H 7500 2500 60  0001 C CNN "Supplier2"
+F 10 "S1012EC-02-ND" H 7500 2500 60  0001 C CNN "Supplier2 part"
+F 11 "http://www.digikey.se/short/7w149z" H 7500 2500 60  0001 C CNN "Supplier2 link"
+F 12 "Mouser" H 7150 3200 60  0001 C CNN "Supplier3"
+F 13 "710-61300211121" H 7150 3200 60  0001 C CNN "Supplier3 part"
+F 14 "http://www.mouser.com/ProductDetail/Wurth-Electronics/61300211121/?qs=sGAEpiMZZMs%252bGHln7q6pm0xQ%252bwYJLofO2aeIeJWXAx0%3d" H 7500 2500 60  0001 C CNN "Supplier3 link"
+F 15 "RS" H 7500 2500 60  0001 C CNN "Supplier4"
+F 16 "828-1581" H 7500 2500 60  0001 C CNN "Supplier4 part"
+F 17 "http://se.rs-online.com/web/p/pcb-headers/8281581" H 7500 2500 60  0001 C CNN "Supplier4 link"
+F 18 "Elfa" H 7500 2500 60  0001 C CNN "Supplier5"
+F 19 "43-004-90" H 7500 2500 60  0001 C CNN "Supplier5 part"
+F 20 "https://www.elfa.se/elfa3~se_en/elfa/init.do?item=43-004-90" H 7500 2500 60  0001 C CNN "Supplier5 link"
+	1    7500 2500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Jumper_NO_Small JP7
+U 1 1 55F3735A
+P 7550 3100
+F 0 "JP7" V 7550 3000 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 7560 3040 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 7550 3100 60  0001 C CNN
+F 3 "https://www1.elfa.se/data1/wwwroot/assets/datasheets/cgrid_III_90120_eng_dwg.pdf" H 7550 3100 60  0001 C CNN
+F 4 "Wurth Electronics" H 7550 3100 60  0001 C CNN "Vendor"
+F 5 "61300211121" H 7550 3100 60  0001 C CNN "Vendor part"
+F 6 "Farnell" H 7550 3100 60  0001 C CNN "Supplier1"
+F 7 "2356153" H 7550 3100 60  0001 C CNN "Supplier1 part"
+F 8 "http://se.farnell.com/wurth-elektronik/61300211121/header-2-54mm-pin-tht-vertical/dp/2356153" H 7550 3100 60  0001 C CNN "Supplier1 link"
+F 9 "Digi-Key" H 7550 3100 60  0001 C CNN "Supplier2"
+F 10 "S1012EC-02-ND" H 7550 3100 60  0001 C CNN "Supplier2 part"
+F 11 "http://www.digikey.se/short/7w149z" H 7550 3100 60  0001 C CNN "Supplier2 link"
+F 12 "Mouser" H 7200 3800 60  0001 C CNN "Supplier3"
+F 13 "710-61300211121" H 7200 3800 60  0001 C CNN "Supplier3 part"
+F 14 "http://www.mouser.com/ProductDetail/Wurth-Electronics/61300211121/?qs=sGAEpiMZZMs%252bGHln7q6pm0xQ%252bwYJLofO2aeIeJWXAx0%3d" H 7550 3100 60  0001 C CNN "Supplier3 link"
+F 15 "RS" H 7550 3100 60  0001 C CNN "Supplier4"
+F 16 "828-1581" H 7550 3100 60  0001 C CNN "Supplier4 part"
+F 17 "http://se.rs-online.com/web/p/pcb-headers/8281581" H 7550 3100 60  0001 C CNN "Supplier4 link"
+F 18 "Elfa" H 7550 3100 60  0001 C CNN "Supplier5"
+F 19 "43-004-90" H 7550 3100 60  0001 C CNN "Supplier5 part"
+F 20 "https://www.elfa.se/elfa3~se_en/elfa/init.do?item=43-004-90" H 7550 3100 60  0001 C CNN "Supplier5 link"
+	1    7550 3100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Jumper_NO_Small JP10
+U 1 1 55F37B6E
+P 5950 2600
+F 0 "JP10" H 5950 2550 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 5960 2540 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 5950 2600 60  0001 C CNN
+F 3 "https://www1.elfa.se/data1/wwwroot/assets/datasheets/cgrid_III_90120_eng_dwg.pdf" H 5950 2600 60  0001 C CNN
+F 4 "Wurth Electronics" H 5950 2600 60  0001 C CNN "Vendor"
+F 5 "61300211121" H 5950 2600 60  0001 C CNN "Vendor part"
+F 6 "Farnell" H 5950 2600 60  0001 C CNN "Supplier1"
+F 7 "2356153" H 5950 2600 60  0001 C CNN "Supplier1 part"
+F 8 "http://se.farnell.com/wurth-elektronik/61300211121/header-2-54mm-pin-tht-vertical/dp/2356153?ost=61300211121" H 5950 2600 60  0001 C CNN "Supplier1 link"
+F 9 "Digi-Key" H 5950 2600 60  0001 C CNN "Supplier2"
+F 10 "S1012EC-02-ND" H 5950 2600 60  0001 C CNN "Supplier2 part"
+F 11 "http://www.digikey.se/short/7w149z" H 5950 2600 60  0001 C CNN "Supplier2 link"
+F 12 "Mouser" H 5600 3300 60  0001 C CNN "Supplier3"
+F 13 "710-61300211121" H 5600 3300 60  0001 C CNN "Supplier3 part"
+F 14 "http://www.mouser.com/ProductDetail/Wurth-Electronics/61300211121/?qs=sGAEpiMZZMs%252bGHln7q6pm0xQ%252bwYJLofO2aeIeJWXAx0%3d" H 5950 2600 60  0001 C CNN "Supplier3 link"
+F 15 "RS" H 5950 2600 60  0001 C CNN "Supplier4"
+F 16 "828-1581" H 5950 2600 60  0001 C CNN "Supplier4 part"
+F 17 "http://se.rs-online.com/web/p/pcb-headers/8281581" H 5950 2600 60  0001 C CNN "Supplier4 link"
+F 18 "Elfa" H 5950 2600 60  0001 C CNN "Supplier5"
+F 19 "43-004-90" H 5950 2600 60  0001 C CNN "Supplier5 part"
+F 20 "https://www.elfa.se/elfa3~se_en/elfa/init.do?item=43-004-90" H 5950 2600 60  0001 C CNN "Supplier5 link"
+	1    5950 2600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Jumper_NO_Small JP4
+U 1 1 55F38573
+P 5450 1850
+F 0 "JP4" H 5450 1800 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 5460 1790 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 5450 1850 60  0001 C CNN
+F 3 "https://www1.elfa.se/data1/wwwroot/assets/datasheets/cgrid_III_90120_eng_dwg.pdf" H 5450 1850 60  0001 C CNN
+F 4 "Wurth Electronics" H 5450 1850 60  0001 C CNN "Vendor"
+F 5 "61300211121" H 5450 1850 60  0001 C CNN "Vendor part"
+F 6 "Farnell" H 5450 1850 60  0001 C CNN "Supplier1"
+F 7 "2356153" H 5450 1850 60  0001 C CNN "Supplier1 part"
+F 8 "http://se.farnell.com/wurth-elektronik/61300211121/header-2-54mm-pin-tht-vertical/dp/2356153" H 5450 1850 60  0001 C CNN "Supplier1 link"
+F 9 "Digi-Key" H 5450 1850 60  0001 C CNN "Supplier2"
+F 10 "S1012EC-02-ND" H 5450 1850 60  0001 C CNN "Supplier2 part"
+F 11 "http://www.digikey.se/short/7w149z" H 5450 1850 60  0001 C CNN "Supplier2 link"
+F 12 "Mouser" H 5100 2550 60  0001 C CNN "Supplier3"
+F 13 "710-61300211121" H 5100 2550 60  0001 C CNN "Supplier3 part"
+F 14 "http://www.mouser.com/ProductDetail/Wurth-Electronics/61300211121/?qs=sGAEpiMZZMs%252bGHln7q6pm0xQ%252bwYJLofO2aeIeJWXAx0%3d" H 5450 1850 60  0001 C CNN "Supplier3 link"
+F 15 "RS" H 5450 1850 60  0001 C CNN "Supplier4"
+F 16 "828-1581" H 5450 1850 60  0001 C CNN "Supplier4 part"
+F 17 "http://se.rs-online.com/web/p/pcb-headers/8281581" H 5450 1850 60  0001 C CNN "Supplier4 link"
+F 18 "Elfa" H 5450 1850 60  0001 C CNN "Supplier5"
+F 19 "43-004-90" H 5450 1850 60  0001 C CNN "Supplier5 part"
+F 20 "https://www.elfa.se/elfa3~se_en/elfa/init.do?item=43-004-90" H 5450 1850 60  0001 C CNN "Supplier5 link"
+	1    5450 1850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Jumper_NO_Small JP5
+U 1 1 55F38D83
+P 2900 1900
+F 0 "JP5" H 2900 1850 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 2910 1840 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 2900 1900 60  0001 C CNN
+F 3 "https://www1.elfa.se/data1/wwwroot/assets/datasheets/cgrid_III_90120_eng_dwg.pdf" H 2900 1900 60  0001 C CNN
+F 4 "Wurth Electronics" H 2900 1900 60  0001 C CNN "Vendor"
+F 5 "61300211121" H 2900 1900 60  0001 C CNN "Vendor part"
+F 6 "Farnell" H 2900 1900 60  0001 C CNN "Supplier1"
+F 7 "2356153" H 2900 1900 60  0001 C CNN "Supplier1 part"
+F 8 "http://se.farnell.com/wurth-elektronik/61300211121/header-2-54mm-pin-tht-vertical/dp/2356153" H 2900 1900 60  0001 C CNN "Supplier1 link"
+F 9 "Digi-Key" H 2900 1900 60  0001 C CNN "Supplier2"
+F 10 "S1012EC-02-ND" H 2900 1900 60  0001 C CNN "Supplier2 part"
+F 11 "http://www.digikey.se/short/7w149z" H 2900 1900 60  0001 C CNN "Supplier2 link"
+F 12 "Mouser" H 2550 2600 60  0001 C CNN "Supplier3"
+F 13 "710-61300211121" H 2550 2600 60  0001 C CNN "Supplier3 part"
+F 14 "http://www.mouser.com/ProductDetail/Wurth-Electronics/61300211121/?qs=sGAEpiMZZMs%252bGHln7q6pm0xQ%252bwYJLofO2aeIeJWXAx0%3d" H 2900 1900 60  0001 C CNN "Supplier3 link"
+F 15 "RS" H 2900 1900 60  0001 C CNN "Supplier4"
+F 16 "828-1581" H 2900 1900 60  0001 C CNN "Supplier4 part"
+F 17 "http://se.rs-online.com/web/p/pcb-headers/8281581" H 2900 1900 60  0001 C CNN "Supplier4 link"
+F 18 "Elfa" H 2900 1900 60  0001 C CNN "Supplier5"
+F 19 "43-004-90" H 2900 1900 60  0001 C CNN "Supplier5 part"
+F 20 "https://www.elfa.se/elfa3~se_en/elfa/init.do?item=43-004-90" H 2900 1900 60  0001 C CNN "Supplier5 link"
+	1    2900 1900
+	-1   0    0    1   
+$EndComp
+$Comp
+L JUMPER3 JP9
+U 1 1 55F3F8D0
+P 5200 6150
+F 0 "JP9" V 5200 6250 50  0000 L CNN
+F 1 "JUMPER3" H 5200 6250 50  0001 C BNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03" H 5200 6150 60  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/1/3m_ts0816-349901.pdf" H 5200 6150 60  0001 C CNN
+F 4 "HARWIN" H 5200 6150 60  0001 C CNN "Vendor"
+F 5 "M20-9990346" H 5200 6150 60  0001 C CNN "Vendor part"
+F 6 "Farnell" H 5200 6150 60  0001 C CNN "Supplier1"
+F 7 "1593412" H 5200 6150 60  0001 C CNN "Supplier1 part"
+F 8 "http://se.farnell.com/multicomp/2211s-03g/header-1-row-vert-3way/dp/1593412" H 5200 6150 60  0001 C CNN "Supplier1 link"
+F 9 "RS" H 5200 6150 60  0001 C CNN "Supplier2"
+F 10 "745-7068" H 5200 6150 60  0001 C CNN "Supplier2 part"
+F 11 "http://se.rs-online.com/web/p/pcb-headers/7457068" H 5200 6150 60  0001 C CNN "Supplier2 link"
+F 12 "Digi-Key" H 2550 2350 60  0001 C CNN "Supplier3"
+F 13 "952-2264-ND" H 2550 2350 60  0001 C CNN "Supplier3 part"
+F 14 "http://www.digikey.se/short/7w1485" H 5200 6150 60  0001 C CNN "Supplier3 link"
+F 15 "Mouser" H 5200 6150 60  0001 C CNN "Supplier4"
+F 16 "517-9611036804AR" H 5200 6150 60  0001 C CNN "Supplier4 part"
+F 17 "http://www.mouser.com/ProductDetail/3M-Electronic-Solutions-Division/961103-6804-AR/?qs=sGAEpiMZZMs%252bGHln7q6pm53vbKor1bMJoeppOe7LBrw%3d" H 5200 6150 60  0001 C CNN "Supplier4 link"
+F 18 "Elfa" H 5200 6150 60  0001 C CNN "Supplier5"
+F 19 "43-004-91" H 5200 6150 60  0001 C CNN "Supplier5 part"
+F 20 "https://www.elfa.se/elfa3~se_en/elfa/init.do?item=43-004-91" H 5200 6150 60  0001 C CNN "Supplier5 link"
+	1    5200 6150
+	0    1    1    0   
+$EndComp
+$Comp
+L JUMPER3 JP8
+U 1 1 55F403B5
+P 3850 5350
+F 0 "JP8" V 3850 5450 50  0000 L CNN
+F 1 "JUMPER3" H 3850 5450 50  0001 C BNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03" H 3850 5350 60  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/1/3m_ts0816-349901.pdf" H 3850 5350 60  0001 C CNN
+F 4 "HARWIN" H 3850 5350 60  0001 C CNN "Vendor"
+F 5 "M20-9990346" H 3850 5350 60  0001 C CNN "Vendor part"
+F 6 "Farnell" H 3850 5350 60  0001 C CNN "Supplier1"
+F 7 "1593412" H 3850 5350 60  0001 C CNN "Supplier1 part"
+F 8 "http://se.farnell.com/multicomp/2211s-03g/header-1-row-vert-3way/dp/1593412" H 3850 5350 60  0001 C CNN "Supplier1 link"
+F 9 "RS" H 3850 5350 60  0001 C CNN "Supplier2"
+F 10 "745-7068" H 3850 5350 60  0001 C CNN "Supplier2 part"
+F 11 "http://se.rs-online.com/web/p/pcb-headers/7457068" H 3850 5350 60  0001 C CNN "Supplier2 link"
+F 12 "Digi-Key" H 1200 1550 60  0001 C CNN "Supplier3"
+F 13 "952-2264-ND" H 1200 1550 60  0001 C CNN "Supplier3 part"
+F 14 "http://www.digikey.se/short/7w1485" H 3850 5350 60  0001 C CNN "Supplier3 link"
+F 15 "Mouser" H 3850 5350 60  0001 C CNN "Supplier4"
+F 16 "517-9611036804AR" H 3850 5350 60  0001 C CNN "Supplier4 part"
+F 17 "http://www.mouser.com/ProductDetail/3M-Electronic-Solutions-Division/961103-6804-AR/?qs=sGAEpiMZZMs%252bGHln7q6pm53vbKor1bMJoeppOe7LBrw%3d" H 3850 5350 60  0001 C CNN "Supplier4 link"
+F 18 "Elfa" H 3850 5350 60  0001 C CNN "Supplier5"
+F 19 "43-004-91" H 3850 5350 60  0001 C CNN "Supplier5 part"
+F 20 "https://www.elfa.se/elfa3~se_en/elfa/init.do?item=43-004-91" H 3850 5350 60  0001 C CNN "Supplier5 link"
+	1    3850 5350
+	0    1    1    0   
+$EndComp
+$Comp
+L C C6
+U 1 1 55F413CA
+P 8400 2100
+F 0 "C6" H 8300 2200 50  0000 L CNN
+F 1 "10uF" H 8450 2000 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1206_HandSoldering" H 8438 1950 30  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/427/vjw1bcbascomseries-223529.pdf" H 8400 2100 60  0001 C CNN
+F 4 "Vishay / Vitramon" H 8400 2100 60  0001 C CNN "Vendor"
+F 5 "VJ1206V106ZXQTW1BC" H 8400 2100 60  0001 C CNN "Vendor part"
+F 6 "AliExpress" H 8400 2100 60  0001 C CNN "Supplier1"
+F 7 "32308484869" H 8400 2100 60  0001 C CNN "Supplier1 part"
+F 8 "http://www.aliexpress.com/item/100pcs-1206-3216-106K-10uF-16V-106-Ceramic-SMD-Capacitors-NEW-Products-and-ROHS/32308484869.html" H 8400 2100 60  0001 C CNN "Supplier1 link"
+F 9 "Mouser" H 7450 2200 60  0001 C CNN "Supplier2"
+F 10 "77-VJ1206V106ZXQTBC" H 8400 2100 60  0001 C CNN "Supplier2 part"
+F 11 "http://se.mouser.com/Search/ProductDetail.aspx?R=VJ1206V106ZXQTW1BCvirtualkey61340000virtualkey77-VJ1206V106ZXQTBC" H 8400 2100 60  0001 C CNN "Supplier2 link"
+F 12 "Farnell" H 8400 2100 60  0001 C CNN "Supplier3"
+F 13 "1759434" H 8400 2100 60  0001 C CNN "Supplier3 part"
+F 14 "http://se.farnell.com/multicomp/mc1206f106z100ct/cap-mlcc-y5v-10uf-1206/dp/1759434" H 8400 2100 60  0001 C CNN "Supplier3 link"
+F 15 "Digi-Key" H 8400 2100 60  0001 C CNN "Supplier4"
+F 16 "399-1299-1-ND" H 8400 2100 60  0001 C CNN "Supplier4 part"
+F 17 "http://www.digikey.se/short/7w1z1n" H 8400 2100 60  0001 C CNN "Supplier4 link"
+F 18 "RS" H 8400 2100 60  0001 C CNN "Supplier5"
+F 19 "723-6616" H 8400 2100 60  0001 C CNN "Supplier5 part"
+F 20 "http://se.rs-online.com/web/p/ceramic-multilayer-capacitors/7236616" H 8400 2100 60  0001 C CNN "Supplier5 link"
+	1    8400 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP C10
+U 1 1 55F431F3
+P 1450 2850
+F 0 "C10" V 1250 2750 50  0000 L CNN
+F 1 "4.7uF" V 1350 2600 50  0000 L CNN
+F 2 "Capacitors_Tantalum_SMD:TantalC_SizeB_EIA-3528_HandSoldering" H 1488 2700 30  0001 C CNN
+F 3 "http://www.avx.com/docs/Catalogs/tps.pdf" H 1450 2850 60  0001 C CNN
+F 4 "AVX" H 1450 2850 60  0001 C CNN "Vendor"
+F 5 "TPSB475K025R0900" H 1450 2850 60  0001 C CNN "Vendor part"
+F 6 "AliExpress" H 1450 2850 60  0001 C CNN "Supplier1"
+F 7 "32456411946" H 1450 2850 60  0001 C CNN "Supplier1 part"
+F 8 "http://www.aliexpress.com/item/Free-shipping-20pcs-B-3528-4-7uF-16V-SMD-tantalum-capacitor/32456411946.html" H 1450 2850 60  0001 C CNN "Supplier1 link"
+F 9 "Farnell" H 1450 2850 60  0001 C CNN "Supplier2"
+F 10 "1432589RL" H 1450 2850 60  0001 C CNN "Supplier2 part"
+F 11 "http://se.farnell.com/avx/tpsb475k025r0900/cap-tant-4-7uf-25v-case-b/dp/1432589RL" H 1450 2850 60  0001 C CNN "Supplier2 link"
+F 12 "Digi-Key" H 1450 2850 60  0001 C CNN "Supplier3"
+F 13 "478-2408-1-ND" H 1450 2850 60  0001 C CNN "Supplier3 part"
+F 14 "http://www.digikey.se/short/t3tnrw" H 1450 2850 60  0001 C CNN "Supplier3 link"
+F 15 "Mouser" H 1450 2850 60  0001 C CNN "Supplier4"
+F 16 "581-TPSB475K025R0900" H 1450 2850 60  0001 C CNN "Supplier4 part"
+F 17 "http://se.mouser.com/ProductDetail/AVX/TPSB475K025R0900/?qs=sGAEpiMZZMuEN2agSAc2pkIWJcW2hAciBvjiIg4pnBc%3d" H 1450 2850 60  0001 C CNN "Supplier4 link"
+F 18 "RS" H 1450 2850 60  0001 C CNN "Supplier5"
+F 19 "699-3349" H 1450 2850 60  0001 C CNN "Supplier5 part"
+F 20 "http://se.rs-online.com/web/p/tantalum-capacitors/6993349" H 1450 2850 60  0001 C CNN "Supplier5 link"
+	1    1450 2850
+	0    1    1    0   
+$EndComp
+$Comp
+L CP C14
+U 1 1 55F4335A
+P 3050 3200
+F 0 "C14" V 3200 3050 50  0000 L CNN
+F 1 "4.7uF" V 3100 2950 50  0000 L CNN
+F 2 "Capacitors_Tantalum_SMD:TantalC_SizeB_EIA-3528_HandSoldering" H 3088 3050 30  0001 C CNN
+F 3 "http://www.avx.com/docs/Catalogs/tps.pdf" H 3050 3200 60  0001 C CNN
+F 4 "AVX" H 3050 3200 60  0001 C CNN "Vendor"
+F 5 "TPSB475K025R0900" H 3050 3200 60  0001 C CNN "Vendor part"
+F 6 "AliExpress" H 3050 3200 60  0001 C CNN "Supplier1"
+F 7 "32456411946" H 3050 3200 60  0001 C CNN "Supplier1 part"
+F 8 "http://www.aliexpress.com/item/Free-shipping-20pcs-B-3528-4-7uF-16V-SMD-tantalum-capacitor/32456411946.html" H 3050 3200 60  0001 C CNN "Supplier1 link"
+F 9 "Farnell" H 3050 3200 60  0001 C CNN "Supplier2"
+F 10 "1432589RL" H 3050 3200 60  0001 C CNN "Supplier2 part"
+F 11 "http://se.farnell.com/avx/tpsb475k025r0900/cap-tant-4-7uf-25v-case-b/dp/1432589RL" H 3050 3200 60  0001 C CNN "Supplier2 link"
+F 12 "Digi-Key" H 3050 3200 60  0001 C CNN "Supplier3"
+F 13 "478-2408-1-ND" H 3050 3200 60  0001 C CNN "Supplier3 part"
+F 14 "http://www.digikey.se/short/t3tnrw" H 3050 3200 60  0001 C CNN "Supplier3 link"
+F 15 "Mouser" H 3050 3200 60  0001 C CNN "Supplier4"
+F 16 "581-TPSB475K025R0900" H 3050 3200 60  0001 C CNN "Supplier4 part"
+F 17 "http://se.mouser.com/ProductDetail/AVX/TPSB475K025R0900/?qs=sGAEpiMZZMuEN2agSAc2pkIWJcW2hAciBvjiIg4pnBc%3d" H 3050 3200 60  0001 C CNN "Supplier4 link"
+F 18 "RS" H 3050 3200 60  0001 C CNN "Supplier5"
+F 19 "699-3349" H 3050 3200 60  0001 C CNN "Supplier5 part"
+F 20 "http://se.rs-online.com/web/p/tantalum-capacitors/6993349" H 3050 3200 60  0001 C CNN "Supplier5 link"
+	1    3050 3200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CP C13
+U 1 1 55F450BF
+P 7350 3150
+F 0 "C13" H 7400 3250 50  0000 L CNN
+F 1 "4.7uF" H 7400 3050 50  0000 L CNN
+F 2 "Capacitors_Tantalum_SMD:TantalC_SizeB_EIA-3528_HandSoldering" H 7388 3000 30  0001 C CNN
+F 3 "http://www.avx.com/docs/Catalogs/tps.pdf" H 7350 3150 60  0001 C CNN
+F 4 "AVX" H 7350 3150 60  0001 C CNN "Vendor"
+F 5 "TPSB475K025R0900" H 7350 3150 60  0001 C CNN "Vendor part"
+F 6 "AliExpress" H 7350 3150 60  0001 C CNN "Supplier1"
+F 7 "32456411946" H 7350 3150 60  0001 C CNN "Supplier1 part"
+F 8 "http://www.aliexpress.com/item/Free-shipping-20pcs-B-3528-4-7uF-16V-SMD-tantalum-capacitor/32456411946.html" H 7350 3150 60  0001 C CNN "Supplier1 link"
+F 9 "Farnell" H 7350 3150 60  0001 C CNN "Supplier2"
+F 10 "1432589RL" H 7350 3150 60  0001 C CNN "Supplier2 part"
+F 11 "http://se.farnell.com/avx/tpsb475k025r0900/cap-tant-4-7uf-25v-case-b/dp/1432589RL" H 7350 3150 60  0001 C CNN "Supplier2 link"
+F 12 "Digi-Key" H 7350 3150 60  0001 C CNN "Supplier3"
+F 13 "478-2408-1-ND" H 7350 3150 60  0001 C CNN "Supplier3 part"
+F 14 "http://www.digikey.se/short/t3tnrw" H 7350 3150 60  0001 C CNN "Supplier3 link"
+F 15 "Mouser" H 7350 3150 60  0001 C CNN "Supplier4"
+F 16 "581-TPSB475K025R0900" H 7350 3150 60  0001 C CNN "Supplier4 part"
+F 17 "http://se.mouser.com/ProductDetail/AVX/TPSB475K025R0900/?qs=sGAEpiMZZMuEN2agSAc2pkIWJcW2hAciBvjiIg4pnBc%3d" H 7350 3150 60  0001 C CNN "Supplier4 link"
+F 18 "RS" H 7350 3150 60  0001 C CNN "Supplier5"
+F 19 "699-3349" H 7350 3150 60  0001 C CNN "Supplier5 part"
+F 20 "http://se.rs-online.com/web/p/tantalum-capacitors/6993349" H 7350 3150 60  0001 C CNN "Supplier5 link"
+	1    7350 3150
+	-1   0    0    1   
+$EndComp
+$Comp
+L CP C12
+U 1 1 55F460B0
+P 8950 3050
+F 0 "C12" H 9000 3150 50  0000 L CNN
+F 1 "4.7uF" H 8700 2950 50  0000 L CNN
+F 2 "Capacitors_Tantalum_SMD:TantalC_SizeB_EIA-3528_HandSoldering" H 8988 2900 30  0001 C CNN
+F 3 "http://www.avx.com/docs/Catalogs/tps.pdf" H 8950 3050 60  0001 C CNN
+F 4 "AVX" H 8950 3050 60  0001 C CNN "Vendor"
+F 5 "TPSB475K025R0900" H 8950 3050 60  0001 C CNN "Vendor part"
+F 6 "AliExpress" H 8950 3050 60  0001 C CNN "Supplier1"
+F 7 "32456411946" H 8950 3050 60  0001 C CNN "Supplier1 part"
+F 8 "http://www.aliexpress.com/item/Free-shipping-20pcs-B-3528-4-7uF-16V-SMD-tantalum-capacitor/32456411946.html" H 8950 3050 60  0001 C CNN "Supplier1 link"
+F 9 "Farnell" H 8950 3050 60  0001 C CNN "Supplier2"
+F 10 "1432589RL" H 8950 3050 60  0001 C CNN "Supplier2 part"
+F 11 "http://se.farnell.com/avx/tpsb475k025r0900/cap-tant-4-7uf-25v-case-b/dp/1432589RL" H 8950 3050 60  0001 C CNN "Supplier2 link"
+F 12 "Digi-Key" H 8950 3050 60  0001 C CNN "Supplier3"
+F 13 "478-2408-1-ND" H 8950 3050 60  0001 C CNN "Supplier3 part"
+F 14 "http://www.digikey.se/short/t3tnrw" H 8950 3050 60  0001 C CNN "Supplier3 link"
+F 15 "Mouser" H 8950 3050 60  0001 C CNN "Supplier4"
+F 16 "581-TPSB475K025R0900" H 8950 3050 60  0001 C CNN "Supplier4 part"
+F 17 "http://se.mouser.com/ProductDetail/AVX/TPSB475K025R0900/?qs=sGAEpiMZZMuEN2agSAc2pkIWJcW2hAciBvjiIg4pnBc%3d" H 8950 3050 60  0001 C CNN "Supplier4 link"
+F 18 "RS" H 8950 3050 60  0001 C CNN "Supplier5"
+F 19 "699-3349" H 8950 3050 60  0001 C CNN "Supplier5 part"
+F 20 "http://se.rs-online.com/web/p/tantalum-capacitors/6993349" H 8950 3050 60  0001 C CNN "Supplier5 link"
+	1    8950 3050
+	-1   0    0    1   
+$EndComp
+$Comp
+L C C18
+U 1 1 55F470DD
+P 10700 3300
+F 0 "C18" H 10750 3400 50  0000 L CNN
+F 1 "0.1uF" H 10750 3200 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1206_HandSoldering" H 10738 3150 30  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/1825494.pdf" H 10700 3300 60  0001 C CNN
+F 4 "MULTICOMP" H 10700 3300 60  0001 C CNN "Vendor"
+F 5 "MCSH31B104K250CT" H 10700 3300 60  0001 C CNN "Vendor part"
+F 6 "Farnell" H 10700 3300 60  0001 C CNN "Supplier1"
+F 7 "1856619" H 10700 3300 60  0001 C CNN "Supplier1 part"
+F 8 "http://se.farnell.com/multicomp/mcsh31b104k250ct/cap-mlcc-x7r-100nf-25v-1206/dp/1856619?ost=1856619" H 10700 3300 60  0001 C CNN "Supplier1 link"
+F 9 "Mouser" H 10350 3300 60  0001 C CNN "Supplier2"
+F 10 "77-VJ1206Y104KXQPBC" H 10350 3300 60  0001 C CNN "Supplier2 part"
+F 11 "http://se.mouser.com/ProductDetail/Vishay-Vitramon/VJ1206Y104KXQPW1BC/?qs=sGAEpiMZZMs0AnBnWHyRQHefeAIkSpb%2fQ4QtfI01vrc%3d" H 10700 3300 60  0001 C CNN "Supplier2 link"
+F 12 "Digi-Key" H 10700 3300 60  0001 C CNN "Supplier3"
+F 13 "399-1249-1-ND" H 10700 3300 60  0001 C CNN "Supplier3 part"
+F 14 "http://www.digikey.se/short/7w1zrd" H 10700 3300 60  0001 C CNN "Supplier3 link"
+F 15 "AliExpress" H 10700 3300 60  0001 C CNN "Supplier4"
+F 16 "32274650296" H 10700 3300 60  0001 C CNN "Supplier4 part"
+F 17 "http://www.aliexpress.com/item/1206-100NF-104M-Y5V-50V-SMD-Capacitor-Multilayer-chip-ceramic-capacitor-100Pcs-Lot/32274650296.html" H 10700 3300 60  0001 C CNN "Supplier4 link"
+F 18 "Elfa" H 10700 3300 60  0001 C CNN "Supplier5"
+F 19 "65-724-45" H 10700 3300 60  0001 C CNN "Supplier5 part"
+F 20 "https://www.elfa.se/elfa3~se_en/elfa/init.do?item=65-724-45" H 10700 3300 60  0001 C CNN "Supplier5 link"
+	1    10700 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C16
+U 1 1 55F476DB
+P 5300 3200
+F 0 "C16" H 5150 3300 50  0000 L CNN
+F 1 "0.1uF" H 5050 3100 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1206_HandSoldering" H 5338 3050 30  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/1825494.pdf" H 5300 3200 60  0001 C CNN
+F 4 "MULTICOMP" H 5300 3200 60  0001 C CNN "Vendor"
+F 5 "MCSH31B104K250CT" H 5300 3200 60  0001 C CNN "Vendor part"
+F 6 "Farnell" H 5300 3200 60  0001 C CNN "Supplier1"
+F 7 "1856619" H 5300 3200 60  0001 C CNN "Supplier1 part"
+F 8 "http://se.farnell.com/multicomp/mcsh31b104k250ct/cap-mlcc-x7r-100nf-25v-1206/dp/1856619?ost=1856619" H 5300 3200 60  0001 C CNN "Supplier1 link"
+F 9 "Mouser" H 4950 3200 60  0001 C CNN "Supplier2"
+F 10 "77-VJ1206Y104KXQPBC" H 4950 3200 60  0001 C CNN "Supplier2 part"
+F 11 "http://se.mouser.com/ProductDetail/Vishay-Vitramon/VJ1206Y104KXQPW1BC/?qs=sGAEpiMZZMs0AnBnWHyRQHefeAIkSpb%2fQ4QtfI01vrc%3d" H 5300 3200 60  0001 C CNN "Supplier2 link"
+F 12 "Digi-Key" H 5300 3200 60  0001 C CNN "Supplier3"
+F 13 "399-1249-1-ND" H 5300 3200 60  0001 C CNN "Supplier3 part"
+F 14 "http://www.digikey.se/short/7w1zrd" H 5300 3200 60  0001 C CNN "Supplier3 link"
+F 15 "AliExpress" H 5300 3200 60  0001 C CNN "Supplier4"
+F 16 "32274650296" H 5300 3200 60  0001 C CNN "Supplier4 part"
+F 17 "http://www.aliexpress.com/item/1206-100NF-104M-Y5V-50V-SMD-Capacitor-Multilayer-chip-ceramic-capacitor-100Pcs-Lot/32274650296.html" H 5300 3200 60  0001 C CNN "Supplier4 link"
+F 18 "Elfa" H 5300 3200 60  0001 C CNN "Supplier5"
+F 19 "65-724-45" H 5300 3200 60  0001 C CNN "Supplier5 part"
+F 20 "https://www.elfa.se/elfa3~se_en/elfa/init.do?item=65-724-45" H 5300 3200 60  0001 C CNN "Supplier5 link"
+	1    5300 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C15
+U 1 1 55F481C9
+P 3650 3200
+F 0 "C15" V 3500 3200 50  0000 L CNN
+F 1 "0.1uF" V 3600 3250 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1206_HandSoldering" H 3688 3050 30  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/1825494.pdf" H 3650 3200 60  0001 C CNN
+F 4 "MULTICOMP" H 3650 3200 60  0001 C CNN "Vendor"
+F 5 "MCSH31B104K250CT" H 3650 3200 60  0001 C CNN "Vendor part"
+F 6 "Farnell" H 3650 3200 60  0001 C CNN "Supplier1"
+F 7 "1856619" H 3650 3200 60  0001 C CNN "Supplier1 part"
+F 8 "http://se.farnell.com/multicomp/mcsh31b104k250ct/cap-mlcc-x7r-100nf-25v-1206/dp/1856619?ost=1856619" H 3650 3200 60  0001 C CNN "Supplier1 link"
+F 9 "Mouser" H 3300 3200 60  0001 C CNN "Supplier2"
+F 10 "77-VJ1206Y104KXQPBC" H 3300 3200 60  0001 C CNN "Supplier2 part"
+F 11 "http://se.mouser.com/ProductDetail/Vishay-Vitramon/VJ1206Y104KXQPW1BC/?qs=sGAEpiMZZMs0AnBnWHyRQHefeAIkSpb%2fQ4QtfI01vrc%3d" H 3650 3200 60  0001 C CNN "Supplier2 link"
+F 12 "Digi-Key" H 3650 3200 60  0001 C CNN "Supplier3"
+F 13 "399-1249-1-ND" H 3650 3200 60  0001 C CNN "Supplier3 part"
+F 14 "http://www.digikey.se/short/7w1zrd" H 3650 3200 60  0001 C CNN "Supplier3 link"
+F 15 "AliExpress" H 3650 3200 60  0001 C CNN "Supplier4"
+F 16 "32274650296" H 3650 3200 60  0001 C CNN "Supplier4 part"
+F 17 "http://www.aliexpress.com/item/1206-100NF-104M-Y5V-50V-SMD-Capacitor-Multilayer-chip-ceramic-capacitor-100Pcs-Lot/32274650296.html" H 3650 3200 60  0001 C CNN "Supplier4 link"
+F 18 "Elfa" H 3650 3200 60  0001 C CNN "Supplier5"
+F 19 "65-724-45" H 3650 3200 60  0001 C CNN "Supplier5 part"
+F 20 "https://www.elfa.se/elfa3~se_en/elfa/init.do?item=65-724-45" H 3650 3200 60  0001 C CNN "Supplier5 link"
+	1    3650 3200
+	0    1    1    0   
+$EndComp
+$Comp
+L C C11
+U 1 1 55F48D46
+P 1750 2850
+F 0 "C11" V 1550 2900 50  0000 L CNN
+F 1 "0.1uF" V 1650 2900 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1206_HandSoldering" H 1788 2700 30  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/1825494.pdf" H 1750 2850 60  0001 C CNN
+F 4 "MULTICOMP" H 1750 2850 60  0001 C CNN "Vendor"
+F 5 "MCSH31B104K250CT" H 1750 2850 60  0001 C CNN "Vendor part"
+F 6 "Farnell" H 1750 2850 60  0001 C CNN "Supplier1"
+F 7 "1856619" H 1750 2850 60  0001 C CNN "Supplier1 part"
+F 8 "http://se.farnell.com/multicomp/mcsh31b104k250ct/cap-mlcc-x7r-100nf-25v-1206/dp/1856619?ost=1856619" H 1750 2850 60  0001 C CNN "Supplier1 link"
+F 9 "Mouser" H 1400 2850 60  0001 C CNN "Supplier2"
+F 10 "77-VJ1206Y104KXQPBC" H 1400 2850 60  0001 C CNN "Supplier2 part"
+F 11 "http://se.mouser.com/ProductDetail/Vishay-Vitramon/VJ1206Y104KXQPW1BC/?qs=sGAEpiMZZMs0AnBnWHyRQHefeAIkSpb%2fQ4QtfI01vrc%3d" H 1750 2850 60  0001 C CNN "Supplier2 link"
+F 12 "Digi-Key" H 1750 2850 60  0001 C CNN "Supplier3"
+F 13 "399-1249-1-ND" H 1750 2850 60  0001 C CNN "Supplier3 part"
+F 14 "http://www.digikey.se/short/7w1zrd" H 1750 2850 60  0001 C CNN "Supplier3 link"
+F 15 "AliExpress" H 1750 2850 60  0001 C CNN "Supplier4"
+F 16 "32274650296" H 1750 2850 60  0001 C CNN "Supplier4 part"
+F 17 "http://www.aliexpress.com/item/1206-100NF-104M-Y5V-50V-SMD-Capacitor-Multilayer-chip-ceramic-capacitor-100Pcs-Lot/32274650296.html" H 1750 2850 60  0001 C CNN "Supplier4 link"
+F 18 "Elfa" H 1750 2850 60  0001 C CNN "Supplier5"
+F 19 "65-724-45" H 1750 2850 60  0001 C CNN "Supplier5 part"
+F 20 "https://www.elfa.se/elfa3~se_en/elfa/init.do?item=65-724-45" H 1750 2850 60  0001 C CNN "Supplier5 link"
+	1    1750 2850
+	0    1    1    0   
+$EndComp
+$Comp
+L C C17
+U 1 1 55F498C7
+P 800 5300
+F 0 "C17" H 650 5400 50  0000 L CNN
+F 1 "0.1uF" H 550 5200 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1206_HandSoldering" H 838 5150 30  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/1825494.pdf" H 800 5300 60  0001 C CNN
+F 4 "MULTICOMP" H 800 5300 60  0001 C CNN "Vendor"
+F 5 "MCSH31B104K250CT" H 800 5300 60  0001 C CNN "Vendor part"
+F 6 "Farnell" H 800 5300 60  0001 C CNN "Supplier1"
+F 7 "1856619" H 800 5300 60  0001 C CNN "Supplier1 part"
+F 8 "http://se.farnell.com/multicomp/mcsh31b104k250ct/cap-mlcc-x7r-100nf-25v-1206/dp/1856619?ost=1856619" H 800 5300 60  0001 C CNN "Supplier1 link"
+F 9 "Mouser" H 450 5300 60  0001 C CNN "Supplier2"
+F 10 "77-VJ1206Y104KXQPBC" H 450 5300 60  0001 C CNN "Supplier2 part"
+F 11 "http://se.mouser.com/ProductDetail/Vishay-Vitramon/VJ1206Y104KXQPW1BC/?qs=sGAEpiMZZMs0AnBnWHyRQHefeAIkSpb%2fQ4QtfI01vrc%3d" H 800 5300 60  0001 C CNN "Supplier2 link"
+F 12 "Digi-Key" H 800 5300 60  0001 C CNN "Supplier3"
+F 13 "399-1249-1-ND" H 800 5300 60  0001 C CNN "Supplier3 part"
+F 14 "http://www.digikey.se/short/7w1zrd" H 800 5300 60  0001 C CNN "Supplier3 link"
+F 15 "AliExpress" H 800 5300 60  0001 C CNN "Supplier4"
+F 16 "32274650296" H 800 5300 60  0001 C CNN "Supplier4 part"
+F 17 "http://www.aliexpress.com/item/1206-100NF-104M-Y5V-50V-SMD-Capacitor-Multilayer-chip-ceramic-capacitor-100Pcs-Lot/32274650296.html" H 800 5300 60  0001 C CNN "Supplier4 link"
+F 18 "Elfa" H 800 5300 60  0001 C CNN "Supplier5"
+F 19 "65-724-45" H 800 5300 60  0001 C CNN "Supplier5 part"
+F 20 "https://www.elfa.se/elfa3~se_en/elfa/init.do?item=65-724-45" H 800 5300 60  0001 C CNN "Supplier5 link"
+	1    800  5300
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
