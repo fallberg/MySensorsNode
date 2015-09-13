@@ -37,6 +37,7 @@ LIBS:mysensors_connectors
 LIBS:mysensors_logic
 LIBS:mysensors_network
 LIBS:mysensors_sensors
+LIBS:MySensorsNode-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -346,14 +347,14 @@ F 6 "RS" H 1100 1550 60  0001 C CNN "Supplier1"
 F 7 "745-7046" H 1100 1550 60  0001 C CNN "Supplier1 part"
 F 8 "http://se.rs-online.com/web/p/pcb-headers/7457046" H 6200 3750 60  0001 C CNN "Supplier1 link"
 F 9 "Mouser" H 6200 3750 60  0001 C CNN "Supplier2"
-F 10 "855-M20-9981045" H 6200 3750 60  0001 C CNN "Supplier2 part"
-F 11 "http://www.mouser.se/ProductDetail/Harwin/M20-9981045/?qs=%2fha2pyFadujqlg98%252bRR1%2foXEmwb1N0a2JtD8074fLsjJTaqL0Cbd0A%3d%3d" H 6200 3750 60  0001 C CNN "Supplier2 link"
+F 10 "855-M20-9980346" H 6200 3750 60  0001 C CNN "Supplier2 part"
+F 11 "http://www.mouser.se/ProductDetail/Harwin/M20-9980346/?qs=%2fha2pyFaduhF0xjSTgJg%252bkaP8L713UFDeQoHCJb4jBYifn4jgog68g%3d%3d" H 6200 3750 60  0001 C CNN "Supplier2 link"
 F 12 "Digi-Key" H 6200 3750 60  0001 C CNN "Supplier3"
 F 13 "952-2121-ND" H 6200 3750 60  0001 C CNN "Supplier3 part"
 F 14 "http://www.digikey.se/short/7w1m89" H 6200 3750 60  0001 C CNN "Supplier3 link"
 F 15 "Farnell" H 6200 3750 60  0001 C CNN "Supplier4"
-F 16 "2127560" H 6200 3750 60  0001 C CNN "Supplier4 part"
-F 17 "http://se.farnell.com/harwin/m20-9981045/board-to-board-connector-header/dp/2127560" H 6200 3750 60  0001 C CNN "Supplier4 link"
+F 16 "1022230" H 6200 3750 60  0001 C CNN "Supplier4 part"
+F 17 "http://se.farnell.com/harwin/m20-9980345/header-tht-vertical-2-54mm-6way/dp/1022230" H 6200 3750 60  0001 C CNN "Supplier4 link"
 F 18 "Elfa" H 6200 3750 60  0001 C CNN "Supplier5"
 F 19 "43-006-07" H 6200 3750 60  0001 C CNN "Supplier5 part"
 F 20 "https://www.elfa.se/elfa3~se_en/elfa/init.do?item=43-006-07" H 6200 3750 60  0001 C CNN "Supplier5 link"
@@ -1209,7 +1210,7 @@ F1 54 95 14 9F EF 69 AF 2F E5 68 0C 80 4D C9 83 B8 C7 32 D7 FA 45 6F 95 BF E8 F3
 88 3B 00 28 44 DC 01 40 21 E2 0E 00 0A 11 77 00 50 88 B8 03 80 42 C4 1D 00 14 22 EE 00 A0 10 71 
 07 00 85 88 3B 00 28 44 DC 01 40 21 E2 0E 00 0A 11 77 00 50 88 B8 03 80 42 C4 1D 00 14 22 EE 00 
 A0 10 71 07 00 85 88 3B 00 28 F4 2F 6E 0E 73 66 69 F5 31 42 00 00 00 00 49 45 4E 44 AE 42 60 82 
-50 
+B8 
 EndData
 $EndBitmap
 $Comp
@@ -1285,7 +1286,7 @@ D8 D3 9D 84 66 E0 20 E9 19 91 48 77 62 17 8F A4 67 47 22 DD 49 6E CE 1D 92 9E 05
 48 7A 46 84 D2 9D 24 C4 0F 06 03 F6 32 83 A5 D5 6A D9 07 EC E9 84 E9 D5 81 52 E8 B2 EC C4 42 71 
 B9 96 03 AD 75 AF D7 B3 95 39 1B 19 0F DF 2C 28 A5 E4 8E 91 45 C4 A3 9B 67 41 AE 83 27 F4 F1 C1 
 22 BB 3E 1E 67 F3 45 58 5B 5B 93 2B 5C E4 E0 8E A0 9C 15 09 47 52 19 DF E9 74 46 97 65 81 7C D8 
-75 30 12 25 FF 00 F0 C3 C2 11 BF 26 9A 05 00 00 00 00 49 45 4E 44 AE 42 60 82 8C 
+75 30 12 25 FF 00 F0 C3 C2 11 BF 26 9A 05 00 00 00 00 49 45 4E 44 AE 42 60 82 00 
 EndData
 $EndBitmap
 $Comp
