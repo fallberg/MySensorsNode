@@ -1,4 +1,167 @@
-August 24 2015 (Patrick Fallberg):
+commit c6829e1e322eb0ecf867edcd6b73e424e8df0c89
+Author: Patrick Fallberg <patrick@fallberg.net>
+Date:   Sun Sep 13 15:36:56 2015 +0200
+
+    Corrected Mouser/Farnell parts for P2
+
+commit 2b0d06d92dfd4355a7a4b18cb5ec9ce1f207d5c6
+Author: Patrick Fallberg <patrick@fallberg.net>
+Date:   Sat Sep 12 22:18:08 2015 +0200
+
+    Removed origin-symbol from board outlines
+
+commit 1c8365d9faff273dc4cebe651df270a5b05ed6fa
+Author: Patrick Fallberg <patrick@fallberg.net>
+Date:   Sat Sep 12 22:10:38 2015 +0200
+
+    Created manufacturing outputs
+    
+    Also created DirtyPCBs-formatted archives.
+    Fixes #9
+
+commit af362b0fcdb8be146da8d00798e79c5897116803
+Author: Patrick Fallberg <patrick@fallberg.net>
+Date:   Sat Sep 12 22:02:41 2015 +0200
+
+    Minor layout beautifications
+
+commit 6da535b47e0d930e4cade6ed8c1804b414268bb9
+Author: Patrick Fallberg <patrick@fallberg.net>
+Date:   Sat Sep 12 17:33:58 2015 +0200
+
+    Created BOM(s)
+    
+    Fixes #10
+
+commit 09b7c4b18d3ffa5ed8908088ca1046db3e48c771
+Author: Patrick Fallberg <patrick@fallberg.net>
+Date:   Sat Sep 12 17:27:01 2015 +0200
+
+    Created a BOM generator script for this project
+    
+    The BOM generator (verified on KiCad for Linux) parses the netllist
+    data and outputs 9 BOM files:
+    MySensorsNode_Full.txt - Full BOM with all suppliers
+    MySensorsNode_Cheapest.txt - BOM with the cheapest supplier
+    MySensorsNode_AliExpress.txt - BOM with all parts available from AliExpress
+    MySensorsNode_Digi-Key.txt - BOM with all parts available from Digi-Key
+                                 This file is supported by Digi-Keys Text File
+                                 Import tool.
+    MySensorsNode_eBay.txt - BOM with all parts available from eBay
+    MySensorsNode_Elfa.txt - BOM with all parts available from Elfa
+                             This file is suppored by Elfas Own list upload tool.
+    MySensorsNode_Farnell.txt - BOM with all parts available from Farnell
+    MySensorsNode_Mouser.csv - BOM with all parts available from Mouser
+                               This file is supported by Mousers BOM import tool.
+    MySensorsNode_RS.txt - BOM with all parts available from RS Components
+    
+    Usage:
+    Add plugin in the Bill of Material tool in the KiCad schematic editor.
+    Command line is:
+    python "<path to pf_bom_orders.py>" "%I" "%P/Manufacturing/BOM/%B"
+
+commit a0b7d2081370d753c179b53b6fe635f4e56f8792
+Author: Patrick Fallberg <patrick@fallberg.net>
+Date:   Sat Sep 12 17:14:41 2015 +0200
+
+    Completed sourcing details of all components
+    
+    Sourcing data is organized in the following way:
+    Supplier1 - The primary supplier (also the cheapest)
+    Supplier1 part - The primary supplier part number
+    Supplier1 link - Link to the part on the suppliers homepage
+    
+    The same goes for Supplier2 to 5.
+    All parts also have a Vendor and Vendor part field to identify
+    a vendor for each part.
+    
+    Fixes #6
+
+commit dedd2f74219450baf48360123f8e6970bc3806d9
+Author: Patrick Fallberg <patrick@fallberg.net>
+Date:   Sat Sep 12 12:29:52 2015 +0200
+
+    Updated CR123 battery holder footprint
+    
+    Fixes #11
+
+commit ceb92c99b859bb8fba81d5ead6944f00e74a0db8
+Author: Patrick Fallberg <patrick@fallberg.net>
+Date:   Thu Sep 10 17:14:51 2015 +0200
+
+    Added more sourcing details
+    
+    Also minor schematic beautifications
+
+commit c3afbb278e0b595ffe8860ce40d635c5186febf4
+Author: Patrick Fallberg <patrick@fallberg.net>
+Date:   Tue Sep 1 23:47:13 2015 +0200
+
+    Added a step-up reg and some sourcing details
+    
+    Added TI TPS61221 (3.3V fixed) as an alternative to TPS61097A.
+    Also added some more sourcing details to some components in the
+    schematic.
+
+commit a9de2d0fda3e2e20fb438053d0ed1dc1a1a9444a
+Author: Patrick Fallberg <patrick@fallberg.net>
+Date:   Mon Aug 31 10:47:24 2015 +0200
+
+    Moved BT5 to make more room for mounting screw
+
+commit 9ecaa06f57022bd6a6c9af58877cf1eb74a005dd
+Author: Patrick Fallberg <patrick@fallberg.net>
+Date:   Mon Aug 31 10:37:13 2015 +0200
+
+    Created layout for LE-BOX-0028
+    
+    Fixes #8
+
+commit 912072cc9c9a7d4f22a4622eae9dfa80e3f58186
+Author: Patrick Fallberg <patrick@fallberg.net>
+Date:   Mon Aug 31 10:36:57 2015 +0200
+
+    Adjusted track width of some power-nets
+
+commit 78a33fa561b48c61317e8972cb7ff54830cba78a
+Author: Patrick Fallberg <patrick@fallberg.net>
+Date:   Fri Aug 28 01:39:02 2015 +0200
+
+    Radio module footprints updated to latest revisions
+
+commit a60b3c3cf31e2c5438b26684cd984a3680335189
+Author: Patrick Fallberg <patrick@fallberg.net>
+Date:   Fri Aug 28 01:30:28 2015 +0200
+
+    Created 5x5 cm layout
+    
+    BT4 and BT5 are omitted in this layout.
+    Fixes #7.
+
+commit 4c2da7ea8109a5d2c6d167f7a072add6e8394303
+Author: Patrick Fallberg <patrick@fallberg.net>
+Date:   Mon Aug 24 19:43:32 2015 +0200
+
+    Updated U1 footprint
+    
+    U1 footprint is now available in the mysensors-kicad repository
+
+commit 3480dfd4274b0d1f4f9a5721b6239103e7c1e26c
+Author: Patrick Fallberg <patrick@fallberg.net>
+Date:   Mon Aug 24 15:50:53 2015 +0200
+
+    Minor beautifications and updated CHANGES.txt
+
+commit 3ced118320753cb000ec8ca2e32348e9311f97a1
+Author: Patrick Fallberg <patrick@fallberg.net>
+Date:   Mon Aug 24 15:47:35 2015 +0200
+
+    Updated .gitignore to filter some autogenerated files
+
+commit 0c326c48fd0285459b0b63c1a5e7cb755e61c353
+Author: Patrick Fallberg <patrick@fallberg.net>
+Date:   Fri Apr 24 12:14:06 2015 +0200
+
     Rev. 1.1 of my generic MySensors node
     
     * Added resistor to terminate REG_BYPASS to default 'on' (fixes #2)
@@ -18,7 +181,10 @@ August 24 2015 (Patrick Fallberg):
     * Create manufacturing outputs
     * Create BOM(s)
 
-June 25 2015 (Patrick Fallberg):
+commit d8ca8d24746c1e1fc214979bb362ea2246e7586e
+Author: Patrick Fallberg <patrick@fallberg.net>
+Date:   Fri Apr 24 12:14:06 2015 +0200
+
     First version of my generic MySensors node
     
     Features:
@@ -62,3 +228,27 @@ June 25 2015 (Patrick Fallberg):
     
     - DC input is inadequatly bypassed for wall warts. It is recommended to add one or two
       additional capacitors to suppres input noise (~47 to ~470uF).
+
+commit bbee155028989935a90c55b6a817a3273476bcd4
+Author: Patrick Fallberg <patrick@fallberg.net>
+Date:   Tue Jun 23 15:17:21 2015 +0200
+
+    Update README with dependencies
+
+commit 18222d58819bbb0e3357e55b16a7755df9d50e5b
+Author: Patrick Fallberg <patrick@fallberg.net>
+Date:   Sun Jun 7 20:02:16 2015 +0200
+
+    Added CERN Open Hardware Licence v1.2 license text
+
+commit 9b487e73d7a971a68065ff828a7cadb89106429c
+Author: Patrick Fallberg <patrick@fallberg.net>
+Date:   Sat Jun 6 11:23:07 2015 +0200
+
+    Added .gitignore to filter autogenerated backups
+
+commit 86491ca7ff41641f8fa50d24bd5d19b52cb83c9e
+Author: Patrick Fallberg <fallberg@users.noreply.github.com>
+Date:   Mon Apr 13 16:52:03 2015 +0200
+
+    Initial commit
