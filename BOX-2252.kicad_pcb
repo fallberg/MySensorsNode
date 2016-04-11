@@ -233,7 +233,7 @@
       (net 1 GND))
     (pad 1 thru_hole rect (at 1.27 0 90) (size 1.99898 1.99898) (drill 1.09728) (layers *.Cu *.Mask F.SilkS)
       (net 41 "Net-(BT1-Pad3)"))
-    (model mysensors.3dshapes/w.lain.3dshapes/conn_mpt/mpt_0,5-2-2,54.wrl
+    (model ${MYSLOCAL}/mysensors.3dshapes/w.lain.3dshapes/conn_mpt/mpt_0,5-2-2,54.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -261,7 +261,7 @@
       (net 1 GND))
     (pad 3 thru_hole oval (at 0 -6.25094) (size 4.50088 1.99898) (drill oval 3.50012 1.00076) (layers *.Cu *.Mask F.SilkS)
       (net 41 "Net-(BT1-Pad3)"))
-    (model mysensors.3dshapes/w.lain.3dshapes/conn_misc/dc_socket.wrl
+    (model ${MYSLOCAL}/mysensors.3dshapes/w.lain.3dshapes/conn_misc/dc_socket.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -565,7 +565,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model mysensors.3dshapes/arduino_pro_mini.wrl
+    (model ${MYSLOCAL}/mysensors.3dshapes/mysensors_arduino.3dshapes/arduino_pro_mini.wrl
       (at (xyz -0.05 0 0.48))
       (scale (xyz 0.395 0.395 0.395))
       (rotate (xyz 0 0 180))
@@ -600,12 +600,12 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 180 0))
     )
-    (model mysensors.3dshapes/w.lain.3dshapes/smd_leds/led_0603.wrl
+    (model ${MYSLOCAL}/mysensors.3dshapes/w.lain.3dshapes/smd_leds/led_0603.wrl
       (at (xyz -0.3 0 0.5125))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model mysensors.3dshapes/w.lain.3dshapes/smd_leds/led_0603.wrl
+    (model ${MYSLOCAL}/mysensors.3dshapes/w.lain.3dshapes/smd_leds/led_0603.wrl
       (at (xyz 0.55 -0.175 0.5125))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2388,7 +2388,7 @@
       (net 41 "Net-(BT1-Pad3)"))
     (pad 2 thru_hole oval (at 1.00076 0) (size 1.19888 1.69926) (drill 0.70104) (layers *.Cu *.Mask F.SilkS)
       (net 1 GND))
-    (model mysensors.3dshapes/w.lain.3dshapes/conn_jst-ph/s2b-ph-kl.wrl
+    (model ${MYSLOCAL}/mysensors.3dshapes/w.lain.3dshapes/conn_jst-ph/s2b-ph-kl.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2434,7 +2434,7 @@
       (net 41 "Net-(BT1-Pad3)"))
     (pad 2 smd rect (at 0 0 270) (size 8 8) (layers B.Cu B.Paste B.Mask)
       (net 1 GND))
-    (model mysensors.3dshapes/w.lain.3dshapes/battery_holders/keystone_3009.wrl
+    (model ${MYSLOCAL}/mysensors.3dshapes/w.lain.3dshapes/battery_holders/keystone_3009.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2470,7 +2470,7 @@
       (net 4 "Net-(C4-Pad1)"))
     (pad 2 smd rect (at 0 3.1242 90) (size 6.49986 7.00024) (layers B.Cu B.Paste B.Mask)
       (net 3 +3V3))
-    (model mysensors.3dshapes/w.lain.3dshapes/smd_trans/d-pak.wrl
+    (model ${MYSLOCAL}/mysensors.3dshapes/w.lain.3dshapes/smd_trans/d-pak.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2560,7 +2560,7 @@
       (net 32 RF69_NSS))
     (pad 16 thru_hole circle (at 17 0 90) (size 1.7272 1.7272) (drill 0.8) (layers *.Cu *.Mask)
       (net 48 "Net-(U4-Pad16)"))
-    (model mysensors.3dshapes/rfm69hw.wrl
+    (model ${MYSLOCAL}/mysensors.3dshapes/mysensors_radios.3dshapes/rfm69hw.wrl
       (at (xyz 0.333 -0.275 0.345))
       (scale (xyz 0.395 0.395 0.395))
       (rotate (xyz 0 0 180))
@@ -2570,22 +2570,22 @@
       (scale (xyz 0.24 0.24 0.24))
       (rotate (xyz 0 0 90))
     )
-    (model mysensors.3dshapes/w.lain.3dshapes/pin_strip/pin_strip_2mm_8.wrl
+    (model ${MYSLOCAL}/mysensors.3dshapes/w.lain.3dshapes/pin_strip/pin_strip_2mm_8.wrl
       (at (xyz -0.004 -0.276 0.31))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 180 90))
     )
-    (model mysensors.3dshapes/w.lain.3dshapes/pin_strip/pin_strip_2mm_8.wrl
+    (model ${MYSLOCAL}/mysensors.3dshapes/w.lain.3dshapes/pin_strip/pin_strip_2mm_8.wrl
       (at (xyz 0.669 -0.276 0.31))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 180 90))
     )
-    (model mysensors.3dshapes/w.lain.3dshapes/pin_strip/pin_socket_2mm_8.wrl
+    (model ${MYSLOCAL}/mysensors.3dshapes/w.lain.3dshapes/pin_strip/pin_socket_2mm_8.wrl
       (at (xyz -0.004 -0.276 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
     )
-    (model mysensors.3dshapes/w.lain.3dshapes/pin_strip/pin_socket_2mm_8.wrl
+    (model ${MYSLOCAL}/mysensors.3dshapes/w.lain.3dshapes/pin_strip/pin_socket_2mm_8.wrl
       (at (xyz 0.669 -0.276 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
@@ -2656,7 +2656,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 180 0))
     )
-    (model mysensors.3dshapes/nrf24l01.wrl
+    (model ${MYSLOCAL}/mysensors.3dshapes/mysensors_radios.3dshapes/nrf24l01.wrl
       (at (xyz -0.3 -0.5669999999999999 0.475))
       (scale (xyz 0.395 0.395 0.395))
       (rotate (xyz 0 0 0))
@@ -2666,7 +2666,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model mysensors.3dshapes/w.lain.3dshapes/crystal/crystal_hc-49s.wrl
+    (model ${MYSLOCAL}/mysensors.3dshapes/w.lain.3dshapes/crystal/crystal_hc-49s.wrl
       (at (xyz -0.5 -0.475 0.51))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
@@ -2735,7 +2735,7 @@
       (net 1 GND))
     (pad "" np_thru_hole circle (at 8.1 0) (size 1.8 1.8) (drill 1.8) (layers *.Cu Dwgs.User)
       (solder_mask_margin 0.1) (solder_paste_margin 0.1) (clearance 0.1))
-    (model mysensors.3dshapes/cr123_holder.wrl
+    (model ${MYSLOCAL}/mysensors.3dshapes/mysensors_connectors.3dshapes/cr123_holder.wrl
       (at (xyz 0 -0.746 0.28))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
